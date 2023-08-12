@@ -234,7 +234,7 @@ const lesson5: HskList = {
     },
     {
       simplified: "必要",
-      traditional: "需要",
+      traditional: "必要",
       pinyin: "bìyào",
       english: "Necessary",
     },
@@ -570,7 +570,7 @@ const lesson5: HskList = {
     },
     {
       simplified: "朝",
-      traditional: "上午",
+      traditional: "朝",
       pinyin: "cháo",
       english: "Towards",
     },
@@ -1572,7 +1572,7 @@ const lesson5: HskList = {
     },
     {
       simplified: "方",
-      traditional: "如何",
+      traditional: "方",
       pinyin: "fāng",
       english: "Square",
     },
@@ -1836,7 +1836,7 @@ const lesson5: HskList = {
     },
     {
       simplified: "感想",
-      traditional: "印象",
+      traditional: "感想",
       pinyin: "gǎnxiǎng",
       english: "Feel, impression",
     },
@@ -3126,7 +3126,7 @@ const lesson5: HskList = {
     },
     {
       simplified: "近代",
-      traditional: "現代",
+      traditional: "近代",
       pinyin: "jìndài",
       english: "Modern",
     },
@@ -3162,7 +3162,7 @@ const lesson5: HskList = {
     },
     {
       simplified: "景色",
-      traditional: "風景",
+      traditional: "景色",
       pinyin: "jǐngsè",
       english: "Scenery",
     },
@@ -3594,7 +3594,7 @@ const lesson5: HskList = {
     },
     {
       simplified: "理由",
-      traditional: "原因",
+      traditional: "理由",
       pinyin: "lǐyóu",
       english: "Reason",
     },
@@ -3642,7 +3642,7 @@ const lesson5: HskList = {
     },
     {
       simplified: "利用",
-      traditional: "使用",
+      traditional: "利用",
       pinyin: "lìyòng",
       english: "Utilize",
     },

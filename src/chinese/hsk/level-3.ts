@@ -1398,7 +1398,7 @@ const lesson3: HskList = {
     },
     {
       simplified: "位",
-      traditional: "地方",
+      traditional: "位",
       pinyin: "wèi",
       english: "Position",
     },

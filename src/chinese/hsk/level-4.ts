@@ -3408,7 +3408,7 @@ const lesson4: HskList = {
     },
     {
       simplified: "中文",
-      traditional: "中國",
+      traditional: "中文",
       pinyin: "zhōngwén",
       english: "Chinese",
     },
