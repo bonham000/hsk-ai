@@ -2,7 +2,7 @@ import { execSync } from "child_process";
 import "dotenv/config";
 import { readFileSync, writeFileSync } from "fs";
 import { Configuration, OpenAIApi } from "openai";
-import lesson1 from "~/chinese/hsk/level-1";
+import lesson4 from "~/chinese/hsk/level-4";
 import { type SentenceMap, type Model } from "~/types/SentenceMap";
 
 const configuration = new Configuration({
@@ -44,20 +44,23 @@ function generateStarterPrompt(word: string, seenWords: string[]) {
   return PROMPT;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-function generateIntermediatePrompt(word: string, seenWords: string[]) {
+function generateIntermediatePrompt(
+  word: string,
+  seenWords: string[],
+  hskLevel: number
+) {
   const PROMPT = `
   You are an experienced Chinese tutor helping someone learn Chinese. We are
   using the HSK vocabulary lists focusing on learning new vocabulary. I will
   provide a HSK new word and your job is to produce 5 example sentences using
-  that word. For now, we are targeting HSK Level 4. Please try to compose the
-  example sentences of only words from HSK levels 1 to 3 and the target word.
+  that word. For now, we are targeting HSK Level ${hskLevel}. Please try to compose the
+  example sentences of only words from HSK levels below ${hskLevel} and the target word.
   If you have to include other words that is fine, but the goal is for the
   sentences to be representative of normal Chinese, varied, and easily readable.
 
   As we progress through the vocabulary list, feel free to re-introduce some
-  HSK Level 4 words that have already been seen. The HSK 4 words we've already
-  seen are: ${seenWords.join(", ")}. However, only do this occasionally.
+  HSK Level 4 words that have already been seen. The HSK ${hskLevel} words we've
+  already seen are: ${seenWords.join(", ")}. However, only do this occasionally.
   
   Finally, could you structure your response as JSON, e.g.
 
@@ -126,15 +129,17 @@ function wordExistsAlready({
 
 async function generateSentences(
   word: string,
-  seenWords: string[]
+  seenWords: string[],
+  hskLevel: number
 ): Promise<string[]> {
-  console.log(`seen words = ${seenWords.join(", ")}`);
-
+  console.log(`Current word = ${word}. Seen words = ${seenWords.join(", ")}`);
+  const prompt =
+    hskLevel === 1
+      ? generateStarterPrompt(word, seenWords)
+      : generateIntermediatePrompt(word, seenWords, hskLevel);
   const completion = await openai.createChatCompletion({
     model: "gpt-3.5-turbo",
-    messages: [
-      { role: "user", content: generateStarterPrompt(word, seenWords) },
-    ],
+    messages: [{ role: "user", content: prompt }],
   });
   const json = completion.data.choices[0]?.message?.content ?? "";
   const parsed = JSON.parse(json) as string[];
@@ -144,15 +149,16 @@ async function generateSentences(
 async function generateSentencesForWord(
   word: string,
   seenWords: string[],
-  sentenceMap: SentenceMap
+  sentenceMap: SentenceMap,
+  hskLevel: number
 ): Promise<void> {
   try {
     let generatedSentences = [];
     try {
-      generatedSentences = await generateSentences(word, seenWords);
+      generatedSentences = await generateSentences(word, seenWords, hskLevel);
     } catch (err) {
       console.warn("Something failed in the first generation. Trying again.");
-      generatedSentences = await generateSentences(word, seenWords);
+      generatedSentences = await generateSentences(word, seenWords, hskLevel);
     }
 
     updateWordInSentenceMap({
@@ -172,8 +178,8 @@ async function generateSentencesForWord(
   }
 }
 
-const level = lesson1.level;
-const words = lesson1.words.slice(0, 15);
+const { level } = lesson4;
+const words = lesson4.words.slice(0, 25);
 const seenWords: string[] = [];
 
 async function run() {
@@ -191,8 +197,7 @@ async function run() {
       continue;
     }
 
-    console.log(`Generating sentences for word: ${word}`);
-    await generateSentencesForWord(word, seenWords, sentenceMap);
+    await generateSentencesForWord(word, seenWords, sentenceMap, level);
     seenWords.push(word);
   }
 

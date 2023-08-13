@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useCallback, useEffect, useState } from "react";
 import { useInterval } from "usehooks-ts";
 import { HSK_MAP } from "~/chinese/hsk";
-import { sentenceMapLevel1 } from "~/chinese/sentences";
+import { HSK_SENTENCE_MAP } from "~/chinese/sentences";
 import type HskEntry from "~/types/HskEntry";
 import type MaybeNull from "~/types/MaybeNull";
 import { type ModelSentences } from "~/types/SentenceMap";
@@ -80,7 +80,7 @@ function WordCard(props: WordCardProps) {
           const isCurrent = index === currentSentences.length - 1;
           return (
             <TypeSentence
-              className={`text-[44px] font-light ${
+              className={`text-[36px] font-light ${
                 isCurrent ? "text-indigo-500 font-normal" : "text-slate-600"
               }`}
               sentence={sentence}
@@ -101,15 +101,18 @@ function WordCard(props: WordCardProps) {
   );
 }
 
+const HSK_LEVEL = 4;
+
 export default function Home() {
   const [index, setIndex] = useState(0);
   const [sentenceRevealIndex, setSentenceRevealIndex] = useState(0);
-  const hsk1 = HSK_MAP[1];
-  const words = hsk1.words;
+  const hsk = HSK_MAP[HSK_LEVEL];
+  const words = hsk.words;
   const word = words[index]!;
   const nextWord = words[index + 1];
-  const hasNext = nextWord != null && nextWord.traditional in sentenceMapLevel1;
-  const sentences = sentenceMapLevel1[word.traditional]!;
+  const hskSentenceMap = HSK_SENTENCE_MAP[HSK_LEVEL];
+  const hasNext = nextWord != null && nextWord.traditional in hskSentenceMap;
+  const sentences = hskSentenceMap[word.traditional]!;
 
   const next = useCallback(() => {
     setIndex((cur) => (hasNext ? cur + 1 : cur));
