@@ -96,10 +96,10 @@ function generateIntermediatePrompt(
 }
 
 function updateWordInSentenceMap({
-  sentenceMap,
-  word,
   model,
+  sentenceMap,
   sentences,
+  word,
 }: {
   model: Model;
   sentenceMap: SentenceMap;
@@ -123,9 +123,9 @@ function updateWordInSentenceMap({
 }
 
 function wordExistsAlready({
+  model,
   sentenceMap,
   word,
-  model,
 }: {
   model: Model;
   sentenceMap: SentenceMap;

@@ -8,7 +8,7 @@ import type MaybeNull from "~/types/MaybeNull";
 import { type ModelSentences } from "~/types/SentenceMap";
 import lastInArray from "~/utils/lastInArray";
 
-const formatLabel = (label: string, value: string): ReactNode => {
+const highlightCharacter = (label: string, value: string): ReactNode => {
   if (!value) {
     return label;
   }
@@ -33,22 +33,22 @@ const formatLabel = (label: string, value: string): ReactNode => {
   );
 };
 
-type TypeSentenceProps = {
+type TypedContentProps = {
   character?: string;
   className?: React.ComponentProps<"div">["className"];
   content: string;
-  isCurrent: boolean;
+  isCurrent?: boolean;
   setFinishedTyping?: () => void;
   typingDelay?: number;
 };
 
-function TypedContent(props: TypeSentenceProps) {
+function TypedContent(props: TypedContentProps) {
   const {
-    content,
-    setFinishedTyping,
     character,
-    isCurrent,
     className,
+    content,
+    isCurrent = false,
+    setFinishedTyping,
     typingDelay = 40,
   } = props;
   const [revealIndex, setRevealedIndex] = useState(0);
@@ -79,20 +79,27 @@ function TypedContent(props: TypeSentenceProps) {
     <p className={className}>
       {character == null || !isCurrent
         ? revealed
-        : formatLabel(revealed, character)}
+        : highlightCharacter(revealed, character)}
     </p>
   );
 }
 
-type WordCardProps = {
-  contentRevealed: boolean;
+type CharacterCardProps = {
+  characterRevealed: boolean;
+  contentRevealedIndex: ContentRevealedIndex;
   modelSentences: ModelSentences;
   sentenceRevealIndex: number;
   word: HskEntry;
 };
 
-function WordCard(props: WordCardProps) {
-  const { word, modelSentences, sentenceRevealIndex, contentRevealed } = props;
+function CharacterCard(props: CharacterCardProps) {
+  const {
+    characterRevealed,
+    contentRevealedIndex,
+    modelSentences,
+    sentenceRevealIndex,
+    word,
+  } = props;
   const [finishedTyping, setFinishedTyping] = useState(false);
 
   useEffect(() => {
@@ -114,9 +121,17 @@ function WordCard(props: WordCardProps) {
   return (
     <div className="flex flex-row p-6 gap-6 w-11/12 h-4/6 bg-slate-950 rounded-3xl">
       <div className="w-4/12 p-8 flex justify-around items-center bg-slate-800 rounded-3xl">
-        <p className="whitespace-nowrap text-rose-400" style={{ fontSize }}>
-          {character}
-        </p>
+        <div className="-mt-16">
+          <p className="whitespace-nowrap text-rose-400" style={{ fontSize }}>
+            {character}
+          </p>
+          {characterRevealed && (
+            <div className="flex gap-6 mt-4 flex-col text-slate-300 items-center">
+              <p className="text-6xl">{word.pinyin}</p>
+              <p className="text-3xl">{word.english}</p>
+            </div>
+          )}
+        </div>
       </div>
       <div className="w-8/12 p-8 flex flex-col flex-grow justify-start bg-slate-800 rounded-3xl">
         {currentSentences.map((sentence, index) => {
@@ -134,16 +149,28 @@ function WordCard(props: WordCardProps) {
             />
           );
         })}
-        {contentRevealed && currentSentence != null && (
+        {contentRevealedIndex > 0 && currentSentence != null && (
           <div className="flex gap-2 mt-4 flex-col text-slate-400">
-            <p className="text-2xl">{currentSentence.pinyin}</p>
-            <p className="text-xl">{currentSentence.english}</p>
+            {contentRevealedIndex >= 1 && (
+              <TypedContent
+                className="text-2xl"
+                content={currentSentence.pinyin}
+                typingDelay={8}
+              />
+            )}
+            {contentRevealedIndex === 2 && (
+              <TypedContent
+                className="text-xl"
+                content={currentSentence.english}
+                typingDelay={6}
+              />
+            )}
           </div>
         )}
         {hasMoreSentences &&
           sentenceRevealIndex === 0 &&
           finishedTyping &&
-          !contentRevealed && (
+          !contentRevealedIndex && (
             <TypedContent
               className="mt-4 text-slate-400"
               content="Press 'spacebar' to reveal the next sentence, or press 'r' to reveal Pinyin/English."
@@ -158,10 +185,14 @@ function WordCard(props: WordCardProps) {
 
 const HSK_LEVEL = 2;
 
+type ContentRevealedIndex = 0 | 1 | 2;
+
 export default function Home() {
   const [index, setIndex] = useState(0);
   const [sentenceRevealIndex, setSentenceRevealIndex] = useState(0);
-  const [contentRevealed, setContentRevealed] = useState(false);
+  const [contentRevealedIndex, setContentRevealedIndex] =
+    useState<ContentRevealedIndex>(0);
+  const [characterRevealed, setCharacterRevealed] = useState(false);
   const hsk = HSK_MAP[HSK_LEVEL];
   const words = hsk.words;
   const word = words[index]!;
@@ -173,13 +204,13 @@ export default function Home() {
   const next = useCallback(() => {
     setIndex((cur) => (hasNext ? cur + 1 : cur));
     setSentenceRevealIndex(0);
-    setContentRevealed(false);
+    setContentRevealedIndex(0);
   }, [hasNext, setIndex]);
 
   const previous = useCallback(() => {
     setIndex((cur) => (cur > 0 ? cur - 1 : cur));
     setSentenceRevealIndex(0);
-    setContentRevealed(false);
+    setContentRevealedIndex(0);
   }, [setIndex]);
 
   useEffect(() => {
@@ -192,10 +223,15 @@ export default function Home() {
       }
       if (event.key === " ") {
         setSentenceRevealIndex((cur) => cur + 1);
-        setContentRevealed(false);
+        setContentRevealedIndex(0);
       }
       if (event.key === "r") {
-        setContentRevealed((cur) => !cur);
+        setContentRevealedIndex((cur) => {
+          return cur === 2 ? 0 : ((cur + 1) as ContentRevealedIndex);
+        });
+      }
+      if (event.key === "c") {
+        setCharacterRevealed((cur) => !cur);
       }
     }
 
@@ -223,8 +259,9 @@ export default function Home() {
               Master 5,000 HSK words with the help of AI.
             </p>
           </div>
-          <WordCard
-            contentRevealed={contentRevealed}
+          <CharacterCard
+            characterRevealed={characterRevealed}
+            contentRevealedIndex={contentRevealedIndex}
             modelSentences={sentences}
             sentenceRevealIndex={sentenceRevealIndex}
             word={word}

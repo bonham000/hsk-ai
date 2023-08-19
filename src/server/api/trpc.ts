@@ -69,7 +69,7 @@ export const createTRPCContext = async (opts: CreateNextContextOptions) => {
  */
 
 const t = initTRPC.context<typeof createTRPCContext>().create({
-  errorFormatter({ shape, error }) {
+  errorFormatter({ error, shape }) {
     return {
       ...shape,
       data: {

@@ -10,7 +10,12 @@ const config = {
   parserOptions: {
     project: true,
   },
-  plugins: ["@typescript-eslint", "unused-imports", "sort-keys-fix"],
+  plugins: [
+    "@typescript-eslint",
+    "unused-imports",
+    "sort-keys-fix",
+    "sort-destructure-keys",
+  ],
   rules: {
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/ban-ts-comment": "off",
@@ -31,7 +36,8 @@ const config = {
     // These opinionated rules are enabled in stylistic-type-checked above.
     // Feel free to reconfigure them to your own preference.
     "react/jsx-sort-props": "error",
-    "sort-keys": "error",
+    "sort-destructure-keys/sort-destructure-keys": "error",
+    "sort-keys": "off",
     "sort-keys-fix/sort-keys-fix": "error",
     "unused-imports/no-unused-imports": "error",
     "unused-imports/no-unused-vars": [
