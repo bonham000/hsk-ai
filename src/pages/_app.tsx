@@ -17,7 +17,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
 }) => {
   return (
     <>
-      <style jsx global>{`
+      <style global jsx>{`
         html {
           font-family: ${notoSans.style.fontFamily};
         }

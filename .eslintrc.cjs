@@ -24,6 +24,9 @@ const config = {
     ],
     // These opinionated rules are enabled in stylistic-type-checked above.
     // Feel free to reconfigure them to your own preference.
+    "react/jsx-sort-props": "error",
+    "@typescript-eslint/sort-type-constituents": "error",
+    "@typescript-eslint/member-ordering": "error",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/consistent-type-definitions": "off",
