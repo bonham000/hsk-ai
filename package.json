@@ -8,6 +8,7 @@
     "postinstall": "prisma generate",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "tsc": "tsc",
     "start": "next start",
     "prettier": "prettier . --check \"src/**/*.{ts,tsx,json}\"",
     "prettier:fix": "prettier --write \"src/**/*.{ts,tsx,json}\"",
