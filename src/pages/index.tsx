@@ -69,19 +69,19 @@ function WordCard(props: WordCardProps) {
   const currentSentences = sentences.slice(0, sentenceRevealIndex + 1);
   const hasMoreSentences = currentSentences.length < sentences.length;
   return (
-    <div className="flex flex-row p-6 gap-6 w-3/4 h-1/2 bg-slate-900 rounded-2xl">
-      <div className="w-4/12 p-8 flex justify-around items-center bg-slate-800 rounded-2xl">
-        <p className="whitespace-nowrap text-indigo-600" style={{ fontSize }}>
+    <div className="flex flex-row p-6 gap-6 w-11/12 h-4/6 bg-slate-950 rounded-3xl">
+      <div className="w-4/12 p-8 flex justify-around items-center bg-slate-800 rounded-3xl">
+        <p className="whitespace-nowrap text-rose-400" style={{ fontSize }}>
           {characters}
         </p>
       </div>
-      <div className="w-8/12 p-8 flex flex-col flex-grow justify-start bg-slate-800 rounded-2xl">
+      <div className="w-8/12 p-8 flex flex-col flex-grow justify-start bg-slate-800 rounded-3xl">
         {currentSentences.map((sentence, index) => {
           const isCurrent = index === currentSentences.length - 1;
           return (
             <TypeSentence
-              className={`text-[36px] font-light ${
-                isCurrent ? "text-indigo-500 font-normal" : "text-slate-600"
+              className={`text-4xl leading-normal font-normal ${
+                isCurrent ? "text-slate-200 font-light" : "text-slate-600"
               }`}
               key={sentence.replaceAll(" ", "")}
               sentence={sentence}
@@ -151,28 +151,28 @@ export default function Home() {
         <link href="/favicon.ico" rel="icon" />
       </Head>
       <main className="flex min-h-screen justify-center">
-        <div className="container flex flex-col items-center justify-around px-4 py-16 ">
-          <h1 className="text-5xl tracking-tight sm:text-[5rem] m-2">
-            <span className="text-slate-300">漢語水平考試</span>
-            <span className="ml-4 text-indigo-500 font-normal">
-              Chat Gippity
-            </span>
-          </h1>
+        <div className="container flex flex-col items-center justify-between px-4">
+          <div className="flex bg-slate-950 p-4 rounded-b-3xl">
+            <h1 className="text-3xl m-2">
+              <span className="text-slate-300 font-light">漢語水平考試</span>
+              <span className="ml-4 text-rose-400 font-normal">AI</span>
+            </h1>
+          </div>
           <WordCard
             modelSentences={sentences}
             sentenceRevealIndex={sentenceRevealIndex}
             word={word}
           />
-          <div className="flex gap-6 bg-slate-900 p-6 rounded-2xl">
+          <div className="flex gap-6 bg-slate-950 p-6 rounded-t-3xl">
             <button
-              className="bg-slate-800 hover:bg-indigo-500 w-64 text-slate-200 py-4 px-8 text-3xl rounded-2xl"
+              className="bg-slate-800 hover:bg-rose-400 w-64 text-slate-200 py-4 px-8 text-3xl rounded-full"
               disabled={index === 0}
               onClick={previous}
             >
               上一張
             </button>
             <button
-              className="bg-slate-800 hover:bg-indigo-500 w-64 text-slate-200 py-4 px-8 text-3xl rounded-2xl"
+              className="bg-slate-800 hover:bg-rose-400 w-64 text-slate-200 py-4 px-8 text-3xl rounded-full"
               disabled={!hasNext}
               onClick={next}
             >
