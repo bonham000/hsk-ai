@@ -103,8 +103,8 @@ function updateWordInSentenceMap({
     }
   } else {
     sentenceMap[word] = {
-      "gpt-4": model === "gpt-4" ? sentences : [],
       "gpt-3.5-turbo": model === "gpt-3.5-turbo" ? sentences : [],
+      "gpt-4": model === "gpt-4" ? sentences : [],
     };
   }
 }
@@ -138,8 +138,8 @@ async function generateSentences(
       ? generateStarterPrompt(word, seenWords)
       : generateIntermediatePrompt(word, seenWords, hskLevel);
   const completion = await openai.createChatCompletion({
+    messages: [{ content: prompt, role: "user" }],
     model: "gpt-3.5-turbo",
-    messages: [{ role: "user", content: prompt }],
   });
   const json = completion.data.choices[0]?.message?.content ?? "";
   const parsed = JSON.parse(json) as string[];
@@ -162,10 +162,10 @@ async function generateSentencesForWord(
     }
 
     updateWordInSentenceMap({
-      sentenceMap,
-      word,
       model: "gpt-3.5-turbo",
+      sentenceMap,
       sentences: generatedSentences,
+      word,
     });
   } catch (error) {
     console.log("An error occurred:");
@@ -191,7 +191,7 @@ async function run() {
   for (const wordEntry of words) {
     const word = wordEntry.traditional;
 
-    if (wordExistsAlready({ word, sentenceMap, model: "gpt-3.5-turbo" })) {
+    if (wordExistsAlready({ model: "gpt-3.5-turbo", sentenceMap, word })) {
       console.info(`${word} already exists for this model, skipping.`);
       seenWords.push(word);
       continue;

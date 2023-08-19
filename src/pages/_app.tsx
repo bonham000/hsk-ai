@@ -6,9 +6,9 @@ import "~/styles/globals.css";
 import { api } from "~/utils/api";
 
 const notoSans = Noto_Sans_TC({
-  weight: ["300", "400", "500"],
   style: ["normal"],
   subsets: ["latin"],
+  weight: ["300", "400", "500"],
 });
 
 const MyApp: AppType<{ session: Session | null }> = ({
