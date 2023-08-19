@@ -8,8 +8,8 @@ import type MaybeNull from "~/types/MaybeNull";
 import { type ModelSentences } from "~/types/SentenceMap";
 
 type TypeSentenceProps = {
-  sentence: string;
   className?: React.ComponentProps<"div">["className"];
+  sentence: string;
   setFinishedTyping?: () => void;
   typingDelay?: number;
 };
@@ -44,9 +44,9 @@ function TypeSentence(props: TypeSentenceProps) {
 }
 
 type WordCardProps = {
-  word: HskEntry;
   modelSentences: ModelSentences;
   sentenceRevealIndex: number;
+  word: HskEntry;
 };
 
 function WordCard(props: WordCardProps) {

@@ -1,8 +1,8 @@
 type HskEntry = {
+  english: string;
+  pinyin: string;
   simplified: string;
   traditional: string;
-  pinyin: string;
-  english: string;
 };
 
 export default HskEntry;

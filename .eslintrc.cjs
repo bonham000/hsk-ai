@@ -4,6 +4,7 @@ const config = {
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:@typescript-eslint/stylistic-type-checked",
+    "plugin:typescript-sort-keys/recommended",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {

@@ -1,8 +1,8 @@
 export type WordKey = string;
 
 export type ModelSentences = {
-  "gpt-4": string[];
   "gpt-3.5-turbo": string[];
+  "gpt-4": string[];
 };
 
 export type Model = keyof ModelSentences;

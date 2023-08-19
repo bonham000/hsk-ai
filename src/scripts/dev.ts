@@ -88,10 +88,10 @@ function updateWordInSentenceMap({
   model,
   sentences,
 }: {
-  sentenceMap: SentenceMap;
-  word: string;
   model: Model;
+  sentenceMap: SentenceMap;
   sentences: string[];
+  word: string;
 }) {
   const existing = sentenceMap[word];
   if (existing != null) {
@@ -114,9 +114,9 @@ function wordExistsAlready({
   word,
   model,
 }: {
+  model: Model;
   sentenceMap: SentenceMap;
   word: string;
-  model: Model;
 }) {
   const existingWord = sentenceMap[word];
   if (existingWord != null) {
