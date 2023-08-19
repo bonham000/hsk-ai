@@ -31,7 +31,7 @@ const config = {
     // These opinionated rules are enabled in stylistic-type-checked above.
     // Feel free to reconfigure them to your own preference.
     "react/jsx-sort-props": "error",
-    "sort-keys": "off",
+    "sort-keys": "error",
     "sort-keys-fix/sort-keys-fix": "error",
     "unused-imports/no-unused-imports": "error",
     "unused-imports/no-unused-vars": [

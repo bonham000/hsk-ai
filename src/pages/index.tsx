@@ -6,6 +6,7 @@ import { HSK_SENTENCE_MAP } from "~/chinese/sentences";
 import type HskEntry from "~/types/HskEntry";
 import type MaybeNull from "~/types/MaybeNull";
 import { type ModelSentences } from "~/types/SentenceMap";
+import lastInArray from "~/utils/lastInArray";
 
 const formatLabel = (label: string, value: string): ReactNode => {
   if (!value) {
@@ -84,13 +85,14 @@ function TypedContent(props: TypeSentenceProps) {
 }
 
 type WordCardProps = {
+  contentRevealed: boolean;
   modelSentences: ModelSentences;
   sentenceRevealIndex: number;
   word: HskEntry;
 };
 
 function WordCard(props: WordCardProps) {
-  const { word, modelSentences, sentenceRevealIndex } = props;
+  const { word, modelSentences, sentenceRevealIndex, contentRevealed } = props;
   const [finishedTyping, setFinishedTyping] = useState(false);
 
   useEffect(() => {
@@ -108,6 +110,7 @@ function WordCard(props: WordCardProps) {
   const sentences = modelSentences["gpt-3.5-turbo"];
   const currentSentences = sentences.slice(0, sentenceRevealIndex + 1);
   const hasMoreSentences = currentSentences.length < sentences.length;
+  const currentSentence = lastInArray(currentSentences) ?? null;
   return (
     <div className="flex flex-row p-6 gap-6 w-11/12 h-4/6 bg-slate-950 rounded-3xl">
       <div className="w-4/12 p-8 flex justify-around items-center bg-slate-800 rounded-3xl">
@@ -131,14 +134,23 @@ function WordCard(props: WordCardProps) {
             />
           );
         })}
-        {hasMoreSentences && sentenceRevealIndex === 0 && finishedTyping && (
-          <TypedContent
-            className="mt-4 text-slate-400"
-            content="Press spacebar to reveal the next sentence."
-            isCurrent={false}
-            typingDelay={5}
-          />
+        {contentRevealed && currentSentence != null && (
+          <div className="flex gap-2 mt-4 flex-col text-slate-400">
+            <p className="text-2xl">{currentSentence.pinyin}</p>
+            <p className="text-xl">{currentSentence.english}</p>
+          </div>
         )}
+        {hasMoreSentences &&
+          sentenceRevealIndex === 0 &&
+          finishedTyping &&
+          !contentRevealed && (
+            <TypedContent
+              className="mt-4 text-slate-400"
+              content="Press 'spacebar' to reveal the next sentence, or press 'r' to reveal Pinyin/English."
+              isCurrent={false}
+              typingDelay={5}
+            />
+          )}
       </div>
     </div>
   );
@@ -149,6 +161,7 @@ const HSK_LEVEL = 2;
 export default function Home() {
   const [index, setIndex] = useState(0);
   const [sentenceRevealIndex, setSentenceRevealIndex] = useState(0);
+  const [contentRevealed, setContentRevealed] = useState(false);
   const hsk = HSK_MAP[HSK_LEVEL];
   const words = hsk.words;
   const word = words[index]!;
@@ -160,11 +173,13 @@ export default function Home() {
   const next = useCallback(() => {
     setIndex((cur) => (hasNext ? cur + 1 : cur));
     setSentenceRevealIndex(0);
+    setContentRevealed(false);
   }, [hasNext, setIndex]);
 
   const previous = useCallback(() => {
     setIndex((cur) => (cur > 0 ? cur - 1 : cur));
     setSentenceRevealIndex(0);
+    setContentRevealed(false);
   }, [setIndex]);
 
   useEffect(() => {
@@ -177,6 +192,10 @@ export default function Home() {
       }
       if (event.key === " ") {
         setSentenceRevealIndex((cur) => cur + 1);
+        setContentRevealed(false);
+      }
+      if (event.key === "r") {
+        setContentRevealed((cur) => !cur);
       }
     }
 
@@ -205,6 +224,7 @@ export default function Home() {
             </p>
           </div>
           <WordCard
+            contentRevealed={contentRevealed}
             modelSentences={sentences}
             sentenceRevealIndex={sentenceRevealIndex}
             word={word}
