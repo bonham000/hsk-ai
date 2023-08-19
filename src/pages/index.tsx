@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { useCallback, useEffect, useState } from "react";
+import { type ReactNode, useCallback, useEffect, useState } from "react";
 import { useInterval } from "usehooks-ts";
 import { HSK_MAP } from "~/chinese/hsk";
 import { HSK_SENTENCE_MAP } from "~/chinese/sentences";
@@ -7,15 +7,49 @@ import type HskEntry from "~/types/HskEntry";
 import type MaybeNull from "~/types/MaybeNull";
 import { type ModelSentences } from "~/types/SentenceMap";
 
+const formatLabel = (label: string, value: string): ReactNode => {
+  if (!value) {
+    return label;
+  }
+
+  return (
+    <span>
+      {label
+        .split(value)
+        .reduce((prev: ReactNode[], current: string, i: number) => {
+          if (!i) {
+            return [current];
+          }
+
+          return prev.concat(
+            <span className="text-rose-400" key={value + current}>
+              {value}
+            </span>,
+            current
+          );
+        }, [] as ReactNode[])}
+    </span>
+  );
+};
+
 type TypeSentenceProps = {
+  character?: string;
   className?: React.ComponentProps<"div">["className"];
+  isCurrent: boolean;
   sentence: string;
   setFinishedTyping?: () => void;
   typingDelay?: number;
 };
 
 function TypeSentence(props: TypeSentenceProps) {
-  const { sentence, setFinishedTyping, className, typingDelay = 40 } = props;
+  const {
+    sentence,
+    setFinishedTyping,
+    character,
+    isCurrent,
+    className,
+    typingDelay = 40,
+  } = props;
   const [revealIndex, setRevealedIndex] = useState(0);
 
   const delay = revealIndex < sentence.length ? typingDelay : null;
@@ -40,7 +74,13 @@ function TypeSentence(props: TypeSentenceProps) {
   }, [delay, setFinishedTyping]);
 
   const revealed = sentence.slice(0, revealIndex);
-  return <p className={className}>{revealed}</p>;
+  return (
+    <p className={className}>
+      {character == null || !isCurrent
+        ? revealed
+        : formatLabel(revealed, character)}
+    </p>
+  );
 }
 
 type WordCardProps = {
@@ -57,12 +97,12 @@ function WordCard(props: WordCardProps) {
     setFinishedTyping(false);
   }, [word.traditional]);
 
-  const characters = word.traditional;
+  const character = word.traditional;
   let fontSize = 164;
-  if (characters.length === 2) {
+  if (character.length === 2) {
     fontSize = 124;
   }
-  if (characters.length === 3) {
+  if (character.length === 3) {
     fontSize = 72;
   }
   const sentences = modelSentences["gpt-3.5-turbo"];
@@ -72,7 +112,7 @@ function WordCard(props: WordCardProps) {
     <div className="flex flex-row p-6 gap-6 w-11/12 h-4/6 bg-slate-950 rounded-3xl">
       <div className="w-4/12 p-8 flex justify-around items-center bg-slate-800 rounded-3xl">
         <p className="whitespace-nowrap text-rose-400" style={{ fontSize }}>
-          {characters}
+          {character}
         </p>
       </div>
       <div className="w-8/12 p-8 flex flex-col flex-grow justify-start bg-slate-800 rounded-3xl">
@@ -80,9 +120,11 @@ function WordCard(props: WordCardProps) {
           const isCurrent = index === currentSentences.length - 1;
           return (
             <TypeSentence
+              character={character}
               className={`text-4xl leading-normal font-normal ${
                 isCurrent ? "text-slate-200 font-light" : "text-slate-600"
               }`}
+              isCurrent={isCurrent}
               key={sentence.replaceAll(" ", "")}
               sentence={sentence}
               setFinishedTyping={() => setFinishedTyping(true)}
@@ -92,6 +134,7 @@ function WordCard(props: WordCardProps) {
         {hasMoreSentences && sentenceRevealIndex === 0 && finishedTyping && (
           <TypeSentence
             className="mt-4 text-slate-400"
+            isCurrent={false}
             sentence="Press spacebar to reveal the next sentence."
             typingDelay={5}
           />
@@ -165,14 +208,14 @@ export default function Home() {
           />
           <div className="flex gap-6 bg-slate-950 p-6 rounded-t-3xl">
             <button
-              className="bg-slate-800 hover:bg-rose-400 w-64 text-slate-200 py-4 px-8 text-3xl rounded-full"
+              className="bg-slate-800 hover:bg-rose-400 w-64 text-slate-300 font-light py-4 px-8 text-3xl rounded-full"
               disabled={index === 0}
               onClick={previous}
             >
               上一張
             </button>
             <button
-              className="bg-slate-800 hover:bg-rose-400 w-64 text-slate-200 py-4 px-8 text-3xl rounded-full"
+              className="bg-slate-800 hover:bg-rose-400 w-64 text-slate-300 font-light py-4 px-8 text-3xl rounded-full"
               disabled={!hasNext}
               onClick={next}
             >
