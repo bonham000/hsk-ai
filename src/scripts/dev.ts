@@ -2,8 +2,13 @@ import { execSync } from "child_process";
 import "dotenv/config";
 import { readFileSync, writeFileSync } from "fs";
 import { Configuration, OpenAIApi } from "openai";
-import lesson4 from "~/chinese/hsk/level-4";
-import { type SentenceMap, type Model } from "~/types/SentenceMap";
+import lesson2 from "~/chinese/hsk/level-2";
+import {
+  type SentenceMap,
+  type Model,
+  type GeneratedSentenceType,
+  GeneratedSentence,
+} from "~/types/SentenceMap";
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
@@ -29,7 +34,11 @@ function generateStarterPrompt(word: string, seenWords: string[]) {
   Input: 保護
   Output:
   [
-    "父母要保護他們的孩子。",
+    {
+      chinese: "父母要保護他們的孩子。",
+      pinyin: "Parents want to protect their children.",
+      english: "Fùmǔ yào bǎohù tāmen de háizi."
+    },
     ... etc.
   ]
 
@@ -67,7 +76,11 @@ function generateIntermediatePrompt(
   Input: 保護
   Output:
   [
-    "父母要保護他們的孩子。",
+    {
+      chinese: "父母要保護他們的孩子。",
+      pinyin: "Parents want to protect their children.",
+      english: "Fùmǔ yào bǎohù tāmen de háizi."
+    },
     ... etc.
   ]
 
@@ -90,7 +103,7 @@ function updateWordInSentenceMap({
 }: {
   model: Model;
   sentenceMap: SentenceMap;
-  sentences: string[];
+  sentences: GeneratedSentenceType[];
   word: string;
 }) {
   const existing = sentenceMap[word];
@@ -131,7 +144,7 @@ async function generateSentences(
   word: string,
   seenWords: string[],
   hskLevel: number
-): Promise<string[]> {
+): Promise<GeneratedSentenceType[]> {
   console.log(`Current word = ${word}. Seen words = ${seenWords.join(", ")}`);
   const prompt =
     hskLevel === 1
@@ -142,8 +155,8 @@ async function generateSentences(
     model: "gpt-3.5-turbo",
   });
   const json = completion.data.choices[0]?.message?.content ?? "";
-  const parsed = JSON.parse(json) as string[];
-  return parsed;
+  const parsed = JSON.parse(json) as GeneratedSentenceType[];
+  return parsed.map((val) => GeneratedSentence.parse(val));
 }
 
 async function generateSentencesForWord(
@@ -178,8 +191,8 @@ async function generateSentencesForWord(
   }
 }
 
-const { level } = lesson4;
-const words = lesson4.words.slice(0, 25);
+const { level } = lesson2;
+const words = lesson2.words.slice(0, 10);
 const seenWords: string[] = [];
 
 async function run() {
@@ -203,7 +216,7 @@ async function run() {
 
   writeFileSync(filepath, JSON.stringify(sentenceMap), "utf-8");
   console.log(`Saved results in ${filepath}. Formatting results...`);
-  execSync("yarn prettier");
+  execSync("yarn prettier:fix");
 }
 
 run()

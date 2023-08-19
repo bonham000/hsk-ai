@@ -35,15 +35,15 @@ const formatLabel = (label: string, value: string): ReactNode => {
 type TypeSentenceProps = {
   character?: string;
   className?: React.ComponentProps<"div">["className"];
+  content: string;
   isCurrent: boolean;
-  sentence: string;
   setFinishedTyping?: () => void;
   typingDelay?: number;
 };
 
-function TypeSentence(props: TypeSentenceProps) {
+function TypedContent(props: TypeSentenceProps) {
   const {
-    sentence,
+    content,
     setFinishedTyping,
     character,
     isCurrent,
@@ -52,7 +52,7 @@ function TypeSentence(props: TypeSentenceProps) {
   } = props;
   const [revealIndex, setRevealedIndex] = useState(0);
 
-  const delay = revealIndex < sentence.length ? typingDelay : null;
+  const delay = revealIndex < content.length ? typingDelay : null;
   useInterval(() => {
     setRevealedIndex((cur) => cur + 1);
   }, delay);
@@ -73,7 +73,7 @@ function TypeSentence(props: TypeSentenceProps) {
     };
   }, [delay, setFinishedTyping]);
 
-  const revealed = sentence.slice(0, revealIndex);
+  const revealed = content.slice(0, revealIndex);
   return (
     <p className={className}>
       {character == null || !isCurrent
@@ -119,23 +119,23 @@ function WordCard(props: WordCardProps) {
         {currentSentences.map((sentence, index) => {
           const isCurrent = index === currentSentences.length - 1;
           return (
-            <TypeSentence
+            <TypedContent
               character={character}
               className={`text-4xl leading-normal font-normal ${
                 isCurrent ? "text-slate-200 font-light" : "text-slate-600"
               }`}
+              content={sentence.chinese}
               isCurrent={isCurrent}
-              key={sentence.replaceAll(" ", "")}
-              sentence={sentence}
+              key={sentence.chinese.replaceAll(" ", "")}
               setFinishedTyping={() => setFinishedTyping(true)}
             />
           );
         })}
         {hasMoreSentences && sentenceRevealIndex === 0 && finishedTyping && (
-          <TypeSentence
+          <TypedContent
             className="mt-4 text-slate-400"
+            content="Press spacebar to reveal the next sentence."
             isCurrent={false}
-            sentence="Press spacebar to reveal the next sentence."
             typingDelay={5}
           />
         )}
@@ -144,7 +144,7 @@ function WordCard(props: WordCardProps) {
   );
 }
 
-const HSK_LEVEL = 4;
+const HSK_LEVEL = 2;
 
 export default function Home() {
   const [index, setIndex] = useState(0);
@@ -195,11 +195,14 @@ export default function Home() {
       </Head>
       <main className="flex min-h-screen justify-center">
         <div className="container flex flex-col items-center justify-between px-4">
-          <div className="flex bg-slate-950 p-4 rounded-b-3xl">
-            <h1 className="text-3xl m-2">
+          <div className="flex flex-col items-center bg-slate-950 p-4 rounded-b-3xl">
+            <h1 className="text-5xl mb-2">
               <span className="text-slate-300 font-light">漢語水平考試</span>
               <span className="ml-4 text-rose-400 font-normal">AI</span>
             </h1>
+            <p className="text-slate-400 text-s">
+              Master 5,000 HSK words with the help of AI.
+            </p>
           </div>
           <WordCard
             modelSentences={sentences}

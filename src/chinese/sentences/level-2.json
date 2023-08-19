@@ -1,1 +1,302 @@
-{}
+{
+  "報紙": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天都讀報紙。",
+        "pinyin": "Wǒ měitiān dōu dú bàozhǐ.",
+        "english": "I read the newspaper every day."
+      },
+      {
+        "chinese": "這份報紙很有趣。",
+        "pinyin": "Zhè fèn bàozhǐ hěn yǒuqù.",
+        "english": "This newspaper is very interesting."
+      },
+      {
+        "chinese": "我從報紙上得知了很多新聞。",
+        "pinyin": "Wǒ cóng bàozhǐ shàng dézhī le hěnduō xīnwén.",
+        "english": "I learned a lot of news from the newspaper."
+      },
+      {
+        "chinese": "我喜歡讀新聞報紙。",
+        "pinyin": "Wǒ xǐhuān dú xīnwén bàozhǐ.",
+        "english": "I like reading news newspapers."
+      },
+      {
+        "chinese": "這份報紙每周發行一次。",
+        "pinyin": "Zhè fèn bàozhǐ měi zhōu fāxíng yīcì.",
+        "english": "This newspaper is published once a week."
+      }
+    ],
+    "gpt-4": []
+  },
+  "人": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個地方有很多人。",
+        "pinyin": "Zhège dìfāng yǒu hěnduō rén.",
+        "english": "There are many people in this place."
+      },
+      {
+        "chinese": "他是一個善良的人。",
+        "pinyin": "Tā shì yīgè shànliáng de rén.",
+        "english": "He is a kind person."
+      },
+      {
+        "chinese": "大家都愛這個有趣的人。",
+        "pinyin": "Dàjiā dōu ài zhège yǒuqù de rén.",
+        "english": "Everyone loves this interesting person."
+      },
+      {
+        "chinese": "她是一位專業的醫生，是個很厲害的人。",
+        "pinyin": "Tā shì yī wèi zhuānyè de yīshēng, shìgè hěn lìhài de rén.",
+        "english": "She is a professional doctor and a very capable person."
+      },
+      {
+        "chinese": "男人和女人有不同的角色。",
+        "pinyin": "Nánrén hé nǚrén yǒu bùtóng de juésè.",
+        "english": "Men and women have different roles."
+      }
+    ],
+    "gpt-4": []
+  },
+  "名字": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我忘了他的名字。",
+        "pinyin": "Wǒ wàngle tā de míngzì.",
+        "english": "I forgot his name."
+      },
+      {
+        "chinese": "她的名字很好記。",
+        "pinyin": "Tā de míngzì hěn hǎo jì.",
+        "english": "Her name is easy to remember."
+      },
+      {
+        "chinese": "我喜歡這個明星的名字。",
+        "pinyin": "Wǒ xǐhuān zhège míngxīng de míngzì.",
+        "english": "I like the name of this celebrity."
+      },
+      {
+        "chinese": "這是我朋友的名字。",
+        "pinyin": "Zhè shì wǒ péngyǒu de míngzì.",
+        "english": "This is my friend's name."
+      },
+      {
+        "chinese": "我正在尋找一個合適的名字。",
+        "pinyin": "Wǒ zhèngzài xúnzhǎo yīgè héshì de míngzì.",
+        "english": "I am looking for a suitable name."
+      }
+    ],
+    "gpt-4": []
+  },
+  "書": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡看書。",
+        "pinyin": "Wǒ xǐhuān kàn shū.",
+        "english": "I like reading books."
+      },
+      {
+        "chinese": "我在圖書館借了三本書。",
+        "pinyin": "Wǒ zài túshūguǎn jiè le sān běn shū.",
+        "english": "I borrowed three books from the library."
+      },
+      {
+        "chinese": "這本書很有趣。",
+        "pinyin": "Zhè běn shū hěn yǒuqù.",
+        "english": "This book is very interesting."
+      },
+      {
+        "chinese": "我把書放在書包裡。",
+        "pinyin": "Wǒ bǎ shū fàng zài shūbāo lǐ.",
+        "english": "I put the book in my backpack."
+      },
+      {
+        "chinese": "這是一本新的書。",
+        "pinyin": "Zhè shì yī běn xīn de shū.",
+        "english": "This is a new book."
+      }
+    ],
+    "gpt-4": []
+  },
+  "漢語": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們正在學習漢語。",
+        "pinyin": "Wǒmen zhèngzài xuéxí hànyǔ.",
+        "english": "We are learning Chinese."
+      },
+      {
+        "chinese": "她的母語是漢語。",
+        "pinyin": "Tā de mǔyǔ shì hànyǔ.",
+        "english": "Her native language is Chinese."
+      },
+      {
+        "chinese": "我可以講一點漢語。",
+        "pinyin": "Wǒ kěyǐ jiǎng yīdiǎn hànyǔ.",
+        "english": "I can speak a little Chinese."
+      },
+      {
+        "chinese": "這是一本關於漢語的書。",
+        "pinyin": "Zhè shì yīběn guānyú hànyǔ de shū.",
+        "english": "This is a book about Chinese."
+      },
+      {
+        "chinese": "學習漢語對我來說很有趣。",
+        "pinyin": "Xuéxí hànyǔ duì wǒ lái shuō hěn yǒuqù.",
+        "english": "Learning Chinese is interesting for me."
+      }
+    ],
+    "gpt-4": []
+  },
+  "字": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我寫了一封信，但是我忘了寫收件人的字。",
+        "pinyin": "Wǒ xiě le yī fēng xìn, dànshì wǒ wàng le xiě shōu jiàn rén de zì.",
+        "english": "I wrote a letter, but I forgot to write the recipient's address."
+      },
+      {
+        "chinese": "你的筆跡很好看，每個字都寫得很清楚。",
+        "pinyin": "Nǐ de bǐ jì hěn hǎokàn, měi gè zì dōu xiě dé hěn qīngchǔ.",
+        "english": "Your handwriting is very nice, every word is written clearly."
+      },
+      {
+        "chinese": "這本字典裡有很多生字，我要多學幾個字。",
+        "pinyin": "Zhè běn zìdiǎn lǐ yǒu hěnduō shēngzì, wǒ yào duō xué jǐ gè zì.",
+        "english": "There are many new words in this dictionary, I need to learn more characters."
+      },
+      {
+        "chinese": "我找不到這個字的筆劃數，你能幫我查一下嗎？",
+        "pinyin": "Wǒ zhǎo bù dào zhè gè zì de bǐhuà shù, nǐ néng bāng wǒ chá yīxià ma?",
+        "english": "I can't find the stroke count for this character, can you help me check?"
+      },
+      {
+        "chinese": "你可以把這些字排成一句話嗎？",
+        "pinyin": "Nǐ kěyǐ bǎ zhèxiē zì pái chéng yī jù huà ma?",
+        "english": "Can you put these characters together to form a sentence?"
+      }
+    ],
+    "gpt-4": []
+  },
+  "桌子": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我家的桌子很大。",
+        "pinyin": "Wǒ jiā de zhuōzi hěn dà.",
+        "english": "The table in my house is very big."
+      },
+      {
+        "chinese": "她把書放在桌子上。",
+        "pinyin": "Tā bǎ shū fàng zài zhuōzi shàng.",
+        "english": "She put the book on the table."
+      },
+      {
+        "chinese": "這張桌子很平穩。",
+        "pinyin": "Zhè zhāng zhuōzi hěn píngwěn.",
+        "english": "This table is very stable."
+      },
+      {
+        "chinese": "桌子上有一杯水。",
+        "pinyin": "Zhuōzi shàng yǒu yī bēi shuǐ.",
+        "english": "There is a glass of water on the table."
+      },
+      {
+        "chinese": "請將椅子推到桌子旁邊。",
+        "pinyin": "Qǐng jiāng yǐzi tuī dào zhuōzi pángbiān.",
+        "english": "Please push the chair next to the table."
+      }
+    ],
+    "gpt-4": []
+  },
+  "椅子": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這張椅子很舒服。",
+        "pinyin": "Zhè zhāng yǐzi hěn shūfú.",
+        "english": "This chair is very comfortable."
+      },
+      {
+        "chinese": "我喜歡坐在椅子上看書。",
+        "pinyin": "Wǒ xǐhuān zuò zài yǐzi shàng kànshū.",
+        "english": "I like to sit on the chair and read."
+      },
+      {
+        "chinese": "請找一張椅子坐下。",
+        "pinyin": "Qǐng zhǎo yī zhāng yǐzi zuòxià.",
+        "english": "Please find a chair to sit down."
+      },
+      {
+        "chinese": "書桌上有一把椅子。",
+        "pinyin": "Shūzhuō shàng yǒu yī bǎ yǐzi.",
+        "english": "There is a chair on the desk."
+      },
+      {
+        "chinese": "這個椅子是我的。",
+        "pinyin": "Zhègè yǐzi shì wǒ de.",
+        "english": "This chair is mine."
+      }
+    ],
+    "gpt-4": []
+  },
+  "門": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我家的門是紅色的。",
+        "pinyin": "Wǒ jiā de mén shì hóngsè de.",
+        "english": "The door of my house is red."
+      },
+      {
+        "chinese": "他用力關上了房間的門。",
+        "pinyin": "Tā yòng lì guānshàng le fángjiān de mén.",
+        "english": "He closed the door of the room forcefully."
+      },
+      {
+        "chinese": "請關好門，不要讓風吹進來。",
+        "pinyin": "Qǐng guān hǎo mén, bùyào ràng fēng chuī jìnlai.",
+        "english": "Please close the door properly and don't let the wind come in."
+      },
+      {
+        "chinese": "這個房子的門口有一個大花圈。",
+        "pinyin": "Zhège fángzi de ménkǒu yǒu yīgè dà huāquān.",
+        "english": "There is a big wreath at the entrance of this house."
+      },
+      {
+        "chinese": "請不要在門口亂丟垃圾。",
+        "pinyin": "Qǐng bùyào zài ménkǒu luàn diū lājī.",
+        "english": "Please don't litter at the entrance."
+      }
+    ],
+    "gpt-4": []
+  },
+  "題": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這道數學題我不會做。",
+        "pinyin": "Zhè dào shùxué tì wǒ bù huì zuò.",
+        "english": "I don't know how to solve this math problem."
+      },
+      {
+        "chinese": "老師給了我一個作文題。",
+        "pinyin": "Lǎoshī gěi le wǒ yī gè zuòwén tì.",
+        "english": "The teacher gave me a composition topic."
+      },
+      {
+        "chinese": "這道題很容易。",
+        "pinyin": "Zhè dào tì hěn róngyì.",
+        "english": "This question is very easy."
+      },
+      {
+        "chinese": "我忘記交這題作業了。",
+        "pinyin": "Wǒ wàngjì jiāo zhè tì zuòyè le.",
+        "english": "I forgot to hand in this assignment."
+      },
+      {
+        "chinese": "我已經做完所有的題目了。",
+        "pinyin": "Wǒ yǐjīng zuò wán suǒyǒu de tímù le.",
+        "english": "I have finished all the questions."
+      }
+    ],
+    "gpt-4": []
+  }
+}
