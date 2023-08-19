@@ -9,7 +9,9 @@
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "start": "next start",
-    "prettier": "prettier --write \"src/**/*.{ts,tsx,json}\"",
+    "prettier": "prettier . --check \"src/**/*.{ts,tsx,json}\"",
+    "prettier:fix": "prettier --write \"src/**/*.{ts,tsx,json}\"",
+    "c": "yarn lint && yarn prettier && yarn tsc",
     "x": "ts-node -O '{\"module\": \"commonjs\"}' -r tsconfig-paths/register src/scripts/dev.ts",
     "hsk:dedupe": "ts-node -O '{\"module\": \"commonjs\"}' -r tsconfig-paths/register src/scripts/dedupe.ts"
   },

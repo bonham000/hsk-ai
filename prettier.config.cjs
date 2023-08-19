@@ -2,7 +2,7 @@
 const config = {
   plugins: [
     require.resolve("prettier-plugin-tailwindcss"),
-    "@trivago/prettier-plugin-sort-imports"
+    "@trivago/prettier-plugin-sort-imports",
   ],
 };
 
