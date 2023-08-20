@@ -192,7 +192,7 @@ async function generateSentencesForWord(
 }
 
 const { level } = lesson2;
-const words = lesson2.words.slice(0, 10);
+const words = lesson2.words.slice(0, 50);
 const seenWords: string[] = [];
 
 async function run() {
