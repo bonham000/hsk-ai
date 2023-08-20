@@ -16,8 +16,13 @@ import type HskLevel from "~/types/HskLevel";
 import type MaybeNull from "~/types/MaybeNull";
 import { type GeneratedSentenceType } from "~/types/SentenceMap";
 import lastInArray from "~/utils/lastInArray";
+import randomInRange from "~/utils/randomInRange";
 
-const highlightCharacter = (label: string, value: string): ReactNode => {
+const highlightCharacter = (
+  label: string,
+  value: string,
+  isReviewSentence: boolean
+): ReactNode => {
   if (!value) {
     return label;
   }
@@ -32,7 +37,12 @@ const highlightCharacter = (label: string, value: string): ReactNode => {
           }
 
           return prev.concat(
-            <span className="text-rose-400" key={value + current}>
+            <span
+              className={
+                isReviewSentence ? "text-emerald-400" : "text-rose-400"
+              }
+              key={value + current}
+            >
               {value}
             </span>,
             current
@@ -47,6 +57,7 @@ type TypedContentProps = {
   className?: React.ComponentProps<"div">["className"];
   content: string;
   isCurrent?: boolean;
+  isReviewSentence?: boolean;
   setFinishedTyping?: () => void;
   typingDelay?: number;
 };
@@ -57,6 +68,7 @@ function TypedContent(props: TypedContentProps) {
     className,
     content,
     isCurrent = false,
+    isReviewSentence = false,
     setFinishedTyping,
     typingDelay = 40,
   } = props;
@@ -88,7 +100,7 @@ function TypedContent(props: TypedContentProps) {
     <p className={className}>
       {character == null || !isCurrent
         ? revealed
-        : highlightCharacter(revealed, character)}
+        : highlightCharacter(revealed, character, isReviewSentence)}
     </p>
   );
 }
@@ -151,12 +163,13 @@ function CharacterCard(props: CharacterCardProps) {
           const isCurrent = index === currentSentences.length - 1;
           return (
             <TypedContent
-              character={character}
+              character={sentence.character}
               className={`text-4xl leading-normal font-normal ${
                 isCurrent ? "text-slate-200 font-light" : "text-slate-600"
               }`}
               content={sentence.chinese}
               isCurrent={isCurrent}
+              isReviewSentence={sentence.isReviewSentence}
               key={sentence.chinese.replaceAll(" ", "")}
               setFinishedTyping={() => setFinishedTyping(true)}
             />
@@ -168,6 +181,7 @@ function CharacterCard(props: CharacterCardProps) {
               <TypedContent
                 className="text-2xl"
                 content={currentSentence.pinyin}
+                isReviewSentence
                 typingDelay={8}
               />
             )}
@@ -186,7 +200,7 @@ function CharacterCard(props: CharacterCardProps) {
           !contentRevealedIndex && (
             <TypedContent
               className="mt-4 text-slate-400"
-              content="Press 'spacebar' to reveal the next sentence, or press 'r' to reveal Pinyin/English."
+              content="Press 'spacebar' to reveal the next sentence or press 'r' to reveal Pinyin/English."
               isCurrent={false}
               typingDelay={5}
             />
@@ -198,6 +212,40 @@ function CharacterCard(props: CharacterCardProps) {
 
 const HSK_LEVEL = 2;
 const MODEL = "gpt-3.5-turbo";
+
+type ReviewSentence = GeneratedSentenceType & {
+  character: string;
+};
+
+function getPreviousHskSentences(
+  currentHskLevel: HskLevel,
+  currentHskIndex: number
+) {
+  const previous: ReviewSentence[] = [];
+  let level = currentHskLevel;
+  while (level > 0) {
+    const hskSentences = Object.entries(HSK_SENTENCE_MAP[level]);
+    const finalIndex =
+      level === currentHskLevel ? currentHskIndex : hskSentences.length;
+
+    const reviewSentences: ReviewSentence[] = hskSentences
+      .slice(0, finalIndex)
+      .map(([character, modelSentences]) => {
+        const generatedSentences = modelSentences[MODEL];
+        return generatedSentences.map((sentence) => {
+          return {
+            ...sentence,
+            character,
+          };
+        });
+      })
+      .flat();
+
+    previous.push(...reviewSentences);
+    level--;
+  }
+  return previous;
+}
 
 function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
   const hsk = HSK_MAP[hskLevel];
@@ -217,10 +265,22 @@ function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
     };
   });
 
-  /**
-   * Add logic to randomly insert a previously studied sentence for the
-   * current sentences.
-   */
+  const probability = randomInRange(0, 100);
+  if (probability < 40) {
+    const previousHskSentences = getPreviousHskSentences(
+      hskLevel,
+      currentIndex
+    );
+    const randomSentenceIndex = randomInRange(0, previousHskSentences.length);
+    const randomStudySentencesIndex = randomInRange(0, studySentences.length);
+    const randomPreviousSentence = previousHskSentences[randomSentenceIndex]!;
+    const reviewSentence: StudySentence = {
+      ...randomPreviousSentence,
+      isReviewSentence: true,
+    };
+
+    studySentences.splice(randomStudySentencesIndex, 0, reviewSentence);
+  }
 
   return {
     hasNext,
