@@ -256,7 +256,7 @@ export default function Home() {
               <span className="ml-4 text-rose-400 font-normal">AI</span>
             </h1>
             <p className="text-slate-400 text-s">
-              Master 5,000 HSK words with the help of AI.
+              Master 5,000 HSK words with the help of AI
             </p>
           </div>
           <CharacterCard
