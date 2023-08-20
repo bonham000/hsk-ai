@@ -4,8 +4,10 @@ import lesson3 from "~/chinese/hsk/level-3";
 import lesson4 from "~/chinese/hsk/level-4";
 import lesson5 from "~/chinese/hsk/level-5";
 import lesson6 from "~/chinese/hsk/level-6";
+import type HskLevel from "~/types/HskLevel";
+import type HskList from "~/types/HskList";
 
-export const HSK_MAP = {
+export const HSK_MAP: Record<HskLevel, HskList> = {
   1: lesson1,
   2: lesson2,
   3: lesson3,

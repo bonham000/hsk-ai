@@ -1,11 +1,18 @@
 import Head from "next/head";
-import { type ReactNode, useCallback, useEffect, useState } from "react";
+import {
+  type ReactNode,
+  useCallback,
+  useEffect,
+  useState,
+  useMemo,
+} from "react";
 import { useInterval } from "usehooks-ts";
 import { HSK_MAP } from "~/chinese/hsk";
 import { HSK_SENTENCE_MAP } from "~/chinese/sentences";
 import type HskEntry from "~/types/HskEntry";
+import type HskLevel from "~/types/HskLevel";
 import type MaybeNull from "~/types/MaybeNull";
-import { type ModelSentences } from "~/types/SentenceMap";
+import { type GeneratedSentenceType } from "~/types/SentenceMap";
 import lastInArray from "~/utils/lastInArray";
 
 const highlightCharacter = (label: string, value: string): ReactNode => {
@@ -84,11 +91,16 @@ function TypedContent(props: TypedContentProps) {
   );
 }
 
+type StudySentence = GeneratedSentenceType & {
+  character: string;
+  isReviewSentence: boolean;
+};
+
 type CharacterCardProps = {
   characterRevealed: boolean;
   contentRevealedIndex: ContentRevealedIndex;
-  modelSentences: ModelSentences;
   sentenceRevealIndex: number;
+  studySentences: StudySentence[];
   word: HskEntry;
 };
 
@@ -96,8 +108,8 @@ function CharacterCard(props: CharacterCardProps) {
   const {
     characterRevealed,
     contentRevealedIndex,
-    modelSentences,
     sentenceRevealIndex,
+    studySentences,
     word,
   } = props;
   const [finishedTyping, setFinishedTyping] = useState(false);
@@ -114,9 +126,8 @@ function CharacterCard(props: CharacterCardProps) {
   if (character.length === 3) {
     fontSize = 72;
   }
-  const sentences = modelSentences["gpt-3.5-turbo"];
-  const currentSentences = sentences.slice(0, sentenceRevealIndex + 1);
-  const hasMoreSentences = currentSentences.length < sentences.length;
+  const currentSentences = studySentences.slice(0, sentenceRevealIndex + 1);
+  const hasMoreSentences = currentSentences.length < studySentences.length;
   const currentSentence = lastInArray(currentSentences) ?? null;
   return (
     <div className="flex flex-row p-6 gap-6 w-11/12 h-4/6 bg-slate-950 rounded-3xl">
@@ -184,6 +195,37 @@ function CharacterCard(props: CharacterCardProps) {
 }
 
 const HSK_LEVEL = 2;
+const MODEL = "gpt-3.5-turbo";
+
+function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
+  const hsk = HSK_MAP[hskLevel];
+  const words = hsk.words;
+  const word = words[currentIndex]!;
+  const nextWord = words[currentIndex + 1];
+  const hskSentenceMap = HSK_SENTENCE_MAP[HSK_LEVEL];
+  const hasNext = nextWord != null && nextWord.traditional in hskSentenceMap;
+  const sentences = hskSentenceMap[word.traditional]!;
+  const modelSentences = sentences[MODEL];
+
+  const studySentences: StudySentence[] = modelSentences.map((sentence) => {
+    return {
+      ...sentence,
+      character: word.traditional,
+      isReviewSentence: false,
+    };
+  });
+
+  /**
+   * Add logic to randomly insert a previously studied sentence for the
+   * current sentences.
+   */
+
+  return {
+    hasNext,
+    studySentences,
+    word,
+  };
+}
 
 type ContentRevealedIndex = 0 | 1 | 2;
 
@@ -193,13 +235,10 @@ export default function Home() {
   const [contentRevealedIndex, setContentRevealedIndex] =
     useState<ContentRevealedIndex>(0);
   const [characterRevealed, setCharacterRevealed] = useState(false);
-  const hsk = HSK_MAP[HSK_LEVEL];
-  const words = hsk.words;
-  const word = words[index]!;
-  const nextWord = words[index + 1];
-  const hskSentenceMap = HSK_SENTENCE_MAP[HSK_LEVEL];
-  const hasNext = nextWord != null && nextWord.traditional in hskSentenceMap;
-  const sentences = hskSentenceMap[word.traditional]!;
+  const { hasNext, studySentences, word } = useMemo(
+    () => getCurrentContent(HSK_LEVEL, index),
+    [index]
+  );
 
   const next = useCallback(() => {
     setIndex((cur) => (hasNext ? cur + 1 : cur));
@@ -262,8 +301,8 @@ export default function Home() {
           <CharacterCard
             characterRevealed={characterRevealed}
             contentRevealedIndex={contentRevealedIndex}
-            modelSentences={sentences}
             sentenceRevealIndex={sentenceRevealIndex}
+            studySentences={studySentences}
             word={word}
           />
           <div className="flex gap-6 bg-slate-950 p-6 rounded-t-3xl">

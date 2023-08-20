@@ -4,6 +4,7 @@ import sentencesLevel3 from "~/chinese/sentences/level-3.json";
 import sentencesLevel4 from "~/chinese/sentences/level-4.json";
 import sentencesLevel5 from "~/chinese/sentences/level-5.json";
 import sentencesLevel6 from "~/chinese/sentences/level-6.json";
+import type HskLevel from "~/types/HskLevel";
 import { type SentenceMap } from "~/types/SentenceMap";
 
 export const sentenceMapLevel1: SentenceMap = sentencesLevel1;
@@ -13,7 +14,7 @@ export const sentenceMapLevel4: SentenceMap = sentencesLevel4;
 export const sentenceMapLevel5: SentenceMap = sentencesLevel5;
 export const sentenceMapLevel6: SentenceMap = sentencesLevel6;
 
-export const HSK_SENTENCE_MAP = {
+export const HSK_SENTENCE_MAP: Record<HskLevel, SentenceMap> = {
   1: sentenceMapLevel1,
   2: sentenceMapLevel2,
   3: sentenceMapLevel3,

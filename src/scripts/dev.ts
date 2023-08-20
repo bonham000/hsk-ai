@@ -146,6 +146,7 @@ async function generateSentences(
   hskLevel: number
 ): Promise<GeneratedSentenceType[]> {
   console.log(`Current word = ${word}. Seen words = ${seenWords.join(", ")}`);
+  // TODO: Truncate seen words list which is passed to AI prompt.
   const prompt =
     hskLevel === 1
       ? generateStarterPrompt(word, seenWords)
