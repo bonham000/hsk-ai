@@ -1,1 +1,302 @@
-{}
+{
+  "哎喲": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "哎喲，我剛才摔了一跤。",
+        "english": "Ouch, I just fell down.",
+        "pinyin": "Āiyō, wǒ gāngcái shuāi le yī jiāo."
+      },
+      {
+        "chinese": "哎喲，這個菜真辣。",
+        "english": "Wow, this dish is really spicy.",
+        "pinyin": "Āiyō, zhège cài zhēn là."
+      },
+      {
+        "chinese": "哎喲，你真是個好人。",
+        "english": "Ah, you're really a good person.",
+        "pinyin": "Āiyō, nǐ zhēn shìge hǎo rén."
+      },
+      {
+        "chinese": "哎喲，怎麼這麼晚了？",
+        "english": "Oh no, why is it so late?",
+        "pinyin": "Āiyō, zěnme zhème wǎn le?"
+      },
+      {
+        "chinese": "哎喲，這個包包好看又實用。",
+        "english": "Wow, this bag is both beautiful and practical.",
+        "pinyin": "Āiyō, zhège bāo bāo hǎo kàn yòu shíyòng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "挨": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他堅持挨著我走。",
+        "english": "He insists on walking beside me.",
+        "pinyin": "Tā jiānchí āi zhe wǒ zǒu."
+      },
+      {
+        "chinese": "他站在我旁邊挨著我。",
+        "english": "He stands next to me, close to me.",
+        "pinyin": "Tā zhàn zài wǒ pángbiān āi zhe wǒ."
+      },
+      {
+        "chinese": "他不想挨那麼近的人。",
+        "english": "He doesn't want to be close to people.",
+        "pinyin": "Tā bùxiǎng āi nàme jìn de rén."
+      },
+      {
+        "chinese": "他受了一點傷，但還能挨受。",
+        "english": "He got a little hurt, but can still bear it.",
+        "pinyin": "Tā shòu le yīdiǎn shāng, dàn hái néng āi shòu."
+      },
+      {
+        "chinese": "為了成功，他願意挨一切困難。",
+        "english": "For success, he is willing to endure all difficulties.",
+        "pinyin": "Wèi le chénggōng, tā yuànyì āi yīqiè kùnnan."
+      }
+    ],
+    "gpt-4": []
+  },
+  "癌症": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "現代社會癌症的發病率越來越高。",
+        "english": "The incidence of cancer in modern society is becoming increasingly high.",
+        "pinyin": "Xiàndài shèhuì áizhèng de fābìng lǜ yuè lái yuè gāo."
+      },
+      {
+        "chinese": "依照醫生的建議，他要接受抗癌治療。",
+        "english": "According to the doctor's recommendation, he needs to undergo cancer treatment.",
+        "pinyin": "Yīzhào yīshēng de jiànyì, tā yào jiēshòu kàng ái zhìliáo."
+      },
+      {
+        "chinese": "癌症的治療需要經常定期檢查。",
+        "english": "Cancer treatment requires regular check-ups.",
+        "pinyin": "Áizhèng de zhìliáo xūyào jīngcháng dìngqī jiǎnchá."
+      },
+      {
+        "chinese": "她的外婆得了乳腺癌，經過手術和化療後現在已經康復了。",
+        "english": "Her grandmother had breast cancer, but after surgery and chemotherapy, she has now recovered.",
+        "pinyin": "Tā de wàipó déle rǔxiàn ái, jīngguò shǒushù hé huàliáo hòu xiànzài yǐjīng kāngfù le."
+      },
+      {
+        "chinese": "他們正在進行有關癌症的研究。",
+        "english": "They are conducting research on cancer.",
+        "pinyin": "Tāmen zhèngzài jìnxíng yǒuguān áizhèng de yánjiū."
+      }
+    ],
+    "gpt-4": []
+  },
+  "愛不釋手": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他買了一部新手機，愛不釋手。",
+        "english": "He bought a new mobile phone and can't put it down.",
+        "pinyin": "Tā mǎi le yī bù xīn shǒujī, àibùshìshǒu."
+      },
+      {
+        "chinese": "我喜歡音樂，每天都愛不釋手地聽。",
+        "english": "I love music and listen to it every day without getting tired of it.",
+        "pinyin": "Wǒ xǐhuān yīnyuè, měitiān dōu àibùshìshǒu de tīng."
+      },
+      {
+        "chinese": "她對閱讀感興趣，看到好書就愛不釋手。",
+        "english": "She is interested in reading and can't let go of a good book when she sees one.",
+        "pinyin": "Tā duì yuèdú gǎn xìngqù, kàndào hǎoshū jiù àibùshìshǒu."
+      },
+      {
+        "chinese": "這部電影太精彩了，讓我愛不釋手。",
+        "english": "This movie is so wonderful that I can't stop watching it.",
+        "pinyin": "Zhè bù diànyǐng tài jīngcǎi le, ràng wǒ àibùshìshǒu."
+      },
+      {
+        "chinese": "他對攝影有熱情，每次拍照都愛不釋手。",
+        "english": "He is passionate about photography and can't help but take pictures every time.",
+        "pinyin": "Tā duì shèyǐng yǒu rèqíng, měi cì pāizhào dōu àibùshìshǒu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "愛戴": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這位藝術家深受觀眾愛戴。",
+        "english": "This artist is deeply loved and respected by the audience.",
+        "pinyin": "Zhè wèi yìshùjiā shēnshòu guānzhòng àidài."
+      },
+      {
+        "chinese": "在我們的文化中，長輩是值得愛戴的。",
+        "english": "In our culture, the elders are deserving of love and respect.",
+        "pinyin": "Zài wǒmen de wénhuà zhōng, zhǎngbèi shì zhídé àidài de."
+      },
+      {
+        "chinese": "這位領導人受到全國人民的愛戴。",
+        "english": "This leader is loved and respected by the whole nation.",
+        "pinyin": "Zhè wèi lǐngdǎo rén shòudào quánguó rénmín de àidài."
+      },
+      {
+        "chinese": "這位老師以其幽默風趣贏得學生的愛戴。",
+        "english": "This teacher wins the love and respect of the students with his humor and wit.",
+        "pinyin": "Zhè wèi lǎoshī yǐ qí yōumò fēngqù yíngdé xuéshēng de àidài."
+      },
+      {
+        "chinese": "這本書作者以其深思熟慮的觀點贏得了讀者的愛戴。",
+        "english": "The author of this book has won the love and respect of the readers with his thoughtful perspective.",
+        "pinyin": "Zhè běn shū zuòzhě yǐ qí shēnsīshúlǜ de guāndiǎn yíngdéle dúzhě de àidài."
+      }
+    ],
+    "gpt-4": []
+  },
+  "曖昧": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他们的关系很曖昧。",
+        "english": "Their relationship is very ambiguous.",
+        "pinyin": "Tāmen de guānxi hěn àimèi."
+      },
+      {
+        "chinese": "她的回答让我感到曖昧。",
+        "english": "Her answer made me feel ambiguous.",
+        "pinyin": "Tā de huídá ràng wǒ gǎndào àimèi."
+      },
+      {
+        "chinese": "他的言行曖昧，让人难以捉摸。",
+        "english": "His words and actions are ambiguous, making it difficult to figure him out.",
+        "pinyin": "Tā de yánxíng àimèi, ràng rén nányǐ zhuōmō."
+      },
+      {
+        "chinese": "她喜欢和他保持曖昧的关系。",
+        "english": "She likes to maintain an ambiguous relationship with him.",
+        "pinyin": "Tā xǐhuan hé tā bǎochí àimèi de guānxi."
+      },
+      {
+        "chinese": "这个问题没有一个明确的答案，而是充满了曖昧。",
+        "english": "There is no definite answer to this question, but it is filled with ambiguity.",
+        "pinyin": "Zhège wèntí méiyǒu yīgè míngquè de dáàn, érshì chōngmǎnle àimèi."
+      }
+    ],
+    "gpt-4": []
+  },
+  "安居樂業": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "老師教我們努力學習，將來可以安居樂業。",
+        "english": "The teacher teaches us to study hard so that we can have a peaceful and fulfilling life in the future.",
+        "pinyin": "Lǎoshī jiāo wǒmen nǔlì xuéxí, jiānglái kěyǐ ānjūlèyè."
+      },
+      {
+        "chinese": "這座城市的人們都希望能夠安居樂業。",
+        "english": "The people in this city all hope to have a peaceful and fulfilling life.",
+        "pinyin": "Zhè zuò chéngshì de rénmen dōu xīwàng nénggòu ānjūlèyè."
+      },
+      {
+        "chinese": "財務狀況良好是實現安居樂業的重要基礎。",
+        "english": "Having a good financial situation is an important foundation for achieving a peaceful and fulfilling life.",
+        "pinyin": "Cáiwù zhuàngkuàng liánghǎo shì shíxiàn ānjūlèyè de zhòngyào jīchǔ."
+      },
+      {
+        "chinese": "他每天都在努力工作，為了能夠實現安居樂業。",
+        "english": "He works hard every day in order to achieve a peaceful and fulfilling life.",
+        "pinyin": "Tā měitiān dōu zài nǔlì gōngzuò, wèile nénggòu shíxiàn ānjūlèyè."
+      },
+      {
+        "chinese": "他堅持努力奮鬥，最終成功地實現了安居樂業的夢想。",
+        "english": "He persisted and worked hard, eventually successfully realizing his dream of a peaceful and fulfilling life.",
+        "pinyin": "Tā jiānchí nǔlì fèndòu, zuìzhōng chénggōng de shíxiànle ānjūlèyè de mèngxiǎng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "安寧": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個社區很安寧，適合居住。",
+        "english": "This neighborhood is very peaceful and suitable for living.",
+        "pinyin": "Zhège shèqū hěn ānníng, shìhé jūzhù."
+      },
+      {
+        "chinese": "我們需要創造一個安寧的工作環境。",
+        "english": "We need to create a peaceful work environment.",
+        "pinyin": "Wǒmen xūyào chuàngzào yīgè ānníng de gōngzuò huánjìng."
+      },
+      {
+        "chinese": "她在泰山上尋找心靈的安寧。",
+        "english": "She is searching for spiritual tranquility on Mount Tai.",
+        "pinyin": "Tā zài tàishān shàng xúnzhǎo xīnlíng de ānníng."
+      },
+      {
+        "chinese": "這裡的美麗景色和平靜的氛圍帶來了安寧感。",
+        "english": "The beautiful scenery and peaceful atmosphere here bring a sense of tranquility.",
+        "pinyin": "Zhèlǐ de měilì jǐngsè hé píngjìng de fēnwéi dài lái le ānníng gǎn."
+      },
+      {
+        "chinese": "我在德國的一個小村莊中找到了內心的安寧。",
+        "english": "I found inner peace in a small village in Germany.",
+        "pinyin": "Wǒ zài déguó de yīgè xiǎo cūnzhuāng zhōng zhǎodào le nèixīn de ānníng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "安詳": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "她的臥室總是佈置得很安詳。",
+        "english": "Her bedroom is always decorated very peacefully.",
+        "pinyin": "Tā de wòshì zǒngshì bùzhì de hěn ānxiáng."
+      },
+      {
+        "chinese": "老人臨終時顯得非常安詳。",
+        "english": "The old man appeared very serene at the end of his life.",
+        "pinyin": "Lǎorén línzhōng shí xiǎnde fēicháng ānxiáng."
+      },
+      {
+        "chinese": "在這座寧靜的山莊裡，人們過著安詳的生活。",
+        "english": "In this peaceful village, people lead tranquil lives.",
+        "pinyin": "Zài zhè zuò níngjìng de shānzhuāng lǐ, rénmen guòzhe ānxiáng de shēnghuó."
+      },
+      {
+        "chinese": "我喜歡在安詳的環境中讀書。",
+        "english": "I like to study in a calm environment.",
+        "pinyin": "Wǒ xǐhuān zài ānxiáng de huánjìng zhòng dúshū."
+      },
+      {
+        "chinese": "大自然帶給我們一種安詳的感覺。",
+        "english": "Nature gives us a peaceful feeling.",
+        "pinyin": "Dàzìrán dài gěi wǒmen yī zhǒng ānxiáng de gǎnjué."
+      }
+    ],
+    "gpt-4": []
+  },
+  "安置": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們需要安置這些無家可歸的人。",
+        "english": "We need to provide shelter for these homeless people.",
+        "pinyin": "Wǒmen xūyào ānzhì zhèxiē wújiākěguī de rén."
+      },
+      {
+        "chinese": "他們將老人安置在一個舒適的養老院裡。",
+        "english": "They placed the elderly in a comfortable nursing home.",
+        "pinyin": "Tāmen jiāng lǎorén ānzhì zài yīge shūshì de yǎnglǎoyuàn lǐ."
+      },
+      {
+        "chinese": "我們找到了一間房子來安置難民。",
+        "english": "We found a house to accommodate the refugees.",
+        "pinyin": "Wǒmen zhǎodàole yī jiān fángzi lái ānzhì nànmín."
+      },
+      {
+        "chinese": "政府正在制定計劃，以安置受災居民。",
+        "english": "The government is working on a plan to resettle the affected residents.",
+        "pinyin": "Zhèngfǔ zhèngzài zhìdìng jìhuà, yǐ ānzhì shòuzāi jūmín."
+      },
+      {
+        "chinese": "他們將這批新來的移民安置在城市的邊緣。",
+        "english": "They settled the new immigrants on the outskirts of the city.",
+        "pinyin": "Tāmen jiāng zhè pī xīn lái de yímín ānzhì zài chéngshì de biānyuán."
+      }
+    ],
+    "gpt-4": []
+  }
+}

@@ -1,1 +1,302 @@
-{}
+{
+  "愛情": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "愛情是一種強烈的情感。",
+        "english": "Love is a strong emotion.",
+        "pinyin": "Àiqíng shì yī zhǒng qiángliè de qínggǎn."
+      },
+      {
+        "chinese": "他們的愛情故事很感人。",
+        "english": "Their love story is very touching.",
+        "pinyin": "Tāmen de àiqíng gùshì hěn gǎnrén."
+      },
+      {
+        "chinese": "她深深地愛戀著他。",
+        "english": "She deeply loves him.",
+        "pinyin": "Tā shēnshēn de àiliàn zhe tā."
+      },
+      {
+        "chinese": "他們的愛情經歷過風雨。",
+        "english": "Their love has experienced ups and downs.",
+        "pinyin": "Tāmen de àiqíng jīnglì guò fēngyǔ."
+      },
+      {
+        "chinese": "這是一段不平凡的愛情。",
+        "english": "This is an extraordinary love story.",
+        "pinyin": "Zhè shì yī duàn bù píngfán de àiqíng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "安排": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "老師要安排學生的課程。",
+        "english": "The teacher needs to arrange the students' curriculum.",
+        "pinyin": "Lǎoshī yào ānpái xuéshēng de kèchéng."
+      },
+      {
+        "chinese": "我們需要安排一個會議。",
+        "english": "We need to arrange a meeting.",
+        "pinyin": "Wǒmen xūyào ānpái yīgè huìyì."
+      },
+      {
+        "chinese": "公司已經安排好了工作的時間表。",
+        "english": "The company has already arranged the schedule for the work.",
+        "pinyin": "Gōngsī yǐjīng ānpái hǎole gōngzuò de shíjiān biǎo."
+      },
+      {
+        "chinese": "明天我們要安排一個戶外活動。",
+        "english": "Tomorrow we are going to arrange an outdoor activity.",
+        "pinyin": "Míngtiān wǒmen yào ānpái yīgè hùwài huódòng."
+      },
+      {
+        "chinese": "我們需要安排一輛車去機場接客人。",
+        "english": "We need to arrange a car to pick up guests from the airport.",
+        "pinyin": "Wǒmen xūyào ānpái yī liàng chē qù jīchǎng jiē kèrén."
+      }
+    ],
+    "gpt-4": []
+  },
+  "安全": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們需要確保網路的安全。",
+        "english": "We need to ensure the security of the internet.",
+        "pinyin": "Wǒmen xūyào quèbǎo wǎnglù de ānquán."
+      },
+      {
+        "chinese": "小心駕駛是確保交通安全的重要因素。",
+        "english": "Driving carefully is an important factor in ensuring traffic safety.",
+        "pinyin": "Xiǎoxīn jiàshǐ shì quèbǎo jiāotōng ānquán de zhòngyào yīnsù."
+      },
+      {
+        "chinese": "學校在學生上下學時要確保他們的安全。",
+        "english": "Schools must ensure the safety of their students when they go to and from school.",
+        "pinyin": "Xuéxiào zài xuéshēng shàng xiàxué shí yào quèbǎo tāmen de ānquán."
+      },
+      {
+        "chinese": "我們應該隨身攜帶急救箱以確保旅行的安全。",
+        "english": "We should carry a first aid kit with us to ensure travel safety.",
+        "pinyin": "Wǒmen yīnggāi suíshēn xiédài jíjiù xiāng yǐ quèbǎo lǚxíng de ānquán."
+      },
+      {
+        "chinese": "重要文件應該存放在安全的地方。",
+        "english": "Important documents should be stored in a safe place.",
+        "pinyin": "Zhòngyào wénjiàn yīnggāi cúnfàng zài ānquán de dìfāng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "暗": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "在晚上，房間很暗。",
+        "english": "At night, the room is very dark.",
+        "pinyin": "Zài wǎnshàng, fángjiān hěn àn."
+      },
+      {
+        "chinese": "他喜歡看恐怖電影，因為喜歡暗的氛圍。",
+        "english": "He likes watching horror movies because he enjoys the dark atmosphere.",
+        "pinyin": "Tā xǐhuān kàn kǒngbù diànyǐng, yīnwèi xǐhuān àn de fēnwéi."
+      },
+      {
+        "chinese": "她不敢走進那個黑暗的洞穴。",
+        "english": "She doesn't dare to enter the dark cave.",
+        "pinyin": "Tā bù gǎn zǒu jìn nàge hēi'àn de dòngxué."
+      },
+      {
+        "chinese": "夜晚的街道很暗，沒有路燈照亮。",
+        "english": "The streets at night are very dark, with no street lights to illuminate.",
+        "pinyin": "Yèwǎn de jiēdào hěn àn, méiyǒu lùdēng zhàoliàng."
+      },
+      {
+        "chinese": "他蒙著眼睛走在一條陌生的暗巷裡。",
+        "english": "He walked blindfolded in a strange dark alley.",
+        "pinyin": "Tā méngzhe yǎnjing zǒu zài yītiáo mòshēng de àn xiàng lǐ."
+      }
+    ],
+    "gpt-4": []
+  },
+  "按時": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天都按時吃早餐。",
+        "english": "I eat breakfast on time every day.",
+        "pinyin": "Wǒ měitiān dōu ànshí chī zǎocān."
+      },
+      {
+        "chinese": "請按時到達機場。",
+        "english": "Please arrive at the airport on time.",
+        "pinyin": "Qǐng ànshí dàodá jīchǎng."
+      },
+      {
+        "chinese": "他從不按時完成任務。",
+        "english": "He never completes tasks on time.",
+        "pinyin": "Tā cóngbù ànshí wánchéng rènwu."
+      },
+      {
+        "chinese": "這個鬧鐘可以幫助你按時起床。",
+        "english": "This alarm clock can help you wake up on time.",
+        "pinyin": "Zhège nàozhōng kěyǐ bāngzhù nǐ ànshí qǐchuáng."
+      },
+      {
+        "chinese": "我要記得按時吃藥。",
+        "english": "I need to remember to take medicine on time.",
+        "pinyin": "Wǒ yào jìde ànshí chī yào."
+      }
+    ],
+    "gpt-4": []
+  },
+  "按照": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們要按照計劃去完成任務。",
+        "english": "We need to follow the plan to complete the task.",
+        "pinyin": "Wǒmen yào ànzhào jìhuà qù wánchéng rènwù."
+      },
+      {
+        "chinese": "請按照規定填寫報名表。",
+        "english": "Please fill out the registration form according to the regulations.",
+        "pinyin": "Qǐng ànzhào guīdìng tiánxiě bàomíng biǎo."
+      },
+      {
+        "chinese": "老師建議按照課本的順序學習。",
+        "english": "The teacher suggests learning according to the order of the textbook.",
+        "pinyin": "Lǎoshī jiànyì ànzhào kèběn de shùnxù xuéxí."
+      },
+      {
+        "chinese": "這次會議將按照時間表進行。",
+        "english": "This meeting will proceed according to the schedule.",
+        "pinyin": "Zhè cì huìyì jiāng ànzhào shíjiān biǎo jìnxíng."
+      },
+      {
+        "chinese": "請按照指示操作機器。",
+        "english": "Please operate the machine according to the instructions.",
+        "pinyin": "Qǐng ànzhào zhǐshì cāozuò jīqì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "包括": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這份合同包括了所有的條款。",
+        "english": "This contract includes all the terms.",
+        "pinyin": "Zhè fèn hétong bāokuò le suǒyǒu de tiáokuǎn."
+      },
+      {
+        "chinese": "這個報告包括了各種資料。",
+        "english": "This report includes various data.",
+        "pinyin": "Zhège bàogào bāokuò le gèzhǒng zīliào."
+      },
+      {
+        "chinese": "這本書包括了許多有趣的故事。",
+        "english": "This book includes many interesting stories.",
+        "pinyin": "Zhè běn shū bāokuò le xǔduō yǒuqù de gùshì."
+      },
+      {
+        "chinese": "這餐廳的套餐包括了主菜和飲料。",
+        "english": "The set menu of this restaurant includes the main course and a drink.",
+        "pinyin": "Zhè cāntīng de tàocān bāokuò le zhǔcài hé yǐnliào."
+      },
+      {
+        "chinese": "這個計畫包括了時程和預算。",
+        "english": "This plan includes the schedule and budget.",
+        "pinyin": "Zhège jìhuà bāokuò le shíchéng hé yùsuàn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "保護": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "父母要保護他們的孩子。",
+        "english": "Parents want to protect their children.",
+        "pinyin": "Fùmǔ yào bǎohù tāmen de háizi."
+      },
+      {
+        "chinese": "大家應該共同保護環境。",
+        "english": "Everyone should protect the environment together.",
+        "pinyin": "Dàjiā yīnggāi gòngtóng bǎohù huánjìng."
+      },
+      {
+        "chinese": "我們需要保護我們的隱私。",
+        "english": "We need to protect our privacy.",
+        "pinyin": "Wǒmen xūyào bǎohù wǒmen de yǐnsī."
+      },
+      {
+        "chinese": "這個村莊的居民非常重視保護文化遺產。",
+        "english": "The residents of this village attach great importance to protecting cultural heritage.",
+        "pinyin": "Zhège cūnzhuāng de jūmín fēicháng zhòngshì bǎohù wénhuà yíchǎn."
+      },
+      {
+        "chinese": "政府應該加強保護動物的措施。",
+        "english": "The government should strengthen measures to protect animals.",
+        "pinyin": "Zhèngfǔ yīnggāi jiāqiáng bǎohù dòngwù de cuòshī."
+      }
+    ],
+    "gpt-4": []
+  },
+  "保證": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我保證會按時完成這項任務。",
+        "english": "I promise to complete this task on time.",
+        "pinyin": "Wǒ bǎozhèng huì ànshí wánchéng zhè xiàng rènwù."
+      },
+      {
+        "chinese": "這家公司保證提供優質的產品和服務。",
+        "english": "This company guarantees to provide high-quality products and services.",
+        "pinyin": "Zhè jiā gōngsī bǎozhèng tígōng yōuzhì de chǎnpǐn hé fúwù."
+      },
+      {
+        "chinese": "他保證每天運動一小時。",
+        "english": "He promises to exercise for one hour every day.",
+        "pinyin": "Tā bǎozhèng měitiān yùndòng yī xiǎoshí."
+      },
+      {
+        "chinese": "這份保證書有效期為一年。",
+        "english": "This guarantee is valid for one year.",
+        "pinyin": "Zhè fèn bǎozhèng shū yǒuxiàoqī wéi yī nián."
+      },
+      {
+        "chinese": "你可以完全相信他的保證。",
+        "english": "You can completely trust his guarantee.",
+        "pinyin": "Nǐ kěyǐ wánquán xiāngxìn tā de bǎozhèng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "抱": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我抱著我的寵物貓。",
+        "english": "I am holding my pet cat.",
+        "pinyin": "Wǒ bàozhe wǒ de chǒngwù māo."
+      },
+      {
+        "chinese": "她抱著一束鮮花。",
+        "english": "She is holding a bunch of flowers.",
+        "pinyin": "Tā bàozhe yī shù xiānhuā."
+      },
+      {
+        "chinese": "我抱著一本書。",
+        "english": "I am holding a book.",
+        "pinyin": "Wǒ bàozhe yī běn shū."
+      },
+      {
+        "chinese": "他抱著一個玩具熊。",
+        "english": "He is holding a teddy bear.",
+        "pinyin": "Tā bàozhe yīgè wánjù xióng."
+      },
+      {
+        "chinese": "我抱著我的孩子。",
+        "english": "I am holding my child.",
+        "pinyin": "Wǒ bàozhe wǒ de háizi."
+      }
+    ],
+    "gpt-4": []
+  }
+}

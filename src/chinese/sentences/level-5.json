@@ -1,1 +1,302 @@
-{}
+{
+  "唉": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "唉，我昨天忘了帶鑰匙了。",
+        "english": "Oh no, I forgot to bring my keys yesterday.",
+        "pinyin": "Āi, wǒ zuótiān wàngle dài yàoshi le."
+      },
+      {
+        "chinese": "唉，天氣真糟糕。",
+        "english": "Oh, the weather is really bad.",
+        "pinyin": "Āi, tiānqì zhēn zāogāo."
+      },
+      {
+        "chinese": "唉，現在的年輕人都太依賴手機了。",
+        "english": "Sigh, young people nowadays rely too much on their mobile phones.",
+        "pinyin": "Āi, xiànzài de niánqīngrén dōu tài yīlài shǒujī le."
+      },
+      {
+        "chinese": "唉，我好想念我的家鄉。",
+        "english": "Ah, I miss my hometown so much.",
+        "pinyin": "Āi, wǒ hǎo xiǎngniàn wǒ de jiāxiāng."
+      },
+      {
+        "chinese": "唉，現在的物價真的越來越高了。",
+        "english": "Alas, the prices of goods nowadays are really getting higher and higher.",
+        "pinyin": "Āi, xiànzài de wùjià zhēn de yuè lái yuè gāo le."
+      }
+    ],
+    "gpt-4": []
+  },
+  "愛護": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "家長應該愛護孩子的安全。",
+        "english": "Parents should protect their children's safety.",
+        "pinyin": "Jiāzhǎng yīnggāi àihù háizi de ānquán."
+      },
+      {
+        "chinese": "我們應該愛護環境，不要隨便亂丟垃圾。",
+        "english": "We should protect the environment and not litter randomly.",
+        "pinyin": "Wǒmen yīnggāi àihù huánjìng, bùyào suíbiàn luàn diū lājī."
+      },
+      {
+        "chinese": "學校提倡學生愛護公物，不要隨意破壞。",
+        "english": "The school encourages students to take care of public property and not to damage it at will.",
+        "pinyin": "Xuéxiào tíchàng xuéshēng àihù gōngwù, bùyào suíyì pòhuài."
+      },
+      {
+        "chinese": "志願者們每天都在愛護流浪動物。",
+        "english": "Volunteers take care of stray animals every day.",
+        "pinyin": "Zhìyuànzhěmen měitiān dōu zài àihù liúlàng dòngwù."
+      },
+      {
+        "chinese": "我們應該愛護我們的文化遺產，不要隨便毀壞。",
+        "english": "We should protect our cultural heritage and not destroy it casually.",
+        "pinyin": "Wǒmen yīnggāi àihù wǒmen de wénhuà yíchǎn, bùyào suíbiàn huǐhuài."
+      }
+    ],
+    "gpt-4": []
+  },
+  "愛惜": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們應該愛惜我們的環境。",
+        "english": "We should cherish our environment.",
+        "pinyin": "Wǒmen yīnggāi àixī wǒmen de huánjìng."
+      },
+      {
+        "chinese": "這本書是我非常愛惜的寶貝。",
+        "english": "This book is a treasure that I cherish very much.",
+        "pinyin": "Zhè běn shū shì wǒ fēicháng àixī de bǎobèi."
+      },
+      {
+        "chinese": "我們應該愛惜大自然的資源。",
+        "english": "We should treasure the resources of nature.",
+        "pinyin": "Wǒmen yīnggāi àixī dàzìrán de zīyuán."
+      },
+      {
+        "chinese": "愛惜時間，珍惜每一刻。",
+        "english": "Cherish time, treasure every moment.",
+        "pinyin": "Àixī shíjiān, zhēnxī měi yī kè."
+      },
+      {
+        "chinese": "她非常愛惜她的健康。",
+        "english": "She cherishes her health very much.",
+        "pinyin": "Tā fēicháng àixī tā de jiànkāng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "愛心": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他有一顆善良的愛心。",
+        "english": "He has a kind heart.",
+        "pinyin": "Tā yǒu yī kē shànliáng de àixīn."
+      },
+      {
+        "chinese": "我們應該用愛心對待他人。",
+        "english": "We should treat others with love and compassion.",
+        "pinyin": "Wǒmen yīnggāi yòng àixīn duìdài tārén."
+      },
+      {
+        "chinese": "捐款是一個表達愛心的方式。",
+        "english": "Donating money is a way to show compassion.",
+        "pinyin": "Juānkuǎn shì yī gè biǎodá àixīn de fāngshì."
+      },
+      {
+        "chinese": "學生們對他們的老師充滿了愛心。",
+        "english": "The students have a lot of love for their teacher.",
+        "pinyin": "Xuéshēngmen duì tāmen de lǎoshī chōngmǎnle àixīn."
+      },
+      {
+        "chinese": "有愛心的人總是樂於助人。",
+        "english": "People with a loving heart are always willing to help others.",
+        "pinyin": "Yǒu àixīn de rén zǒng shì lèyú zhùrén."
+      }
+    ],
+    "gpt-4": []
+  },
+  "安慰": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我會用溫暖的話語來安慰她。",
+        "english": "I will use comforting words to console her.",
+        "pinyin": "Wǒ huì yòng wēnnuǎn de huàyǔ lái ānwèi tā."
+      },
+      {
+        "chinese": "他們到醫院去安慰病人。",
+        "english": "They went to the hospital to comfort the patients.",
+        "pinyin": "Tāmen dào yīyuàn qù ānwèi bìngrén."
+      },
+      {
+        "chinese": "在困難的時候，朋友的安慰很重要。",
+        "english": "During difficult times, the comfort of friends is important.",
+        "pinyin": "Zài kùnnan de shíhou, péngyǒu de ānwèi hěn zhòngyào."
+      },
+      {
+        "chinese": "她的話語安慰了我受傷的心靈。",
+        "english": "Her words comforted my wounded soul.",
+        "pinyin": "Tā de huàyǔ ānwèi le wǒ shòushāng de xīnlíng."
+      },
+      {
+        "chinese": "我知道該如何安慰傷心的人。",
+        "english": "I know how to console someone who is heartbroken.",
+        "pinyin": "Wǒ zhīdào gāi rúhé ānwèi shāngxīn de rén."
+      }
+    ],
+    "gpt-4": []
+  },
+  "安裝": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "請問這個電視怎麼安裝？",
+        "english": "Excuse me, how do you install this television?",
+        "pinyin": "Qǐngwèn zhège diànshì zěnme ānzhuāng?"
+      },
+      {
+        "chinese": "我們需要找人來安裝空調。",
+        "english": "We need to find someone to install the air conditioning.",
+        "pinyin": "Wǒmen xūyào zhǎo rén lái ānzhuāng kōngtiáo."
+      },
+      {
+        "chinese": "安裝這個軟體需要一些時間。",
+        "english": "It takes some time to install this software.",
+        "pinyin": "Ānzhuāng zhège ruǎntǐ xūyào yīxiē shíjiān."
+      },
+      {
+        "chinese": "我剛剛安裝了一個新的應用程式。",
+        "english": "I just installed a new application.",
+        "pinyin": "Wǒ gānggāng ānzhuāngle yīgè xīn de yìngyòng chéngshì."
+      },
+      {
+        "chinese": "他們會幫你在家裡安裝網路。",
+        "english": "They will help you install the internet at home.",
+        "pinyin": "Tāmen huì bāng nǐ zài jiālǐ ānzhuāng wǎnglù."
+      }
+    ],
+    "gpt-4": []
+  },
+  "岸": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "小船停在岸邊。",
+        "english": "The small boat stopped at the shore.",
+        "pinyin": "Xiǎo chuán tíng zài àn biān."
+      },
+      {
+        "chinese": "他站在河岸上看風景。",
+        "english": "He stood on the riverbank and admired the scenery.",
+        "pinyin": "Tā zhàn zài hé àn shàng kàn fēngjǐng."
+      },
+      {
+        "chinese": "他游過去到對岸。",
+        "english": "He swam across to the other side of the shore.",
+        "pinyin": "Tā yóu guòqù dào duì'àn."
+      },
+      {
+        "chinese": "我喜歡坐在海岸上看日出。",
+        "english": "I enjoy sitting on the coast and watching the sunrise.",
+        "pinyin": "Wǒ xǐhuān zuò zài hǎi'àn shàng kàn rìchū."
+      },
+      {
+        "chinese": "傍晚時分，他們漫步在湖岸邊。",
+        "english": "In the evening, they took a stroll along the lakeshore.",
+        "pinyin": "Bàngwǎn shí fēn, tāmen mànbù zài hú'àn biān."
+      }
+    ],
+    "gpt-4": []
+  },
+  "把握": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他非常把握自己的未來。",
+        "english": "He is very confident about his future.",
+        "pinyin": "Tā fēicháng bǎwò zìjǐ de wèilái."
+      },
+      {
+        "chinese": "我們需要把握這個機會。",
+        "english": "We need to grasp this opportunity.",
+        "pinyin": "Wǒmen xūyào bǎwò zhège jīhuì."
+      },
+      {
+        "chinese": "你能把握住這個問題的關鍵嗎？",
+        "english": "Can you grasp the key to this problem?",
+        "pinyin": "Nǐ néng bǎwò zhù zhège wèntí de guānjiàn ma?"
+      },
+      {
+        "chinese": "我們應該把握住學習的機會。",
+        "english": "We should take advantage of the opportunity to learn.",
+        "pinyin": "Wǒmen yīnggāi bǎwò zhù xuéxí de jīhuì."
+      },
+      {
+        "chinese": "要成功，你必須把握好每個機會。",
+        "english": "To succeed, you must seize every opportunity.",
+        "pinyin": "Yào chénggōng, nǐ bìxū bǎwò hǎo měi gè jīhuì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "擺": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他把書擺在桌子上。",
+        "english": "He put the book on the table.",
+        "pinyin": "Tā bǎ shū bǎi zài zhuōzi shàng."
+      },
+      {
+        "chinese": "她把菜擺在盤子裡。",
+        "english": "She arranged the food on the plate.",
+        "pinyin": "Tā bǎ cài bǎi zài pánzi lǐ."
+      },
+      {
+        "chinese": "我喜歡把家裡打掃乾淨再擺張桌子。",
+        "english": "I like to clean the house and then set up a table.",
+        "pinyin": "Wǒ xǐhuan bǎ jiālǐ dǎsǎo gānjìng zài bǎi zhāng zhuōzi."
+      },
+      {
+        "chinese": "媽媽把花瓶擺在窗前。",
+        "english": "Mom put the vase in front of the window.",
+        "pinyin": "Māmā bǎ huāpíng bǎi zài chuāng qián."
+      },
+      {
+        "chinese": "明年我想把房間的擺設改變一下。",
+        "english": "Next year, I want to change the arrangement of the room.",
+        "pinyin": "Míngnián wǒ xiǎng bǎ fángjiān de bǎishè gǎibiàn yīxià."
+      }
+    ],
+    "gpt-4": []
+  },
+  "班主任": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們的班主任很嚴格。",
+        "english": "Our class teacher is very strict.",
+        "pinyin": "Wǒmen de bānzhǔrèn hěn yángé."
+      },
+      {
+        "chinese": "班主任給我們上了一堂有趣的課。",
+        "english": "The class teacher gave us an interesting lesson.",
+        "pinyin": "Bānzhǔrèn gěi wǒmen shàng le yī táng yǒuqù de kè."
+      },
+      {
+        "chinese": "班主任負責管理學生的學習和生活。",
+        "english": "The class teacher is responsible for managing students' learning and life.",
+        "pinyin": "Bānzhǔrèn fùzé guǎnlǐ xuéshēng de xuéxí hé shēnghuó."
+      },
+      {
+        "chinese": "我非常感謝我們的班主任對我們的關心和幫助。",
+        "english": "I am very grateful for the care and help from our class teacher.",
+        "pinyin": "Wǒ fēicháng gǎnxiè wǒmen de bānzhǔrèn duì wǒmen de guānxīn hé bāngzhù."
+      },
+      {
+        "chinese": "班主任在我們的成長過程中起著重要的作用。",
+        "english": "The class teacher plays an important role in our growth process.",
+        "pinyin": "Bānzhǔrèn zài wǒmen de chéngzhǎng guòchéng zhōng qǐ zhe zhòngyào de zuòyòng."
+      }
+    ],
+    "gpt-4": []
+  }
+}

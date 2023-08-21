@@ -194,10 +194,10 @@ async function generateSentencesForWord(
   }
 }
 
-const HSK_LEVEL: HskLevel = 1;
+const HSK_LEVEL: HskLevel = 6;
 const hsk = HSK_MAP[HSK_LEVEL];
 const { level } = hsk;
-const WORD_LIMIT = 25;
+const WORD_LIMIT = 10;
 const words = hsk.words.slice(0, WORD_LIMIT);
 const seenWords: string[] = [];
 

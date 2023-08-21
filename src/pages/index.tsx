@@ -322,6 +322,13 @@ export default function Home() {
   const percentComplete = index / hskWordLength;
   const widthPercentComplete = Math.round(percentComplete * width);
 
+  useEffect(() => {
+    setIndex(0);
+    setSentenceRevealIndex(0);
+    setContentRevealedIndex(0);
+    setCharacterRevealed(false);
+  }, [hskLevel]);
+
   const next = useCallback(() => {
     setIndex((cur) => (hasNext ? cur + 1 : cur));
     setSentenceRevealIndex(0);
@@ -393,7 +400,12 @@ export default function Home() {
           </div>
           <div className="flex flex-row items-center gap-4">
             <p className="text-slate-400">HSK Level</p>
-            <SelectHskLevel onValueChanged={setHskLevel} value={hskLevel} />
+            <SelectHskLevel
+              onValueChanged={(val) => {
+                setHskLevel(val);
+              }}
+              value={hskLevel}
+            />
           </div>
           <CharacterCard
             characterRevealed={characterRevealed}

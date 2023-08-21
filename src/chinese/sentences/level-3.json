@@ -1,1 +1,302 @@
-{}
+{
+  "阿姨": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每個星期會去探望阿姨。",
+        "english": "I visit my aunt every week.",
+        "pinyin": "Wǒ měi gè xīngqī huì qù tànwàng āyí."
+      },
+      {
+        "chinese": "我的阿姨是一位教師。",
+        "english": "My aunt is a teacher.",
+        "pinyin": "Wǒ de āyí shì yī wèi jiàoshī."
+      },
+      {
+        "chinese": "阿姨常常幫我做晚餐。",
+        "english": "My aunt often helps me with dinner.",
+        "pinyin": "Āyí chángcháng bāng wǒ zuò wǎncān."
+      },
+      {
+        "chinese": "明天阿姨要來我們家作客。",
+        "english": "My aunt is coming to our house as a guest tomorrow.",
+        "pinyin": "Míngtiān āyí yào lái wǒmen jiā zuòkè."
+      },
+      {
+        "chinese": "阿姨的笑聲很好聽。",
+        "english": "My aunt's laughter sounds very pleasant.",
+        "pinyin": "Āyí de xiàoshēng hěn hǎotīng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "啊": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "啊，我終於放假了！",
+        "english": "Ah, I finally have a vacation!",
+        "pinyin": "A, wǒ zhōngyú fàngjià le!"
+      },
+      {
+        "chinese": "他想去旅遊啊。",
+        "english": "He wants to travel, you know.",
+        "pinyin": "Tā xiǎng qù lǚyóu a."
+      },
+      {
+        "chinese": "這個問題太難啊！",
+        "english": "This question is too difficult, ah!",
+        "pinyin": "Zhège wèntí tài nán a!"
+      },
+      {
+        "chinese": "明天要下雨啊。",
+        "english": "It's going to rain tomorrow.",
+        "pinyin": "Míngtiān yào xià yǔ a."
+      },
+      {
+        "chinese": "啊！我掉了手機！",
+        "english": "Ah! I dropped my phone!",
+        "pinyin": "A! Wǒ diào le shǒujī!"
+      }
+    ],
+    "gpt-4": []
+  },
+  "矮": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他的身高很矮。",
+        "english": "He is very short.",
+        "pinyin": "Tā de shēngāo hěn ǎi."
+      },
+      {
+        "chinese": "這座橋很矮。",
+        "english": "This bridge is low.",
+        "pinyin": "Zhè zuò qiáo hěn ǎi."
+      },
+      {
+        "chinese": "這棟房子太矮了。",
+        "english": "This building is too short.",
+        "pinyin": "Zhè dòng fángzi tài ǎi le."
+      },
+      {
+        "chinese": "我比他矮一點。",
+        "english": "I am a little shorter than him.",
+        "pinyin": "Wǒ bǐ tā ǎi yīdiǎn."
+      },
+      {
+        "chinese": "雲層很低，感覺好像要撞到矮山一樣。",
+        "english": "The cloud layer is low, it feels like it's going to hit the low mountain.",
+        "pinyin": "Yún céng hěn dī, gǎnjué hǎoxiàng yào zhuàng dào ǎishān yīyàng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "愛好": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他的愛好是唱歌和跳舞。",
+        "english": "His hobbies are singing and dancing.",
+        "pinyin": "Tā de àihào shì chànggē hé tiàowǔ."
+      },
+      {
+        "chinese": "我沒有什麼特別的愛好。",
+        "english": "I don't have any particular hobbies.",
+        "pinyin": "Wǒ méiyǒu shénme tèbié de àihào."
+      },
+      {
+        "chinese": "她的愛好是閱讀和寫作。",
+        "english": "Her hobbies are reading and writing.",
+        "pinyin": "Tā de àihào shì yuèdú hé xiězuò."
+      },
+      {
+        "chinese": "我的愛好是打羽毛球和爬山。",
+        "english": "My hobbies are playing badminton and hiking.",
+        "pinyin": "Wǒ de àihào shì dǎ yǔmáoqiú hé páshān."
+      },
+      {
+        "chinese": "你的愛好是什麼？",
+        "english": "What are your hobbies?",
+        "pinyin": "Nǐ de àihào shì shénme?"
+      }
+    ],
+    "gpt-4": []
+  },
+  "安靜": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "課堂裡應該保持安靜。",
+        "english": "You should keep quiet in the classroom.",
+        "pinyin": "Kètáng lǐ yīnggāi bǎochí ānjìng."
+      },
+      {
+        "chinese": "我們需要一個安靜的地方來工作。",
+        "english": "We need a quiet place to work.",
+        "pinyin": "Wǒmen xūyào yīgè ānjìng de dìfāng lái gōngzuò."
+      },
+      {
+        "chinese": "我喜歡在晚上散步，那時候很安靜。",
+        "english": "I like to take a walk in the evening, it's very quiet then.",
+        "pinyin": "Wǒ xǐhuān zài wǎnshàng sànbù, nà shíhòu hěn ānjìng."
+      },
+      {
+        "chinese": "請保持安靜，不要吵到別人。",
+        "english": "Please keep quiet and don't disturb others.",
+        "pinyin": "Qǐng bǎochí ānjìng, búyào chǎo dào biérén."
+      },
+      {
+        "chinese": "這個圖書館要求讀者保持安靜。",
+        "english": "This library requires readers to keep quiet.",
+        "pinyin": "Zhège túshūguǎn yāoqiú dúzhě bǎochí ānjìng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "把": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我把書放在桌子上。",
+        "english": "I put the book on the table.",
+        "pinyin": "Wǒ bǎ shū fàng zài zhuōzi shàng."
+      },
+      {
+        "chinese": "請把門關上。",
+        "english": "Please close the door.",
+        "pinyin": "Qǐng bǎ mén guānshàng."
+      },
+      {
+        "chinese": "他把錢放進錢包裡。",
+        "english": "He put the money into the wallet.",
+        "pinyin": "Tā bǎ qián fàng jìn qiánbāo lǐ."
+      },
+      {
+        "chinese": "那個老師把知識傳授給學生。",
+        "english": "That teacher imparts knowledge to students.",
+        "pinyin": "Nàge lǎoshī bǎ zhīshì chuánshòu gěi xuéshēng."
+      },
+      {
+        "chinese": "她把信寄給了她的朋友。",
+        "english": "She sent the letter to her friend.",
+        "pinyin": "Tā bǎ xìn jì gěile tā de péngyǒu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "班": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我明天有一堂中文班。",
+        "english": "I have a Chinese class tomorrow.",
+        "pinyin": "Wǒ míngtiān yǒu yī táng zhōngwén bān."
+      },
+      {
+        "chinese": "這個班的同學都很友善。",
+        "english": "The classmates in this class are all very friendly.",
+        "pinyin": "Zhège bān de tóngxué dōu hěn yǒushàn."
+      },
+      {
+        "chinese": "我現在在上大學班。",
+        "english": "I'm currently in college.",
+        "pinyin": "Wǒ xiànzài zài shàng dàxué bān."
+      },
+      {
+        "chinese": "我喜歡這個班的氛圍。",
+        "english": "I like the atmosphere of this class.",
+        "pinyin": "Wǒ xǐhuān zhège bān de fēnwéi."
+      },
+      {
+        "chinese": "星期五我們班有一個考試。",
+        "english": "We have a test in our class on Friday.",
+        "pinyin": "Xīngqīwǔ wǒmen bān yǒu yīgè kǎoshì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "搬": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我需要幫忙搬家。",
+        "english": "I need help moving.",
+        "pinyin": "Wǒ xūyào bāngmáng bānjiā."
+      },
+      {
+        "chinese": "他們將會搬到新公寓。",
+        "english": "They will move to a new apartment.",
+        "pinyin": "Tāmen jiāng huì bān dào xīn gōngyù."
+      },
+      {
+        "chinese": "我們正在計劃搬離這個城市。",
+        "english": "We are planning to move out of this city.",
+        "pinyin": "Wǒmen zhèngzài jìhuà bān lí zhèige chéngshì."
+      },
+      {
+        "chinese": "請小心，別搬到重的物品。",
+        "english": "Please be careful not to move heavy items.",
+        "pinyin": "Qǐng xiǎoxīn, bié bān dào zhòng de wùpǐn."
+      },
+      {
+        "chinese": "我需要一輛卡車來搬東西。",
+        "english": "I need a truck to move things.",
+        "pinyin": "Wǒ xūyào yī liàng kǎchē lái bān dōngxī."
+      }
+    ],
+    "gpt-4": []
+  },
+  "半": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他的生日是一月半。",
+        "english": "His birthday is on the 15th of January.",
+        "pinyin": "Tā de shēngrì shì yī yuè bàn."
+      },
+      {
+        "chinese": "我看了半天，也找不到那本書。",
+        "english": "I looked for quite a while and still couldn't find that book.",
+        "pinyin": "Wǒ kàn le bàn tiān, yě zhǎo bù dào nà běn shū."
+      },
+      {
+        "chinese": "我每天早上要運動半小時。",
+        "english": "I exercise for half an hour every morning.",
+        "pinyin": "Wǒ měi tiān zǎo shàng yào yùn dòng bàn xiǎo shí."
+      },
+      {
+        "chinese": "請你等一等，我只需要半分鐘。",
+        "english": "Please wait a moment, I only need half a minute.",
+        "pinyin": "Qǐng nǐ děng yī děng, wǒ zhǐ xū yào bàn fēn zhōng."
+      },
+      {
+        "chinese": "我拿了一半的錢，你來補一半。",
+        "english": "I took half of the money, you contribute the other half.",
+        "pinyin": "Wǒ ná le yī bàn de qián, nǐ lái bǔ yī bàn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "辦法": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們要找一個解決問題的辦法。",
+        "english": "We need to find a solution to the problem.",
+        "pinyin": "Wǒmen yào zhǎo yīgè jiějué wèntí de bànfǎ."
+      },
+      {
+        "chinese": "你有什麼好的辦法嗎？",
+        "english": "Do you have any good ideas?",
+        "pinyin": "Nǐ yǒu shénme hǎo de bànfǎ ma?"
+      },
+      {
+        "chinese": "他想了很多辦法，才找到了工作。",
+        "english": "He tried many methods before finding a job.",
+        "pinyin": "Tā xiǎngle hěnduō bànfǎ, cái zhǎodàole gōngzuò."
+      },
+      {
+        "chinese": "學習的辦法有很多種。",
+        "english": "There are many ways to study.",
+        "pinyin": "Xuéxí de bànfǎ yǒu hěnduō zhǒng."
+      },
+      {
+        "chinese": "她用辦法打發了多餘的時間。",
+        "english": "She found a way to pass the spare time.",
+        "pinyin": "Tā yòng bànfǎ dǎfāle duōyú de shíjiān."
+      }
+    ],
+    "gpt-4": []
+  }
+}
