@@ -11,12 +11,14 @@ import {
 import { useInterval, useWindowSize } from "usehooks-ts";
 import { HSK_MAP } from "~/chinese/hsk";
 import { HSK_SENTENCE_MAP } from "~/chinese/sentences";
+import SelectHskLevel from "~/components/SelectHskLevel";
 import type HskEntry from "~/types/HskEntry";
 import type HskLevel from "~/types/HskLevel";
 import type MaybeNull from "~/types/MaybeNull";
 import { type GeneratedSentenceType } from "~/types/SentenceMap";
 import lastInArray from "~/utils/lastInArray";
 import randomInRange from "~/utils/randomInRange";
+import shuffleArray from "~/utils/shuffleArray";
 
 const highlightCharacter = (
   label: string,
@@ -113,18 +115,22 @@ type StudySentence = GeneratedSentenceType & {
 type CharacterCardProps = {
   characterRevealed: boolean;
   contentRevealedIndex: ContentRevealedIndex;
+  hskWordLength: number;
   sentenceRevealIndex: number;
   studySentences: StudySentence[];
   word: HskEntry;
+  wordIndex: number;
 };
 
 function CharacterCard(props: CharacterCardProps) {
   const {
     characterRevealed,
     contentRevealedIndex,
+    hskWordLength,
     sentenceRevealIndex,
     studySentences,
     word,
+    wordIndex,
   } = props;
   const [finishedTyping, setFinishedTyping] = useState(false);
 
@@ -144,8 +150,13 @@ function CharacterCard(props: CharacterCardProps) {
   const hasMoreSentences = currentSentences.length < studySentences.length;
   const currentSentence = lastInArray(currentSentences) ?? null;
   return (
-    <div className="flex flex-row p-6 gap-6 w-11/12 h-4/6 bg-slate-950 rounded-3xl">
-      <div className="w-4/12 p-8 flex justify-around items-center bg-slate-800 rounded-3xl">
+    <div className="flex flex-row p-6 gap-6 w-11/12 h-4/6 bg-slate-950 rounded-lg">
+      <div className="relative w-4/12 p-8 flex justify-around items-center bg-slate-800 rounded-lg">
+        <div className="absolute top-2">
+          <p className="text-slate-400">
+            {wordIndex + 1}/{hskWordLength}
+          </p>
+        </div>
         <div className="-mt-16">
           <p className="whitespace-nowrap text-rose-400" style={{ fontSize }}>
             {character}
@@ -158,7 +169,7 @@ function CharacterCard(props: CharacterCardProps) {
           )}
         </div>
       </div>
-      <div className="w-8/12 p-8 flex flex-col flex-grow justify-start bg-slate-800 rounded-3xl">
+      <div className="w-8/12 p-4 flex flex-col flex-grow justify-start bg-slate-800 rounded-lg">
         {currentSentences.map((sentence, index) => {
           const isCurrent = index === currentSentences.length - 1;
           return (
@@ -247,17 +258,20 @@ function getPreviousHskSentences(
   return previous;
 }
 
+const PROBABILITY_OF_ADDING_REVIEW_SENTENCES_PER_CARD = 100;
+const NUMBER_OF_REVIEW_SENTENCES_PER_CARD = 3;
+
 function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
   const hsk = HSK_MAP[hskLevel];
   const words = hsk.words;
   const word = words[currentIndex]!;
   const nextWord = words[currentIndex + 1];
-  const hskSentenceMap = HSK_SENTENCE_MAP[HSK_LEVEL];
+  const hskSentenceMap = HSK_SENTENCE_MAP[hskLevel];
   const hasNext = nextWord != null && nextWord.traditional in hskSentenceMap;
   const sentences = hskSentenceMap[word.traditional]!;
   const modelSentences = sentences[MODEL];
 
-  const studySentences: StudySentence[] = modelSentences.map((sentence) => {
+  let studySentences: StudySentence[] = modelSentences.map((sentence) => {
     return {
       ...sentence,
       character: word.traditional,
@@ -266,20 +280,21 @@ function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
   });
 
   const probability = randomInRange(0, 100);
-  if (probability < 40) {
+  if (probability < PROBABILITY_OF_ADDING_REVIEW_SENTENCES_PER_CARD) {
     const previousHskSentences = getPreviousHskSentences(
       hskLevel,
       currentIndex
     );
-    const randomSentenceIndex = randomInRange(0, previousHskSentences.length);
-    const randomStudySentencesIndex = randomInRange(0, studySentences.length);
-    const randomPreviousSentence = previousHskSentences[randomSentenceIndex]!;
-    const reviewSentence: StudySentence = {
-      ...randomPreviousSentence,
-      isReviewSentence: true,
-    };
 
-    studySentences.splice(randomStudySentencesIndex, 0, reviewSentence);
+    const randomStudySentences = shuffleArray(previousHskSentences)
+      .slice(0, NUMBER_OF_REVIEW_SENTENCES_PER_CARD)
+      .map((val) => {
+        return {
+          ...val,
+          isReviewSentence: true,
+        };
+      });
+    studySentences = shuffleArray(studySentences.concat(randomStudySentences));
   }
 
   return {
@@ -293,13 +308,14 @@ type ContentRevealedIndex = 0 | 1 | 2;
 
 export default function Home() {
   const [index, setIndex] = useState(0);
+  const [hskLevel, setHskLevel] = useState<HskLevel>(1);
   const [sentenceRevealIndex, setSentenceRevealIndex] = useState(0);
   const [contentRevealedIndex, setContentRevealedIndex] =
     useState<ContentRevealedIndex>(0);
   const [characterRevealed, setCharacterRevealed] = useState(false);
   const { hasNext, studySentences, word } = useMemo(
-    () => getCurrentContent(HSK_LEVEL, index),
-    [index]
+    () => getCurrentContent(hskLevel, index),
+    [index, hskLevel]
   );
   const { width } = useWindowSize();
   const hskWordLength = HSK_MAP[HSK_LEVEL].words.length;
@@ -375,12 +391,18 @@ export default function Home() {
               </p>
             </div>
           </div>
+          <div className="flex flex-row items-center gap-4">
+            <p className="text-slate-400">HSK Level</p>
+            <SelectHskLevel onValueChanged={setHskLevel} value={hskLevel} />
+          </div>
           <CharacterCard
             characterRevealed={characterRevealed}
             contentRevealedIndex={contentRevealedIndex}
+            hskWordLength={hskWordLength}
             sentenceRevealIndex={sentenceRevealIndex}
             studySentences={studySentences}
             word={word}
+            wordIndex={index}
           />
           <div className="flex gap-6 bg-slate-950 p-6 rounded-t-3xl">
             <button

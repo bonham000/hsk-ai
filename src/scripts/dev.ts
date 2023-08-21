@@ -2,7 +2,8 @@ import { execSync } from "child_process";
 import "dotenv/config";
 import { readFileSync, writeFileSync } from "fs";
 import { Configuration, OpenAIApi } from "openai";
-import lesson2 from "~/chinese/hsk/level-2";
+import { HSK_MAP } from "~/chinese/hsk";
+import type HskLevel from "~/types/HskLevel";
 import {
   type SentenceMap,
   type Model,
@@ -193,11 +194,18 @@ async function generateSentencesForWord(
   }
 }
 
-const { level } = lesson2;
-const words = lesson2.words.slice(0, 50);
+const HSK_LEVEL: HskLevel = 1;
+const hsk = HSK_MAP[HSK_LEVEL];
+const { level } = hsk;
+const WORD_LIMIT = 25;
+const words = hsk.words.slice(0, WORD_LIMIT);
 const seenWords: string[] = [];
 
 async function run() {
+  console.log(`Running sentence generation for HSK level ${HSK_LEVEL}.`);
+  console.log(`Generating sentences for ${WORD_LIMIT} words.`);
+  console.log("");
+
   const filepath = `src/chinese/sentences/level-${level}.json`;
   const sentenceMap = JSON.parse(
     readFileSync(filepath, "utf-8")
