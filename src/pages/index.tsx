@@ -221,7 +221,6 @@ function CharacterCard(props: CharacterCardProps) {
   );
 }
 
-const HSK_LEVEL = 2;
 const MODEL = "gpt-3.5-turbo";
 
 type ReviewSentence = GeneratedSentenceType & {
@@ -318,7 +317,7 @@ export default function Home() {
     [index, hskLevel]
   );
   const { width } = useWindowSize();
-  const hskWordLength = HSK_MAP[HSK_LEVEL].words.length;
+  const hskWordLength = HSK_MAP[hskLevel].words.length;
   const percentComplete = index / hskWordLength;
   const widthPercentComplete = Math.round(percentComplete * width);
 
@@ -400,12 +399,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row items-center gap-4">
             <p className="text-slate-400">HSK Level</p>
-            <SelectHskLevel
-              onValueChanged={(val) => {
-                setHskLevel(val);
-              }}
-              value={hskLevel}
-            />
+            <SelectHskLevel onValueChanged={setHskLevel} value={hskLevel} />
           </div>
           <CharacterCard
             characterRevealed={characterRevealed}
