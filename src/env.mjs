@@ -24,7 +24,7 @@ export const env = createEnv({
    * isn't built with invalid env vars.
    */
   server: {
-    DATABASE_URL: z.string().url().default(""),
+    DATABASE_URL: z.string().url().default("file:./db.sqlite"),
     NODE_ENV: z
       .enum(["development", "test", "production"])
       .default("development"),

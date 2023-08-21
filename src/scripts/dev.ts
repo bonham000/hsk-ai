@@ -9,6 +9,7 @@ import {
   type GeneratedSentenceType,
   GeneratedSentence,
 } from "~/types/SentenceMap";
+import shuffleArray from "~/utils/shuffleArray";
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
@@ -26,7 +27,7 @@ function generateStarterPrompt(word: string, seenWords: string[]) {
   representative of normal Chinese, varied, and easily readable.
 
   As we progress through the vocabulary list, feel free to re-introduce some
-  words that have already been seen. The words we've already seen so far are:
+  words that have already been seen. Here are some words we've seen so far:
   ${seenWords.join(", ")}. However, only do this occasionally.
   
   Finally, could you structure your response as JSON, e.g.
@@ -68,8 +69,8 @@ function generateIntermediatePrompt(
   sentences to be representative of normal Chinese, varied, and easily readable.
 
   As we progress through the vocabulary list, feel free to re-introduce some
-  HSK Level 4 words that have already been seen. The HSK ${hskLevel} words we've
-  already seen are: ${seenWords.join(", ")}. However, only do this occasionally.
+  HSK Level 4 words that have already been seen. Here are some words we've seen
+  so far: ${seenWords.join(", ")}. However, only do this occasionally.
   
   Finally, could you structure your response as JSON, e.g.
 
@@ -146,11 +147,11 @@ async function generateSentences(
   hskLevel: number
 ): Promise<GeneratedSentenceType[]> {
   console.log(`Current word = ${word}. Seen words = ${seenWords.join(", ")}`);
-  // TODO: Truncate seen words list which is passed to AI prompt.
+  const seenWordsSlice = shuffleArray(seenWords).slice(0, 100);
   const prompt =
     hskLevel === 1
-      ? generateStarterPrompt(word, seenWords)
-      : generateIntermediatePrompt(word, seenWords, hskLevel);
+      ? generateStarterPrompt(word, seenWordsSlice)
+      : generateIntermediatePrompt(word, seenWordsSlice, hskLevel);
   const completion = await openai.createChatCompletion({
     messages: [{ content: prompt, role: "user" }],
     model: "gpt-3.5-turbo",
