@@ -206,7 +206,7 @@ function CharacterCard(props: CharacterCardProps) {
         )}
       </div>
       <div
-        className="w-full md:w-8/12 p-4 flex overflow-y-scroll gap-2 flex-col flex-grow justify-start bg-slate-800 rounded-lg"
+        className="w-full md:w-8/12 p-4 flex overflow-y-scroll gap-2 md:gap-6 flex-col flex-grow justify-start bg-slate-800 rounded-lg"
         onClick={onTapSentencePanel}
       >
         {currentSentences.map((sentence, index) => {
