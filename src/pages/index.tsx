@@ -29,10 +29,6 @@ const highlightCharacter = (
   value: string,
   isReviewSentence: boolean
 ): ReactNode => {
-  if (!value) {
-    return label;
-  }
-
   return (
     <span>
       {label
@@ -222,9 +218,11 @@ function CharacterCard(props: CharacterCardProps) {
               isReviewSentence={sentence.isReviewSentence}
               key={sentence.chinese.replaceAll(" ", "")}
               onClick={(e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                onTapSentence();
+                if (isCurrent) {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  onTapSentence();
+                }
               }}
               setFinishedTyping={() => setFinishedTyping(true)}
             />
