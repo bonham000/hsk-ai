@@ -136,15 +136,19 @@ function CharacterCard(props: CharacterCardProps) {
   if (character.length === 3) {
     fontSize = 94;
   }
+  if (character.length > 3) {
+    fontSize = 78;
+  }
   const currentSentences = studySentences.slice(0, sentenceRevealIndex + 1);
   const hasMoreSentences = currentSentences.length < studySentences.length;
   const currentSentence = lastInArray(currentSentences) ?? null;
+  const percentProgress = ((wordIndex + 1) / hskWordLength) * 100;
   return (
     <div className="flex flex-row p-6 gap-6 w-11/12 h-4/6 bg-slate-950 rounded-lg">
       <div className="relative w-4/12 p-8 flex justify-around items-center bg-slate-800 rounded-lg">
         <div className="absolute top-2">
           <p className="text-slate-400">
-            {wordIndex + 1}/{hskWordLength}
+            {wordIndex + 1}/{hskWordLength} ({Math.round(percentProgress)}%)
           </p>
         </div>
         <div className="-mt-16">
@@ -152,7 +156,7 @@ function CharacterCard(props: CharacterCardProps) {
             {character}
           </p>
           {characterRevealed && (
-            <div className="flex gap-6 mt-4 flex-col text-slate-300 items-center">
+            <div className="flex gap-6 flex-col text-slate-300 items-center">
               <p className="text-6xl">{word.pinyin}</p>
               <p className="text-3xl">{word.english}</p>
             </div>
