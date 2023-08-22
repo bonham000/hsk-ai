@@ -118,6 +118,9 @@ type CharacterCardProps = {
   characterRevealed: boolean;
   contentRevealedIndex: ContentRevealedIndex;
   hskWordLength: number;
+  isMobileView: boolean;
+  onClickCharacterPanel: () => void;
+  onClickSentencePanel: () => void;
   sentenceRevealIndex: number;
   studySentences: StudySentence[];
   updateCheckpoints: () => void;
@@ -130,6 +133,9 @@ function CharacterCard(props: CharacterCardProps) {
     characterRevealed,
     contentRevealedIndex,
     hskWordLength,
+    isMobileView,
+    onClickCharacterPanel,
+    onClickSentencePanel,
     sentenceRevealIndex,
     studySentences,
     updateCheckpoints,
@@ -153,45 +159,56 @@ function CharacterCard(props: CharacterCardProps) {
   if (character.length > 3) {
     fontSize = 78;
   }
+  if (isMobileView) {
+    fontSize = 0.35 * fontSize;
+  }
   const currentSentences = studySentences.slice(0, sentenceRevealIndex + 1);
   const hasMoreSentences = currentSentences.length < studySentences.length;
   const currentSentence = lastInArray(currentSentences) ?? null;
   const percentProgress = ((wordIndex + 1) / hskWordLength) * 100;
   return (
-    <div className="flex flex-row p-6 gap-6 w-11/12 h-4/6 bg-slate-950 rounded-lg">
-      <div className="relative w-4/12 p-8 flex justify-around items-center bg-slate-800 rounded-lg">
-        <div className="absolute top-2">
-          <p className="text-slate-400">
+    <div className="flex flex-col items-center md:items-stretch md:flex-row p-2 md:p-6 gap-2 md:gap-6 w-11/12 h-4/6 md:max-h-full max-h-[400px] bg-slate-950 rounded-lg">
+      <div
+        className="relative w-full md:w-4/12 p-4 md:p-8 flex justify-around items-center bg-slate-800 rounded-lg"
+        onClick={onClickCharacterPanel}
+      >
+        <div className="absolute right-2 top-2">
+          <p className="text-slate-400 text-xs md:text-md">
             {wordIndex + 1}/{hskWordLength} ({Math.round(percentProgress)}%)
           </p>
         </div>
-        <div className="-mt-16">
+        <div className="flex flex-row items-center md:flex-col gap-8 md:gap-0 md:-mt-16">
           <p className="whitespace-nowrap text-rose-400" style={{ fontSize }}>
             {character}
           </p>
           {characterRevealed && (
             <div className="flex gap-6 flex-col text-slate-300 items-center">
-              <p className="text-6xl">{word.pinyin}</p>
-              <p className="text-3xl">{word.english}</p>
+              <p className="text-md md:text-6xl">{word.pinyin}</p>
+              <p className="text-md md:text-3xl">{word.english}</p>
             </div>
           )}
         </div>
-        <div className="absolute bottom-2">
-          <Toast
-            description={`Progress for this HSK level saved at ${word.traditional}.`}
-            onPress={updateCheckpoints}
-            text="Save Checkpoint"
-            title="Checkpoint Saved!"
-          />
-        </div>
+        {!isMobileView && (
+          <div className="absolute bottom-2">
+            <Toast
+              description={`Progress for this HSK level saved at ${word.traditional}.`}
+              onPress={updateCheckpoints}
+              text="Save Checkpoint"
+              title="Checkpoint Saved!"
+            />
+          </div>
+        )}
       </div>
-      <div className="w-8/12 p-4 flex flex-col flex-grow justify-start bg-slate-800 rounded-lg">
+      <div
+        className="w-full md:w-8/12 p-4 flex h-1/12 gap-4 max-h-1/12 overflow-y-scroll flex-col flex-grow justify-start bg-slate-800 rounded-lg"
+        onClick={onClickSentencePanel}
+      >
         {currentSentences.map((sentence, index) => {
           const isCurrent = index === currentSentences.length - 1;
           return (
             <TypedContent
               character={sentence.character}
-              className={`text-4xl leading-normal font-normal ${
+              className={`text-2xl md:text-5xl leading-5 font-normal ${
                 isCurrent ? "text-slate-200 font-light" : "text-slate-600"
               }`}
               content={sentence.chinese}
@@ -226,8 +243,12 @@ function CharacterCard(props: CharacterCardProps) {
           finishedTyping &&
           !contentRevealedIndex && (
             <TypedContent
-              className="mt-4 text-slate-400"
-              content="Press 'spacebar' to reveal the next sentence or press 'r' to reveal Pinyin/English."
+              className="text-xs md:text-lg mt-4 text-slate-400"
+              content={
+                isMobileView
+                  ? "Tap to reveal the next sentence."
+                  : "Press 'spacebar' to reveal the next sentence or press 'r' to reveal Pinyin/English."
+              }
               isCurrent={false}
               typingDelay={5}
             />
@@ -277,8 +298,6 @@ const PROBABILITY_OF_ADDING_REVIEW_SENTENCES_PER_CARD = 100;
 const NUMBER_OF_REVIEW_SENTENCES_PER_CARD = 3;
 
 function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
-  console.log("HI!", currentIndex);
-
   const hsk = HSK_MAP[hskLevel];
   const words = hsk.words;
   const word = words[currentIndex]!;
@@ -353,6 +372,7 @@ function App() {
     [hskLevel, index]
   );
   const { width } = useWindowSize();
+  const isMobileView = width < 768;
   const hskWordLength = HSK_MAP[hskLevel].words.length;
   const percentComplete = index / hskWordLength;
   const widthPercentComplete = Math.round(percentComplete * width);
@@ -366,23 +386,33 @@ function App() {
   };
 
   useEffect(() => {
-    setIndex(checkpoints[hskLevel]);
     setSentenceRevealIndex(0);
     setContentRevealedIndex(0);
     setCharacterRevealed(false);
-  }, [hskLevel, checkpoints]);
+  }, [hskLevel]);
 
   const next = useCallback(() => {
     setIndex((cur) => (hasNext ? cur + 1 : cur));
     setSentenceRevealIndex(0);
     setContentRevealedIndex(0);
+    setCharacterRevealed(false);
   }, [hasNext, setIndex]);
 
   const previous = useCallback(() => {
     setIndex((cur) => (cur > 0 ? cur - 1 : cur));
     setSentenceRevealIndex(0);
     setContentRevealedIndex(0);
+    setCharacterRevealed(false);
   }, [setIndex]);
+
+  const revealCharacter = () => {
+    setCharacterRevealed((cur) => !cur);
+  };
+
+  const revealNextSentence = () => {
+    setSentenceRevealIndex((cur) => cur + 1);
+    setContentRevealedIndex(0);
+  };
 
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
@@ -393,8 +423,7 @@ function App() {
         previous();
       }
       if (event.key === " ") {
-        setSentenceRevealIndex((cur) => cur + 1);
-        setContentRevealedIndex(0);
+        revealNextSentence();
       }
       if (event.key === "r") {
         setContentRevealedIndex((cur) => {
@@ -402,7 +431,7 @@ function App() {
         });
       }
       if (event.key === "c") {
-        setCharacterRevealed((cur) => !cur);
+        revealCharacter();
       }
     }
 
@@ -427,44 +456,55 @@ function App() {
                 if (i + 1 < widthPercentComplete) {
                   return <div className="bg-emerald-400 h-2 w-1" key={i} />;
                 } else {
-                  return <div className="h-2 w-1" key={i} />;
+                  return <div className="bg-slate-950 h-2 w-1" key={i} />;
                 }
               })}
             </div>
-            <div className="flex flex-col w-1/4 items-center bg-slate-950 p-4 rounded-b-3xl">
-              <h1 className="text-5xl mb-2">
+            <div className="flex flex-col md:w-5/12 w-3/4 items-center bg-slate-950 p-4 rounded-b-3xl">
+              <h1 className="md:text-5xl text-3xl mb-2">
                 <span className="text-slate-300 font-light">漢語水平考試</span>
                 <span className="ml-4 text-rose-400 font-normal">AI</span>
               </h1>
-              <p className="text-slate-400 text-s">
+              <p className="text-slate-400 md:text-lg text-xs">
                 Master 5,000 HSK words with the help of AI
               </p>
             </div>
           </div>
           <div className="flex flex-row items-center gap-4">
-            <p className="text-slate-400">HSK Level</p>
+            <p className="text-xs md:text-lg text-slate-400">HSK Level</p>
             <SelectHskLevel onValueChanged={setHskLevel} value={hskLevel} />
           </div>
           <CharacterCard
             characterRevealed={characterRevealed}
             contentRevealedIndex={contentRevealedIndex}
             hskWordLength={hskWordLength}
+            isMobileView={isMobileView}
+            onClickCharacterPanel={revealCharacter}
+            onClickSentencePanel={revealNextSentence}
             sentenceRevealIndex={sentenceRevealIndex}
             studySentences={studySentences}
             updateCheckpoints={updateCheckpoints}
             word={word}
             wordIndex={index}
           />
-          <div className="flex gap-6 bg-slate-950 p-6 rounded-t-3xl">
+          <div className="flex gap-2 md:gap-6 bg-slate-950 p-2 md:p-6 rounded-t-3xl">
             <button
-              className="bg-slate-800 hover:bg-slate-700 w-64 text-slate-300 font-light py-4 px-8 text-3xl rounded-full"
+              className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-light py-4 px-8 text-md md:text-3xl rounded-full"
               disabled={index === 0}
               onClick={previous}
             >
               上一張
             </button>
+            {isMobileView && (
+              <Toast
+                description={`Progress for this HSK level saved at ${word.traditional}.`}
+                onPress={updateCheckpoints}
+                text={isMobileView ? "Save" : "Save Checkpoint"}
+                title="Checkpoint Saved!"
+              />
+            )}
             <button
-              className="bg-slate-800 hover:bg-slate-700 w-64 text-slate-300 font-light py-4 px-8 text-3xl rounded-full"
+              className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-light py-4 px-8 text-md md:text-3xl rounded-full"
               disabled={!hasNext}
               onClick={next}
             >
