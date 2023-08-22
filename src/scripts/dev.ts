@@ -4,7 +4,12 @@ import { readFileSync, writeFileSync } from "fs";
 import { Configuration, OpenAIApi } from "openai";
 import { HSK_MAP } from "~/chinese/hsk";
 import type HskLevel from "~/types/HskLevel";
-import { type SentenceMap, type Model, type GeneratedSentenceType, GeneratedSentence } from "~/types/SentenceMap";
+import {
+  type SentenceMap,
+  type Model,
+  type GeneratedSentenceType,
+  GeneratedSentence,
+} from "~/types/SentenceMap";
 import shuffleArray from "~/utils/shuffleArray";
 
 const configuration = new Configuration({
@@ -50,7 +55,11 @@ function generateStarterPrompt(word: string, seenWords: string[]) {
   return PROMPT;
 }
 
-function generateIntermediatePrompt(word: string, seenWords: string[], hskLevel: number) {
+function generateIntermediatePrompt(
+  word: string,
+  seenWords: string[],
+  hskLevel: number
+) {
   const PROMPT = `
   You are an experienced Chinese tutor helping someone learn Chinese. We are
   using the HSK vocabulary lists focusing on learning new vocabulary. I will
@@ -115,7 +124,15 @@ function updateWordInSentenceMap({
   }
 }
 
-function wordExistsAlready({ model, sentenceMap, word }: { model: Model; sentenceMap: SentenceMap; word: string }) {
+function wordExistsAlready({
+  model,
+  sentenceMap,
+  word,
+}: {
+  model: Model;
+  sentenceMap: SentenceMap;
+  word: string;
+}) {
   const existingWord = sentenceMap[word];
   if (existingWord != null) {
     const existingSentences = existingWord[model];
@@ -190,7 +207,9 @@ async function run() {
   console.log("");
 
   const filepath = `src/chinese/sentences/level-${level}.json`;
-  const sentenceMap = JSON.parse(readFileSync(filepath, "utf-8")) as SentenceMap;
+  const sentenceMap = JSON.parse(
+    readFileSync(filepath, "utf-8")
+  ) as SentenceMap;
 
   for (const wordEntry of words) {
     const word = wordEntry.traditional;

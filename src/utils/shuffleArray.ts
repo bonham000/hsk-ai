@@ -8,7 +8,10 @@ export default function shuffleArray<T>(array: T[]): T[] {
     currentIndex--;
 
     // @ts-ignore
-    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
   }
 
   return array;

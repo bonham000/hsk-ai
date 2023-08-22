@@ -4,7 +4,6 @@ const config = {
     require.resolve("prettier-plugin-tailwindcss"),
     "@trivago/prettier-plugin-sort-imports",
   ],
-  printWidth: 120,
 };
 
 module.exports = config;
