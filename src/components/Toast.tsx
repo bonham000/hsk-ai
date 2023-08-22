@@ -3,6 +3,7 @@ import * as React from "react";
 
 type ToastProps = {
   description?: string;
+  onPress: () => void;
   text: string;
   title: string;
   toastButtonText?: string;
@@ -21,6 +22,7 @@ export default function Toast(props: ToastProps) {
       <button
         className="bg-slate-900 hover:bg-slate-700 w-64 text-slate-300 font-light py-4 px-8 text-lg rounded-full"
         onClick={() => {
+          props.onPress();
           setOpen(false);
           window.clearTimeout(timerRef.current);
           timerRef.current = window.setTimeout(() => {

@@ -1,13 +1,7 @@
 "use client";
 
 import Head from "next/head";
-import {
-  type ReactNode,
-  useCallback,
-  useEffect,
-  useState,
-  useMemo,
-} from "react";
+import { type ReactNode, useCallback, useEffect, useState, useMemo } from "react";
 import NoSSR from "react-no-ssr";
 import { useInterval, useLocalStorage, useWindowSize } from "usehooks-ts";
 import { HSK_MAP } from "~/chinese/hsk";
@@ -22,36 +16,28 @@ import lastInArray from "~/utils/lastInArray";
 import randomInRange from "~/utils/randomInRange";
 import shuffleArray from "~/utils/shuffleArray";
 
-const highlightCharacter = (
-  label: string,
-  value: string,
-  isReviewSentence: boolean
-): ReactNode => {
+const highlightCharacter = (label: string, value: string, isReviewSentence: boolean): ReactNode => {
   if (!value) {
     return label;
   }
 
   return (
     <span>
-      {label
-        .split(value)
-        .reduce((prev: ReactNode[], current: string, i: number) => {
-          if (!i) {
-            return [current];
-          }
+      {label.split(value).reduce((prev: ReactNode[], current: string, i: number) => {
+        if (!i) {
+          return [current];
+        }
 
-          return prev.concat(
-            <span
-              className={
-                isReviewSentence ? "text-emerald-400" : "text-rose-400"
-              }
-              key={value + current}
-            >
-              {value}
-            </span>,
-            current
-          );
-        }, [] as ReactNode[])}
+        return prev.concat(
+          <span
+            className={isReviewSentence ? "text-emerald-400" : "text-rose-400"}
+            key={value + current}
+          >
+            {value}
+          </span>,
+          current
+        );
+      }, [] as ReactNode[])}
     </span>
   );
 };
@@ -175,6 +161,7 @@ function CharacterCard(props: CharacterCardProps) {
         <div className="absolute bottom-2">
           <Toast
             description={`Progress for this HSK level saved at ${word.traditional}.`}
+            onPress={updateCheckpoints}
             text="Save Checkpoint"
             title="Checkpoint Saved!"
           />
@@ -208,11 +195,7 @@ function CharacterCard(props: CharacterCardProps) {
               />
             )}
             {contentRevealedIndex === 2 && (
-              <TypedContent
-                className="text-xl"
-                content={currentSentence.english}
-                typingDelay={6}
-              />
+              <TypedContent className="text-xl" content={currentSentence.english} typingDelay={6} />
             )}
           </div>
         )}
@@ -238,16 +221,12 @@ type ReviewSentence = GeneratedSentenceType & {
   character: string;
 };
 
-function getPreviousHskSentences(
-  currentHskLevel: HskLevel,
-  currentHskIndex: number
-) {
+function getPreviousHskSentences(currentHskLevel: HskLevel, currentHskIndex: number) {
   const previous: ReviewSentence[] = [];
   let level = currentHskLevel;
   while (level > 0) {
     const hskSentences = Object.entries(HSK_SENTENCE_MAP[level]);
-    const finalIndex =
-      level === currentHskLevel ? currentHskIndex : hskSentences.length;
+    const finalIndex = level === currentHskLevel ? currentHskIndex : hskSentences.length;
 
     const reviewSentences: ReviewSentence[] = hskSentences
       .slice(0, finalIndex)
@@ -293,10 +272,7 @@ function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
 
   const probability = randomInRange(0, 100);
   if (probability < PROBABILITY_OF_ADDING_REVIEW_SENTENCES_PER_CARD) {
-    const previousHskSentences = getPreviousHskSentences(
-      hskLevel,
-      currentIndex
-    );
+    const previousHskSentences = getPreviousHskSentences(hskLevel, currentIndex);
 
     const randomStudySentences = shuffleArray(previousHskSentences)
       .slice(0, NUMBER_OF_REVIEW_SENTENCES_PER_CARD)
@@ -340,8 +316,7 @@ function App() {
   const [hskLevel, setHskLevel] = useLocalStorage(HSK_LEVEL, DEFAULT_HSK_LEVEL);
   const [index, setIndex] = useState(checkpoints[hskLevel]);
   const [sentenceRevealIndex, setSentenceRevealIndex] = useState(0);
-  const [contentRevealedIndex, setContentRevealedIndex] =
-    useState<ContentRevealedIndex>(0);
+  const [contentRevealedIndex, setContentRevealedIndex] = useState<ContentRevealedIndex>(0);
   const [characterRevealed, setCharacterRevealed] = useState(false);
   const { hasNext, studySentences, word } = useMemo(
     () => getCurrentContent(hskLevel, index),
@@ -431,9 +406,7 @@ function App() {
                 <span className="text-slate-300 font-light">漢語水平考試</span>
                 <span className="ml-4 text-rose-400 font-normal">AI</span>
               </h1>
-              <p className="text-slate-400 text-s">
-                Master 5,000 HSK words with the help of AI
-              </p>
+              <p className="text-slate-400 text-s">Master 5,000 HSK words with the help of AI</p>
             </div>
           </div>
           <div className="flex flex-row items-center gap-4">
