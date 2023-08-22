@@ -8,10 +8,12 @@ import {
   useState,
   useMemo,
 } from "react";
-import { useInterval, useWindowSize } from "usehooks-ts";
+import NoSSR from "react-no-ssr";
+import { useInterval, useLocalStorage, useWindowSize } from "usehooks-ts";
 import { HSK_MAP } from "~/chinese/hsk";
 import { HSK_SENTENCE_MAP } from "~/chinese/sentences";
 import SelectHskLevel from "~/components/SelectHskLevel";
+import Toast from "~/components/Toast";
 import type HskEntry from "~/types/HskEntry";
 import type HskLevel from "~/types/HskLevel";
 import type MaybeNull from "~/types/MaybeNull";
@@ -118,6 +120,7 @@ type CharacterCardProps = {
   hskWordLength: number;
   sentenceRevealIndex: number;
   studySentences: StudySentence[];
+  updateCheckpoints: () => void;
   word: HskEntry;
   wordIndex: number;
 };
@@ -129,6 +132,7 @@ function CharacterCard(props: CharacterCardProps) {
     hskWordLength,
     sentenceRevealIndex,
     studySentences,
+    updateCheckpoints,
     word,
     wordIndex,
   } = props;
@@ -167,6 +171,13 @@ function CharacterCard(props: CharacterCardProps) {
               <p className="text-3xl">{word.english}</p>
             </div>
           )}
+        </div>
+        <div className="absolute bottom-2">
+          <Toast
+            description={`Progress for this HSK level saved at ${word.traditional}.`}
+            text="Save Checkpoint"
+            title="Checkpoint Saved!"
+          />
         </div>
       </div>
       <div className="w-8/12 p-4 flex flex-col flex-grow justify-start bg-slate-800 rounded-lg">
@@ -261,6 +272,8 @@ const PROBABILITY_OF_ADDING_REVIEW_SENTENCES_PER_CARD = 100;
 const NUMBER_OF_REVIEW_SENTENCES_PER_CARD = 3;
 
 function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
+  console.log("HI!", currentIndex);
+
   const hsk = HSK_MAP[hskLevel];
   const words = hsk.words;
   const word = words[currentIndex]!;
@@ -305,28 +318,54 @@ function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
 
 type ContentRevealedIndex = 0 | 1 | 2;
 
-export default function Home() {
-  const [index, setIndex] = useState(0);
-  const [hskLevel, setHskLevel] = useState<HskLevel>(1);
+const HSK_REVIEW_CHECKPOINTS = "HSK_REVIEW_CHECKPOINTS";
+const HSK_REVIEW_INDEX_MAP: Record<HskLevel, number> = {
+  1: 0,
+  2: 0,
+  3: 0,
+  4: 0,
+  5: 0,
+  6: 0,
+};
+
+const HSK_LEVEL = "HSK_LEVEL";
+const DEFAULT_HSK_LEVEL: HskLevel = 1;
+
+function App() {
+  const [checkpoints, setCheckpoints] = useLocalStorage(
+    HSK_REVIEW_CHECKPOINTS,
+    HSK_REVIEW_INDEX_MAP
+  );
+
+  const [hskLevel, setHskLevel] = useLocalStorage(HSK_LEVEL, DEFAULT_HSK_LEVEL);
+  const [index, setIndex] = useState(checkpoints[hskLevel]);
   const [sentenceRevealIndex, setSentenceRevealIndex] = useState(0);
   const [contentRevealedIndex, setContentRevealedIndex] =
     useState<ContentRevealedIndex>(0);
   const [characterRevealed, setCharacterRevealed] = useState(false);
   const { hasNext, studySentences, word } = useMemo(
     () => getCurrentContent(hskLevel, index),
-    [index, hskLevel]
+    [hskLevel, index]
   );
   const { width } = useWindowSize();
   const hskWordLength = HSK_MAP[hskLevel].words.length;
   const percentComplete = index / hskWordLength;
   const widthPercentComplete = Math.round(percentComplete * width);
 
+  const updateCheckpoints = () => {
+    const updatedCheckpoints = {
+      ...checkpoints,
+      [hskLevel]: index,
+    };
+    setCheckpoints(updatedCheckpoints);
+  };
+
   useEffect(() => {
-    setIndex(0);
+    setIndex(checkpoints[hskLevel]);
     setSentenceRevealIndex(0);
     setContentRevealedIndex(0);
     setCharacterRevealed(false);
-  }, [hskLevel]);
+  }, [hskLevel, checkpoints]);
 
   const next = useCallback(() => {
     setIndex((cur) => (hasNext ? cur + 1 : cur));
@@ -407,19 +446,20 @@ export default function Home() {
             hskWordLength={hskWordLength}
             sentenceRevealIndex={sentenceRevealIndex}
             studySentences={studySentences}
+            updateCheckpoints={updateCheckpoints}
             word={word}
             wordIndex={index}
           />
           <div className="flex gap-6 bg-slate-950 p-6 rounded-t-3xl">
             <button
-              className="bg-slate-800 hover:bg-rose-400 w-64 text-slate-300 font-light py-4 px-8 text-3xl rounded-full"
+              className="bg-slate-800 hover:bg-slate-700 w-64 text-slate-300 font-light py-4 px-8 text-3xl rounded-full"
               disabled={index === 0}
               onClick={previous}
             >
               上一張
             </button>
             <button
-              className="bg-slate-800 hover:bg-rose-400 w-64 text-slate-300 font-light py-4 px-8 text-3xl rounded-full"
+              className="bg-slate-800 hover:bg-slate-700 w-64 text-slate-300 font-light py-4 px-8 text-3xl rounded-full"
               disabled={!hasNext}
               onClick={next}
             >
@@ -429,5 +469,13 @@ export default function Home() {
         </div>
       </main>
     </>
+  );
+}
+
+export default function Home() {
+  return (
+    <NoSSR>
+      <App />
+    </NoSSR>
   );
 }
