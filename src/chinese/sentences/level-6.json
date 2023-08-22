@@ -298,5 +298,455 @@
       }
     ],
     "gpt-4": []
+  },
+  "暗示": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "老師用手勢暗示學生回答問題。",
+        "english": "The teacher used gestures to hint to the student to answer the question.",
+        "pinyin": "Lǎoshī yòng shǒushì ànshì xuéshēng huídá wèntí."
+      },
+      {
+        "chinese": "他的眼神暗示了他的意圖。",
+        "english": "His eyes hinted at his intention.",
+        "pinyin": "Tā de yǎnshén ànshì le tā de yìtú."
+      },
+      {
+        "chinese": "她的微笑暗示著她的喜悅。",
+        "english": "Her smile indicated her joy.",
+        "pinyin": "Tā de wēixiào ànshì zhe tā de xǐyuè."
+      },
+      {
+        "chinese": "他的語氣暗示著他的不滿。",
+        "english": "His tone implied his dissatisfaction.",
+        "pinyin": "Tā de yǔqì ànshì zhe tā de bùmǎn."
+      },
+      {
+        "chinese": "這封信暗示著重要的消息。",
+        "english": "This letter suggests important news.",
+        "pinyin": "Zhè fēng xìn ànshì zhe zhòngyào de xiāoxi."
+      }
+    ],
+    "gpt-4": []
+  },
+  "案件": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個案件正在調查中。",
+        "english": "This case is under investigation.",
+        "pinyin": "Zhège ànjiàn zhèngzài diàochá zhōng."
+      },
+      {
+        "chinese": "他被捕了，因為涉嫌參與該案件。",
+        "english": "He was arrested because he was suspected of being involved in the case.",
+        "pinyin": "Tā bèi bǔ le, yīnwèi shèxián cānyǔ gāi ànjiàn."
+      },
+      {
+        "chinese": "法院將審理這個複雜的案件。",
+        "english": "The court will hear this complicated case.",
+        "pinyin": "Fǎyuàn jiāng shěnlǐ zhège fùzá de ànjiàn."
+      },
+      {
+        "chinese": "警方追蹤並逮捕了嫌疑犯。",
+        "english": "The police tracked down and arrested the suspect.",
+        "pinyin": "Jǐngfāng zhuīzōng bìng dàibǔ le xiányífàn."
+      },
+      {
+        "chinese": "辯護律師為被告辯護。",
+        "english": "The defense lawyer advocates for the defendant.",
+        "pinyin": "Biànhù lǜshī wèi bèigào biànhù."
+      }
+    ],
+    "gpt-4": []
+  },
+  "案例": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這是一個很有意思的案例。",
+        "english": "This is a very interesting case.",
+        "pinyin": "Zhè shì yīgè hěn yǒuyìsi de ànlì."
+      },
+      {
+        "chinese": "這個案例的解決方法還需要研究。",
+        "english": "The solution for this case still needs further research.",
+        "pinyin": "Zhège ànlì de jiějué fāngfǎ hái xūyào yánjiū."
+      },
+      {
+        "chinese": "這個案例給了我們很多啟發。",
+        "english": "This case has given us a lot of inspiration.",
+        "pinyin": "Zhège ànlì gěi le wǒmen hěnduō qǐfā."
+      },
+      {
+        "chinese": "在研究過程中，我們分析了很多類似的案例。",
+        "english": "During the research process, we analyzed many similar cases.",
+        "pinyin": "Zài yánjiū guòchéng zhōng, wǒmen fēnxī le hěnduō lèisì de ànlì."
+      },
+      {
+        "chinese": "這個案例是我們經驗的一個典型範例。",
+        "english": "This case is a typical example of our experience.",
+        "pinyin": "Zhège ànlì shì wǒmen jīngyàn de yīgè diǎnxíng fànlì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "按摩": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "昨天我去按摩店做了一個小時的全身按摩。",
+        "english": "Yesterday I went to a massage parlor and got a one-hour full body massage.",
+        "pinyin": "Zuótiān wǒ qù ànmó diàn zuòle yíge xiǎoshí de quánshēn ànmó."
+      },
+      {
+        "chinese": "這個按摩椅非常舒服，可以幫助緩解肌肉疲勞。",
+        "english": "This massage chair is very comfortable and can help relieve muscle fatigue.",
+        "pinyin": "Zhège ànmó yǐ fēicháng shūfú, kěyǐ bāngzhù huǎnjiě jīròu píláo."
+      },
+      {
+        "chinese": "我在私人會所工作，為客人提供按摩服務。",
+        "english": "I work at a private club, providing massage services to clients.",
+        "pinyin": "Wǒ zài sīrén huìsuǒ gōngzuò, wèi kèrén tígōng ànmó fúwù."
+      },
+      {
+        "chinese": "按摩可以促進血液循環，放鬆身心。",
+        "english": "Massage can promote blood circulation and relax the body and mind.",
+        "pinyin": "Ànmó kěyǐ cùjìn xuèyè xúnhuán, fàngsōng shēnxīn."
+      },
+      {
+        "chinese": "我的腰部酸痛，我正在考慮去按摩治療。",
+        "english": "My lower back is sore, and I am considering going for a massage therapy.",
+        "pinyin": "Wǒ de yāobù suāntòng, wǒ zhèngzài kǎolǜ qù ànmó zhìliáo."
+      }
+    ],
+    "gpt-4": []
+  },
+  "昂貴": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這件衣服非常昂貴。",
+        "english": "This piece of clothing is very expensive.",
+        "pinyin": "Zhè jiàn yīfu fēicháng ángguì."
+      },
+      {
+        "chinese": "我買不起那麼昂貴的手機。",
+        "english": "I can't afford such an expensive phone.",
+        "pinyin": "Wǒ mǎi bù qǐ nàme ángguì de shǒujī."
+      },
+      {
+        "chinese": "這個旅遊團很昂貴，但是包含很多特別的活動。",
+        "english": "This tour group is expensive, but it includes many special activities.",
+        "pinyin": "Zhège lǚyóu tuán hěn ángguì, dànshì bāohán hěn duō tèbié de huódòng."
+      },
+      {
+        "chinese": "他喜歡買昂貴的車子來炫耀。",
+        "english": "He likes to buy expensive cars to show off.",
+        "pinyin": "Tā xǐhuān mǎi ángguì de chēzi lái xuànyào."
+      },
+      {
+        "chinese": "這間餐廳的價格比較昂貴，但是味道很好。",
+        "english": "The prices at this restaurant are relatively expensive, but the taste is good.",
+        "pinyin": "Zhè jiān cāntīng de jiàgé bǐjiào ángguì, dànshì wèidào hěn hǎo."
+      }
+    ],
+    "gpt-4": []
+  },
+  "凹凸": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個壁畫的表面很凹凸，可以感受到立體的效果。",
+        "english": "The surface of this mural is very uneven, you can feel the three-dimensional effect.",
+        "pinyin": "Zhège bìhuà de biǎomiàn hěn āotū, kěyǐ gǎnshòu dào lìtǐ de xiàoguǒ."
+      },
+      {
+        "chinese": "這座山上有許多凹凸不平的地方，很難行走。",
+        "english": "There are many uneven places on this mountain, it's difficult to walk.",
+        "pinyin": "Zhè zuò shān shàng yǒu xǔduō āotū bùpíng de dìfāng, hěn nán xíngzǒu."
+      },
+      {
+        "chinese": "這種裝飾品的表面有著很明顯的凹凸紋理。",
+        "english": "The surface of this decoration has very obvious textured patterns.",
+        "pinyin": "Zhè zhǒng zhuāngshìpǐn de biǎomiàn yǒu zhe hěn míngxiǎn de āotū wénlǐ."
+      },
+      {
+        "chinese": "這本書的封面很凹凸，看起來很有質感。",
+        "english": "The cover of this book is very uneven, it looks very textured.",
+        "pinyin": "Zhè běn shū de fēngmiàn hěn āotū, kàn qǐlái hěn yǒu zhìgǎn."
+      },
+      {
+        "chinese": "這張沙發坐起來感覺有些凹凸不平，不是很舒服。",
+        "english": "This sofa feels a bit uneven to sit on, it's not very comfortable.",
+        "pinyin": "Zhè zhāng shāfā zuò qǐlái gǎnjué yǒuxiē āotū bùpíng, bùshì hěn shūfu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "熬": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "她徹夜熬夜準備考試。",
+        "english": "She stayed up all night to prepare for the exam.",
+        "pinyin": "Tā chèyè áoyè zhǔnbèi kǎoshì."
+      },
+      {
+        "chinese": "這個醬料要熬一段時間才能變得更香。",
+        "english": "This sauce needs to be simmered for a while to become more flavorful.",
+        "pinyin": "Zhège jiàngliào yào áo yī duàn shíjiān cái néng biàn dé gèng xiāng."
+      },
+      {
+        "chinese": "我每天需要熬粥給病人吃。",
+        "english": "I need to cook porridge for the patients every day.",
+        "pinyin": "Wǒ měitiān xūyào áozhōu gěi bìngrén chī."
+      },
+      {
+        "chinese": "他熬夜工作已經習以為常。",
+        "english": "He is used to working overnight.",
+        "pinyin": "Tā áoyè gōngzuò yǐjīng xíyǐwéicháng."
+      },
+      {
+        "chinese": "這個工程需要熬過困難的時期才能成功。",
+        "english": "This project needs to go through difficult times to succeed.",
+        "pinyin": "Zhège gōngchéng xūyào áo guò kùnnan de shíqī cái néng chénggōng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "奧秘": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這本小說的結局真是奧秘。",
+        "english": "The ending of this novel is really mysterious.",
+        "pinyin": "Zhè běn xiǎoshuō de jiéjú zhēnshì àomì."
+      },
+      {
+        "chinese": "這個謎語的答案仍然是奧秘。",
+        "english": "The answer to this riddle is still a mystery.",
+        "pinyin": "Zhège míyǔ de dá'àn réngrán shì àomì."
+      },
+      {
+        "chinese": "這座古城有著無數的奧秘等待著被發現。",
+        "english": "This ancient city holds countless mysteries waiting to be discovered.",
+        "pinyin": "Zhè zuò gǔchéng yǒu zhe wúshù de àomì děngdài zhe bèi fāxiàn."
+      },
+      {
+        "chinese": "犯罪的動機是一個奧秘，正在調查中。",
+        "english": "The motive for the crime is a mystery and is currently under investigation.",
+        "pinyin": "Fànzuì de dòngjī shì yīgè àomì, zhèngzài diàochá zhōng."
+      },
+      {
+        "chinese": "科學家仍在試圖解開這個宇宙的奧秘。",
+        "english": "Scientists are still trying to unlock the mysteries of the universe.",
+        "pinyin": "Kēxuéjiā réng zài shìtú jiě kāi zhè ge yǔzhòu de àomì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "扒": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他在花園裡扒土。",
+        "english": "He is digging the soil in the garden.",
+        "pinyin": "Tā zài huāyuán lǐ bā tǔ."
+      },
+      {
+        "chinese": "我們要把這層地扒開。",
+        "english": "We need to peel off this layer of earth.",
+        "pinyin": "Wǒmen yào bǎ zhè céng dì bā kāi."
+      },
+      {
+        "chinese": "他喜歡用手扒飯吃。",
+        "english": "He likes to eat rice with his hands.",
+        "pinyin": "Tā xǐhuān yòng shǒu bā fàn chī."
+      },
+      {
+        "chinese": "他扒拉了一下我的衣服。",
+        "english": "He tugged at my clothes.",
+        "pinyin": "Tā bālā le yīxià wǒ de yīfu."
+      },
+      {
+        "chinese": "外面的風把樹葉扒落下來。",
+        "english": "The wind outside blew the leaves off the trees.",
+        "pinyin": "Wàimiàn de fēng bǎ shùyè bā luò xiàlái."
+      }
+    ],
+    "gpt-4": []
+  },
+  "疤": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "醫生給我做了手術，切除了疤。",
+        "english": "The doctor performed surgery on me and removed the scar.",
+        "pinyin": "Yīshēng gěi wǒ zuòle shǒushù, qiēchúle bā."
+      },
+      {
+        "chinese": "她的臉上有個深深的疤。",
+        "english": "She has a deep scar on her face.",
+        "pinyin": "Tā de liǎn shàng yǒu gè shēnshēn de bā."
+      },
+      {
+        "chinese": "他的手上有許多疤痕，看起來很嚴重。",
+        "english": "He has many scars on his hands, it looks serious.",
+        "pinyin": "Tā de shǒu shàng yǒu xǔduō bāhén, kàn qǐlái hěn yánzhòng."
+      },
+      {
+        "chinese": "這種傷疤會永遠留在他的心上。",
+        "english": "This kind of scar will forever remain in his heart.",
+        "pinyin": "Zhè zhǒng shāngbā huì yǒngyuǎn liú zài tā de xīn shàng."
+      },
+      {
+        "chinese": "我的手臂上有一道細小的疤痕。",
+        "english": "There is a small scar on my arm.",
+        "pinyin": "Wǒ de shǒubì shàng yǒu yī dào xìxiǎo de bāhén."
+      }
+    ],
+    "gpt-4": []
+  },
+  "巴不得": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他巴不得能早點下班。",
+        "english": "He wishes he could get off work earlier.",
+        "pinyin": "Tā bābùdé néng zǎodiǎn xiàbān."
+      },
+      {
+        "chinese": "他巴不得能找到一份好工作。",
+        "english": "He wishes he could find a good job.",
+        "pinyin": "Tā bābùdé néng zhǎodào yī fèn hǎo gōngzuò."
+      },
+      {
+        "chinese": "我已經帶好雨傘了，巴不得下雨呢。",
+        "english": "I've already brought an umbrella, wishing it would rain.",
+        "pinyin": "Wǒ yǐjīng dài hǎo yǔsǎn le, bābùdé xiàyǔ ne."
+      },
+      {
+        "chinese": "她巴不得能和男朋友一起去旅行。",
+        "english": "She wishes she could travel with her boyfriend.",
+        "pinyin": "Tā bābùdé néng hé nán péngyǒu yīqǐ qù lǚxíng."
+      },
+      {
+        "chinese": "我巴不得能去看一場音樂會。",
+        "english": "I wish I could go see a concert.",
+        "pinyin": "Wǒ bābùdé néng qù kàn yī chǎng yīnyuèhuì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "巴結": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他為了晉升巴結上司。",
+        "english": "He tries to curry favor with his boss in order to get promoted.",
+        "pinyin": "Tā wèile jìnshēng bājiē shàngsī."
+      },
+      {
+        "chinese": "她常常巴結有錢人。",
+        "english": "She often flatters wealthy people.",
+        "pinyin": "Tā chángcháng bājiē yǒu qián rén."
+      },
+      {
+        "chinese": "這個人很會巴結人。",
+        "english": "This person is very good at flattering others.",
+        "pinyin": "Zhège rén hěn huì bājiē rén."
+      },
+      {
+        "chinese": "他對長官巴結有加。",
+        "english": "He goes all out to curry favor with his superior.",
+        "pinyin": "Tā duì zhǎngguān bājiē yǒu jiā."
+      },
+      {
+        "chinese": "這是一個巴結權貴的社會。",
+        "english": "This is a society that flatters the powerful.",
+        "pinyin": "Zhè shì yī ge bājiē quán guì de shè huì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "拔苗助長": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "有時候過度稱讚孩子只會拔苗助長。",
+        "english": "Sometimes excessive praise for children will only spoil them.",
+        "pinyin": "Yǒushíhòu guòdù chēngzàn háizi zhǐ huì bámíngzhùzhǎng."
+      },
+      {
+        "chinese": "成績單誇獎學生能夠拔苗助長。",
+        "english": "Praising students on their report card can help them improve.",
+        "pinyin": "Chéngjì dān kuājiǎng xuéshēng nénggòu bámíngzhùzhǎng."
+      },
+      {
+        "chinese": "電視節目不應該拔苗助長暴力行為。",
+        "english": "TV programs should not encourage violent behavior.",
+        "pinyin": "Diànshì jiémù bù yīnggāi bámíngzhùzhǎng bàolì xíngwéi."
+      },
+      {
+        "chinese": "為了鼓勵員工，公司有時會拔苗助長。",
+        "english": "In order to encourage employees, companies sometimes spoil them.",
+        "pinyin": "Wèile gǔlì yuángōng, gōngsī yǒushí huì bámíngzhùzhǎng."
+      },
+      {
+        "chinese": "好友應該幫助對方成長，而不是拔苗助長。",
+        "english": "Good friends should help each other grow, not spoil each other.",
+        "pinyin": "Hǎoyǒu yīnggāi bāngzhù duìfāng chéngzhǎng, ér bùshì bámíngzhùzhǎng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "把關": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這次考試很關鍵，你要好好把關。",
+        "english": "This exam is crucial, you need to be careful.",
+        "pinyin": "Zhè cì kǎoshì hěn guānjiàn, nǐ yào hǎohǎo bǎguān."
+      },
+      {
+        "chinese": "公司要找一個專業的人來把關業務。",
+        "english": "The company wants to hire a professional to oversee the business.",
+        "pinyin": "Gōngsī yào zhǎo yīgè zhuānyè de rén lái bǎguān yèwù."
+      },
+      {
+        "chinese": "在這個項目中，我負責把關每一個細節。",
+        "english": "In this project, I am responsible for scrutinizing every detail.",
+        "pinyin": "Zài zhège xiàngmù zhōng, wǒ fùzé bǎguān měi yīgè xìjié."
+      },
+      {
+        "chinese": "經理應該把關員工的工作品質。",
+        "english": "The manager should monitor the quality of the employees' work.",
+        "pinyin": "Jīnglǐ yīnggāi bǎguān yuángōng de gōngzuò pǐnzhí."
+      },
+      {
+        "chinese": "爸爸常常把關我的學習進度。",
+        "english": "Dad often checks on my learning progress.",
+        "pinyin": "Bàba chángcháng bǎguān wǒ de xuéxí jìndù."
+      }
+    ],
+    "gpt-4": []
+  },
+  "把手": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他用力拉把手。",
+        "english": "He pulled the handle with force.",
+        "pinyin": "Tā yòng lì lā bǎ shǒu."
+      },
+      {
+        "chinese": "請勿隨意觸摸車內的把手。",
+        "english": "Please do not touch the handles inside the car at will.",
+        "pinyin": "Qǐng wù suíyì chùmō chē nèi de bǎ shǒu."
+      },
+      {
+        "chinese": "他一把扳動把手，開始前進。",
+        "english": "He pulled the handle and started moving forward.",
+        "pinyin": "Tā yī bǎ bāndòng bǎ shǒu, kāishǐ qiánjìn."
+      },
+      {
+        "chinese": "請將把手拉向下方。",
+        "english": "Please pull the handle downwards.",
+        "pinyin": "Qǐng jiāng bǎ shǒu lā xiàng xiàfāng."
+      },
+      {
+        "chinese": "請剎車時抓緊把手。",
+        "english": "Please hold onto the handle tightly when braking.",
+        "pinyin": "Qǐng shāchē shí zhuā jǐn bǎ shǒu."
+      }
+    ],
+    "gpt-4": []
   }
 }

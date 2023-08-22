@@ -11,8 +11,8 @@ for (const word of ALL_HSK_WORDS) {
   }
 }
 
-console.log(`${duped.length} duplicated words:`);
+console.info(`${duped.length} duplicated words:`);
 for (const word of duped) {
-  console.log(word);
+  console.info(word);
 }
-console.log(`Checked ${ALL_HSK_WORDS.length} words.`);
+console.info(`Checked ${ALL_HSK_WORDS.length} words.`);

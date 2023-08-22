@@ -298,5 +298,455 @@
       }
     ],
     "gpt-4": []
+  },
+  "辦理": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們需要辦理簽證。",
+        "english": "We need to handle the visa application.",
+        "pinyin": "Wǒmen xūyào bànlǐ qiānzhèng."
+      },
+      {
+        "chinese": "請到辦公室去辦理手續。",
+        "english": "Please go to the office to handle the procedures.",
+        "pinyin": "Qǐng dào bàngōngshì qù bànlǐ shǒuxù."
+      },
+      {
+        "chinese": "這個任務需要我們來辦理。",
+        "english": "This task needs us to handle it.",
+        "pinyin": "Zhège rènwu xūyào wǒmen lái bànlǐ."
+      },
+      {
+        "chinese": "他需要找人來幫忙辦理手術。",
+        "english": "He needs to find someone to help with the surgery.",
+        "pinyin": "Tā xūyào zhǎo rén lái bāngmáng bànlǐ shǒushù."
+      },
+      {
+        "chinese": "你需要辦理會議室的預訂手續。",
+        "english": "You need to handle the reservation procedures for the conference room.",
+        "pinyin": "Nǐ xūyào bànlǐ huìyìshì de yùdìng shǒuxù."
+      }
+    ],
+    "gpt-4": []
+  },
+  "棒": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他的演出非常棒。",
+        "english": "His performance is excellent.",
+        "pinyin": "Tā de yǎnchū fēicháng bàng."
+      },
+      {
+        "chinese": "她是一位棒球選手。",
+        "english": "She is a baseball player.",
+        "pinyin": "Tā shì yī wèi bàngqiú xuǎnshǒu."
+      },
+      {
+        "chinese": "這本書寫得很棒，值得一讀。",
+        "english": "This book is written very well and worth reading.",
+        "pinyin": "Zhè běn shū xiě de hěn bàng, zhíde yī dú."
+      },
+      {
+        "chinese": "他的成績一直很棒。",
+        "english": "His grades have always been excellent.",
+        "pinyin": "Tā de chéngjī yīzhí hěn bàng."
+      },
+      {
+        "chinese": "這間餐廳的食物很棒。",
+        "english": "The food at this restaurant is great.",
+        "pinyin": "Zhè jiān cāntīng de shíwù hěn bàng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "傍晚": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "傍晚的時候天空非常美麗。",
+        "english": "The sky is very beautiful in the evening.",
+        "pinyin": "Bàngwǎn de shíhòu tiānkōng fēicháng měilì."
+      },
+      {
+        "chinese": "我喜歡在傍晚散步。",
+        "english": "I like to take a walk in the evening.",
+        "pinyin": "Wǒ xǐhuān zài bàngwǎn sànbù."
+      },
+      {
+        "chinese": "傍晚的時候清涼一些。",
+        "english": "It gets cooler in the evening.",
+        "pinyin": "Bàngwǎn de shíhòu qīngliáng yīxiē."
+      },
+      {
+        "chinese": "我在傍晚時看了一部好電影。",
+        "english": "I watched a good movie in the evening.",
+        "pinyin": "Wǒ zài bàngwǎn shí kànle yībù hǎo diànyǐng."
+      },
+      {
+        "chinese": "傍晚的時候我喜歡吃水果。",
+        "english": "I like to eat fruits in the evening.",
+        "pinyin": "Bàngwǎn de shíhòu wǒ xǐhuān chī shuǐguǒ."
+      }
+    ],
+    "gpt-4": []
+  },
+  "包裹": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個包裹很重。",
+        "english": "This package is very heavy.",
+        "pinyin": "Zhège bāoguǒ hěn zhòng."
+      },
+      {
+        "chinese": "請幫我收下這個包裹。",
+        "english": "Please help me accept this package.",
+        "pinyin": "Qǐng bāng wǒ shōu xià zhège bāoguǒ."
+      },
+      {
+        "chinese": "他昨天寄了個包裹給我。",
+        "english": "He sent me a package yesterday.",
+        "pinyin": "Tā zuótiān jì le gè bāoguǒ gěi wǒ."
+      },
+      {
+        "chinese": "這個包裹是用紙箱包的。",
+        "english": "This package is wrapped in a cardboard box.",
+        "pinyin": "Zhège bāoguǒ shì yòng zhǐxiāng bāo de."
+      },
+      {
+        "chinese": "這個包裹有什麼東西？",
+        "english": "What's in this package?",
+        "pinyin": "Zhège bāoguǒ yǒu shénme dōngxī?"
+      }
+    ],
+    "gpt-4": []
+  },
+  "包含": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個盒子包含了五個蛋糕。",
+        "english": "This box contains five cakes.",
+        "pinyin": "Zhège hézi bāohánle wǔ gè dàngāo."
+      },
+      {
+        "chinese": "這本書包含了很多有用的資訊。",
+        "english": "This book contains a lot of useful information.",
+        "pinyin": "Zhè běn shū bāohánle hěnduō yǒuyòng de zīxùn."
+      },
+      {
+        "chinese": "這個食譜包含了所有的食材和步驟。",
+        "english": "This recipe contains all the ingredients and steps.",
+        "pinyin": "Zhège shípǔ bāohánle suǒyǒu de shícái hé bùzhòu."
+      },
+      {
+        "chinese": "這個公司的產品包含了各種各樣的功能。",
+        "english": "This company's products contain various functions.",
+        "pinyin": "Zhège gōngsī de chǎnpǐn bāohánle gèzhǒng gèyàng de gōngnéng."
+      },
+      {
+        "chinese": "我們的計劃包含了市場調查和競爭分析。",
+        "english": "Our plan includes market research and competitive analysis.",
+        "pinyin": "Wǒmen de jìhuà bāohánle shìchǎng diàochá hé jìngzhēng fēnxī."
+      }
+    ],
+    "gpt-4": []
+  },
+  "包子": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡吃包子。",
+        "english": "I like to eat steamed buns.",
+        "pinyin": "Wǒ xǐhuān chī bāozi."
+      },
+      {
+        "chinese": "這家店的包子很好吃。",
+        "english": "The steamed buns at this store are delicious.",
+        "pinyin": "Zhè jiā diàn de bāozi hěn hǎochī."
+      },
+      {
+        "chinese": "我會做鮮肉包子。",
+        "english": "I can make steamed buns with fresh meat filling.",
+        "pinyin": "Wǒ huì zuò xiānròu bāozi."
+      },
+      {
+        "chinese": "媽媽每周會買包子作為早餐。",
+        "english": "Mom buys steamed buns as breakfast every week.",
+        "pinyin": "Māmā měi zhōu huì mǎi bāozi zuòwéi zǎocān."
+      },
+      {
+        "chinese": "我想吃一個肉包子和一個豆沙包子。",
+        "english": "I want to eat a meat bun and a red bean bun.",
+        "pinyin": "Wǒ xiǎng chī yī gè ròu bāozi hé yī gè dòushā bāozi."
+      }
+    ],
+    "gpt-4": []
+  },
+  "薄": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "她穿了一件薄外套。",
+        "english": "She is wearing a thin jacket.",
+        "pinyin": "Tā chuān le yī jiàn báo wàitào."
+      },
+      {
+        "chinese": "這本書的頁數很薄。",
+        "english": "The pages of this book are thin.",
+        "pinyin": "Zhè běn shū de yèshù hěn báo."
+      },
+      {
+        "chinese": "這種材料很薄但很堅韌。",
+        "english": "This material is thin but very tough.",
+        "pinyin": "Zhè zhǒng cáiliào hěn báo dàn hěn jiānrèn."
+      },
+      {
+        "chinese": "他吐了一口薄唾沫。",
+        "english": "He spat out a thin spit.",
+        "pinyin": "Tā tù le yī kǒu báo tuòmo."
+      },
+      {
+        "chinese": "這個字的寫法很薄。",
+        "english": "The handwriting of this word is thin.",
+        "pinyin": "Zhège zì de xiěfǎ hěn báo."
+      }
+    ],
+    "gpt-4": []
+  },
+  "寶貝": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個寶貝是我們的驕傲。",
+        "english": "This baby is our pride.",
+        "pinyin": "Zhège bǎobèi shì wǒmen de jiāo'ào."
+      },
+      {
+        "chinese": "他把寶貝妹妹抱在懷裡。",
+        "english": "He holds his baby sister in his arms.",
+        "pinyin": "Tā bǎ bǎobèi mèimei bào zài huái lǐ."
+      },
+      {
+        "chinese": "媽媽對寶貝兒子的溺愛是無條件的。",
+        "english": "A mother's unconditional love for her baby son.",
+        "pinyin": "Māmā duì bǎobèi érzi de nì'ài shì wútiáojiàn de."
+      },
+      {
+        "chinese": "這個寶貝有一頭亮麗的金髮。",
+        "english": "This baby has a head of beautiful blond hair.",
+        "pinyin": "Zhège bǎobèi yǒu yītóu liànglì de jīnfà."
+      },
+      {
+        "chinese": "寶貝睡得如此安穩。",
+        "english": "The baby sleeps so peacefully.",
+        "pinyin": "Bǎobèi shuì de rúcǐ ānwěn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "寶貴": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個手錶很寶貴。",
+        "english": "This watch is very precious.",
+        "pinyin": "Zhège shǒubiǎo hěn bǎoguì."
+      },
+      {
+        "chinese": "我非常珍惜這份寶貴的友情。",
+        "english": "I treasure this precious friendship very much.",
+        "pinyin": "Wǒ fēicháng zhēnxī zhè fèn bǎoguì de yǒuqíng."
+      },
+      {
+        "chinese": "家人的關心是最寶貴的禮物。",
+        "english": "The care of family is the most precious gift.",
+        "pinyin": "Jiārén de guānxīn shì zuì bǎoguì de lǐwù."
+      },
+      {
+        "chinese": "時間是我們最寶貴的資源。",
+        "english": "Time is our most precious resource.",
+        "pinyin": "Shíjiān shì wǒmen zuì bǎoguì de zīyuán."
+      },
+      {
+        "chinese": "這些珠寶非常寶貴，要小心保存。",
+        "english": "These jewels are very precious, be careful to preserve them.",
+        "pinyin": "Zhèxiē zhūbǎo fēicháng bǎoguì, yào xiǎoxīn bǎocún."
+      }
+    ],
+    "gpt-4": []
+  },
+  "保持": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他們努力保持健康的生活方式。",
+        "english": "They strive to maintain a healthy lifestyle.",
+        "pinyin": "Tāmen nǔlì bǎochí jiànkāng de shēnghuó fāngshì."
+      },
+      {
+        "chinese": "這個團隊一直保持著高效率。",
+        "english": "This team has always maintained high efficiency.",
+        "pinyin": "Zhège tuánduì yīzhí bǎochízhe gāoxiàolǜ."
+      },
+      {
+        "chinese": "她總是保持著愉快的心情。",
+        "english": "She always maintains a cheerful mood.",
+        "pinyin": "Tā zǒngshì bǎochízhe yúkuài de xīnqíng."
+      },
+      {
+        "chinese": "我們應該保持冷靜並做出明智的決定。",
+        "english": "We should keep calm and make wise decisions.",
+        "pinyin": "Wǒmen yīnggāi bǎochí lěngjìng bìng zuòchū míngzhì de juédìng."
+      },
+      {
+        "chinese": "保持良好的衛生習慣是預防疾病的關鍵。",
+        "english": "Maintaining good hygiene habits is key to preventing diseases.",
+        "pinyin": "Bǎochí liánghǎo de wèishēng xíguàn shì yùfáng jíbìng de guānjiàn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "存儲": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我常常使用雲端服務進行數據的存儲。",
+        "english": "I often use cloud services to store data.",
+        "pinyin": "Wǒ chángcháng shǐyòng yúnduān fúwù jìnxíng shùjù de cúnchǔ."
+      },
+      {
+        "chinese": "這個外接硬碟可以提供大量的存儲空間。",
+        "english": "This external hard drive can provide a large storage space.",
+        "pinyin": "Zhège wàijiē yìngdié kěyǐ tígōng dàliàng de cúnchǔ kōngjiān."
+      },
+      {
+        "chinese": "這個應用程式可以幫助你輕鬆地將照片存儲到電腦上。",
+        "english": "This application can help you easily store photos on your computer.",
+        "pinyin": "Zhège yìngyòng chéngxù kěyǐ bāngzhù nǐ qīngsōng de jiāng zhàopiàn cúnchǔ dào diànnǎo shàng."
+      },
+      {
+        "chinese": "我們需要一個可靠的存儲方式來保存這些重要文件。",
+        "english": "We need a reliable storage method to save these important documents.",
+        "pinyin": "Wǒmen xūyào yīgè kěkào de cúnchǔ fāngshì lái bǎocún zhèxiē zhòngyào wénjiàn."
+      },
+      {
+        "chinese": "為了保護數據，我們必須定期進行存儲的備份。",
+        "english": "In order to protect the data, we must regularly back up the storage.",
+        "pinyin": "Wèile bǎohù shùjù, wǒmen bìxū dìngqī jìnxíng cúnchǔ de bèifèn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "保留": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "公司保留所有的文件。",
+        "english": "The company keeps all the documents.",
+        "pinyin": "Gōngsī bǎoliú suǒyǒu de wénjiàn."
+      },
+      {
+        "chinese": "請保留你的票根作爲收據。",
+        "english": "Please keep your ticket stub as a receipt.",
+        "pinyin": "Qǐng bǎoliú nǐ de piàogēn zuò wéi shōujù."
+      },
+      {
+        "chinese": "這個餐廳保留傳統的烹飪方式。",
+        "english": "This restaurant maintains traditional cooking methods.",
+        "pinyin": "Zhège cāntīng bǎoliú chuántǒng de pēngrèn fāngshì."
+      },
+      {
+        "chinese": "我喜歡保留一些回憶。",
+        "english": "I like to keep some memories.",
+        "pinyin": "Wǒ xǐhuān bǎoliú yīxiē huíyì."
+      },
+      {
+        "chinese": "他堅持保留習慣和傳統。",
+        "english": "He insists on preserving customs and traditions.",
+        "pinyin": "Tā jiānchí bǎoliú xíguàn hé chuántǒng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "保險": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "買車的時候一定要買保險。",
+        "english": "When buying a car, you must definitely get insurance.",
+        "pinyin": "Mǎi chē de shíhòu yīdìng yào mǎi bǎoxiǎn."
+      },
+      {
+        "chinese": "他們為自己的家買了房屋保險。",
+        "english": "They bought home insurance for their house.",
+        "pinyin": "Tāmen wèi zìjǐ de jiā mǎile fángwū bǎoxiǎn."
+      },
+      {
+        "chinese": "上大學時，學校會為學生提供健康保險。",
+        "english": "When going to college, the school provides health insurance for the students.",
+        "pinyin": "Shàng dàxué shí, xuéxiào huì wèi xuéshēng tígōng jiànkāng bǎoxiǎn."
+      },
+      {
+        "chinese": "投資者應該考慮購買股票保險。",
+        "english": "Investors should consider purchasing stock insurance.",
+        "pinyin": "Tóuzī zhě yīnggāi kǎolǜ gòumǎi gǔpiào bǎoxiǎn."
+      },
+      {
+        "chinese": "旅遊時，很重要的一點是買旅行保險。",
+        "english": "When traveling, it is very important to buy travel insurance.",
+        "pinyin": "Lǚyóu shí, hěn zhòngyào de yīdiǎn shì mǎi lǚxíng bǎoxiǎn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "報告": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天都要寫報告。",
+        "english": "I have to write reports every day.",
+        "pinyin": "Wǒ měitiān dōu yào xiě bàogào."
+      },
+      {
+        "chinese": "你能幫我寫報告嗎？",
+        "english": "Can you help me write the report?",
+        "pinyin": "Nǐ néng bāng wǒ xiě bàogào ma?"
+      },
+      {
+        "chinese": "這份報告很詳細。",
+        "english": "This report is very detailed.",
+        "pinyin": "Zhè fèn bàogào hěn xiángxi."
+      },
+      {
+        "chinese": "公司的年度報告已經出來了。",
+        "english": "The company's annual report is already out.",
+        "pinyin": "Gōngsī de niándù bàogào yǐjīng chūlái le."
+      },
+      {
+        "chinese": "經理要求我們提交月度報告。",
+        "english": "The manager requested us to submit monthly reports.",
+        "pinyin": "Jīnglǐ yāoqiú wǒmen tígōng yuèdù bàogào."
+      }
+    ],
+    "gpt-4": []
+  },
+  "悲觀": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他對未來感到悲觀。",
+        "english": "He feels pessimistic about the future.",
+        "pinyin": "Tā duì wèilái gǎndào bēiguān."
+      },
+      {
+        "chinese": "這種悲觀的想法並不利於解決問題。",
+        "english": "This pessimistic mindset is not conducive to problem-solving.",
+        "pinyin": "Zhè zhǒng bēiguān de xiǎngfǎ bìng bù lìyú jiějué wèntí."
+      },
+      {
+        "chinese": "她的悲觀情緒影響了她的生活。",
+        "english": "Her pessimistic mood has affected her life.",
+        "pinyin": "Tā de bēiguān qíngxù yǐngxiǎngle tā de shēnghuó."
+      },
+      {
+        "chinese": "儘管有困難，但我們不能悲觀失望。",
+        "english": "Despite the difficulties, we must not be pessimistic and disappointed.",
+        "pinyin": "Jǐnguǎn yǒu kùnnán, dàn wǒmen bùnéng bēiguān shīwàng."
+      },
+      {
+        "chinese": "對於未來，我們應該保持樂觀態度，而不是悲觀看待。",
+        "english": "For the future, we should maintain an optimistic attitude instead of viewing it pessimistically.",
+        "pinyin": "Duìyú wèilái, wǒmen yīnggāi bǎochí lèguān tàidù, ér bùshì bēiguān kàndài."
+      }
+    ],
+    "gpt-4": []
   }
 }

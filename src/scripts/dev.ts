@@ -147,8 +147,7 @@ async function generateSentences(
   seenWords: string[],
   hskLevel: number
 ): Promise<GeneratedSentenceType[]> {
-  console.log(`Current word = ${word}. Seen words = ${seenWords.join(", ")}`);
-  const seenWordsSlice = shuffleArray(seenWords).slice(0, 100);
+  const seenWordsSlice = shuffleArray(seenWords).slice(0, 25);
   const prompt =
     hskLevel === 1
       ? generateStarterPrompt(word, seenWordsSlice)
@@ -184,48 +183,55 @@ async function generateSentencesForWord(
       word,
     });
   } catch (error) {
-    console.log("An error occurred:");
+    console.info("An error occurred:");
     if (error.response) {
-      console.log(error.response.status);
-      console.log(error.response.data);
+      console.info(error.response.status);
+      console.info(error.response.data);
     } else {
-      console.log(error.message);
+      console.info(error.message);
     }
   }
 }
 
 const HSK_LEVEL: HskLevel = 6;
+const WORD_LIMIT = 25;
 const hsk = HSK_MAP[HSK_LEVEL];
 const { level } = hsk;
-const WORD_LIMIT = 10;
 const words = hsk.words.slice(0, WORD_LIMIT);
 const seenWords: string[] = [];
 
 async function run() {
-  console.log(`Running sentence generation for HSK level ${HSK_LEVEL}.`);
-  console.log(`Generating sentences for ${WORD_LIMIT} words.`);
-  console.log("");
+  console.info(`Running sentence generation for HSK level ${HSK_LEVEL}.`);
+  console.info(`Generating sentences for ${WORD_LIMIT} words.`);
+  console.info("");
 
   const filepath = `src/chinese/sentences/level-${level}.json`;
   const sentenceMap = JSON.parse(
     readFileSync(filepath, "utf-8")
   ) as SentenceMap;
 
-  for (const wordEntry of words) {
+  for (let i = 0; i < words.length; i++) {
+    const wordEntry = words[i]!;
     const word = wordEntry.traditional;
 
     if (wordExistsAlready({ model: "gpt-3.5-turbo", sentenceMap, word })) {
-      console.info(`${word} already exists for this model, skipping.`);
+      console.info(`- Skipping ${word}.`);
       seenWords.push(word);
       continue;
     }
 
+    console.info(`- Current word = ${word} (${i + 1} out of ${words.length}).`);
     await generateSentencesForWord(word, seenWords, sentenceMap, level);
     seenWords.push(word);
   }
 
+  console.info("");
+  console.info(
+    `A total of ${words.length} out of ${hsk.words.length} have been generated.`
+  );
+
   writeFileSync(filepath, JSON.stringify(sentenceMap), "utf-8");
-  console.log(`Saved results in ${filepath}. Formatting results...`);
+  console.info(`Saved results in ${filepath}. Formatting results...`);
   execSync("yarn prettier:fix");
 }
 

@@ -32,6 +32,10 @@ const config = {
     "@typescript-eslint/no-unsafe-member-access": "off",
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "@typescript-eslint/sort-type-constituents": "error",
+    "no-console": [
+      "warn",
+      { allow: ["trace", "info", "warn", "error", "debug"] },
+    ],
     "no-unused-vars": "off",
     // These opinionated rules are enabled in stylistic-type-checked above.
     // Feel free to reconfigure them to your own preference.

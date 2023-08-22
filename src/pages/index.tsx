@@ -240,7 +240,7 @@ function CharacterCard(props: CharacterCardProps) {
             )}
             {contentRevealedIndex === 2 && (
               <TypedContent
-                className="text-xs md:text-xl"
+                className="text-md md:text-xl"
                 content={currentSentence.english}
                 typingDelay={6}
               />
@@ -382,8 +382,8 @@ function App() {
   );
   const { width } = useWindowSize();
   const isMobileView = width < 768;
-  const hskWordLength = HSK_MAP[hskLevel].words.length;
-  const percentComplete = index / hskWordLength;
+  const hskSentenceKeys = Object.keys(HSK_SENTENCE_MAP[hskLevel]);
+  const percentComplete = (index + 1) / hskSentenceKeys.length;
   const widthPercentComplete = Math.round(percentComplete * width);
 
   const updateCheckpoints = () => {
@@ -399,6 +399,11 @@ function App() {
     setContentRevealedIndex(0);
     setCharacterRevealed(false);
   }, [hskLevel]);
+
+  const handleSelectHskLevel = (hskLevel: HskLevel) => {
+    setHskLevel(hskLevel);
+    setIndex(checkpoints[hskLevel]);
+  };
 
   const next = useCallback(() => {
     setIndex((cur) => (hasNext ? cur + 1 : cur));
@@ -485,12 +490,15 @@ function App() {
           </div>
           <div className="flex flex-row items-center gap-4">
             <p className="text-xs md:text-lg text-slate-400">HSK Level</p>
-            <SelectHskLevel onValueChanged={setHskLevel} value={hskLevel} />
+            <SelectHskLevel
+              onValueChanged={handleSelectHskLevel}
+              value={hskLevel}
+            />
           </div>
           <CharacterCard
             characterRevealed={characterRevealed}
             contentRevealedIndex={contentRevealedIndex}
-            hskWordLength={hskWordLength}
+            hskWordLength={hskSentenceKeys.length}
             isMobileView={isMobileView}
             onTapCharacterPanel={!isMobileView ? noop : revealCharacter}
             onTapSentence={!isMobileView ? noop : revealSentence}

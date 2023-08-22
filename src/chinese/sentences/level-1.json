@@ -748,5 +748,4351 @@
       }
     ],
     "gpt-4": []
+  },
+  "五": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "今天是五月九日。",
+        "english": "Today is May 9th.",
+        "pinyin": "Jīntiān shì wǔ yuè jiǔ rì."
+      },
+      {
+        "chinese": "我家附近有五個公園。",
+        "english": "There are five parks near my house.",
+        "pinyin": "Wǒ jiā fùjìn yǒu wǔ gè gōngyuán."
+      },
+      {
+        "chinese": "小明只會數到五。",
+        "english": "Xiao Ming can only count to five.",
+        "pinyin": "Xiǎo Míng zhǐ huì shǔ dào wǔ."
+      },
+      {
+        "chinese": "我在這家公司工作已經五年了。",
+        "english": "I have been working at this company for five years.",
+        "pinyin": "Wǒ zài zhè jiā gōngsī gōngzuò yǐjīng wǔ nián le."
+      },
+      {
+        "chinese": "公車到五點鐘就開始運行。",
+        "english": "The bus starts running at five o'clock.",
+        "pinyin": "Gōngchē dào wǔ diǎn zhōng jiù kāishǐ yùnxíng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "六": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天早上六點起床。",
+        "english": "I wake up at six o'clock every morning.",
+        "pinyin": "Wǒ měitiān zǎoshàng liù diǎn qǐchuáng."
+      },
+      {
+        "chinese": "這個月有六十天。",
+        "english": "This month has sixty days.",
+        "pinyin": "Zhège yuè yǒu liùshí tiān."
+      },
+      {
+        "chinese": "我家離學校只有六公里。",
+        "english": "My house is only six kilometers away from the school.",
+        "pinyin": "Wǒ jiā lí xuéxiào zhǐyǒu liù gōnglǐ."
+      },
+      {
+        "chinese": "我有六本書。",
+        "english": "I have six books.",
+        "pinyin": "Wǒ yǒu liù běn shū."
+      },
+      {
+        "chinese": "今天是六月二十六號。",
+        "english": "Today is June twenty-sixth.",
+        "pinyin": "Jīntiān shì liù yuè èrshíliù hào."
+      }
+    ],
+    "gpt-4": []
+  },
+  "七": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我家有七個人。",
+        "english": "There are seven people in my family.",
+        "pinyin": "Wǒ jiā yǒu qī gè rén."
+      },
+      {
+        "chinese": "每週我都要工作七天。",
+        "english": "I have to work seven days a week.",
+        "pinyin": "Měi zhōu wǒ dōu yào gōngzuò qī tiān."
+      },
+      {
+        "chinese": "我有七本書。",
+        "english": "I have seven books.",
+        "pinyin": "Wǒ yǒu qī běn shū."
+      },
+      {
+        "chinese": "這個星期我要去旅行七天。",
+        "english": "I'm going on a seven-day trip this week.",
+        "pinyin": "Zhè gè xīngqī wǒ yào qù lǚxíng qī tiān."
+      },
+      {
+        "chinese": "今年我已經七歲了。",
+        "english": "I'm already seven years old this year.",
+        "pinyin": "Jīnnián wǒ yǐjīng qī suì le."
+      }
+    ],
+    "gpt-4": []
+  },
+  "八": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "今天是八月一號。",
+        "english": "Today is August 1st.",
+        "pinyin": "Jīntiān shì bā yuè yī hào."
+      },
+      {
+        "chinese": "這個星期有八天。",
+        "english": "This week has eight days.",
+        "pinyin": "Zhège xīngqī yǒu bā tiān."
+      },
+      {
+        "chinese": "這本書有八十頁。",
+        "english": "This book has eighty pages.",
+        "pinyin": "Zhè běn shū yǒu bāshí yè."
+      },
+      {
+        "chinese": "我有八個朋友。",
+        "english": "I have eight friends.",
+        "pinyin": "Wǒ yǒu bā gè péngyǒu."
+      },
+      {
+        "chinese": "她的生日是八月十八號。",
+        "english": "Her birthday is on August 18th.",
+        "pinyin": "Tā de shēngrì shì bā yuè shíbā hào."
+      }
+    ],
+    "gpt-4": []
+  },
+  "九": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "明天是九月一日。",
+        "english": "Tomorrow is September 1st.",
+        "pinyin": "Míngtiān shì jiǔ yuè yī rì."
+      },
+      {
+        "chinese": "我有九個蘋果。",
+        "english": "I have nine apples.",
+        "pinyin": "Wǒ yǒu jiǔ gè píngguǒ."
+      },
+      {
+        "chinese": "這本書有九十頁。",
+        "english": "This book has ninety pages.",
+        "pinyin": "Zhè běn shū yǒu jiǔ shí yè."
+      },
+      {
+        "chinese": "九點我要去上班。",
+        "english": "I have to go to work at nine o'clock.",
+        "pinyin": "Jiǔ diǎn wǒ yào qù shàngbān."
+      },
+      {
+        "chinese": "九月是秋天的開始。",
+        "english": "September is the beginning of autumn.",
+        "pinyin": "Jiǔ yuè shì qiūtiān de kāishǐ."
+      }
+    ],
+    "gpt-4": []
+  },
+  "十": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "十個學生在教室裡。",
+        "english": "There are ten students in the classroom.",
+        "pinyin": "Shí gè xuéshēng zài jiàoshì lǐ."
+      },
+      {
+        "chinese": "我今天晚上十點睡覺。",
+        "english": "I go to bed at ten o'clock tonight.",
+        "pinyin": "Wǒ jīntiān wǎnshàng shí diǎn shuìjiào."
+      },
+      {
+        "chinese": "那本書有十五章。",
+        "english": "That book has fifteen chapters.",
+        "pinyin": "Nà běn shū yǒu shíwǔ zhāng."
+      },
+      {
+        "chinese": "這是我在十年前照的照片。",
+        "english": "This is a photo I took ten years ago.",
+        "pinyin": "Zhè shì wǒ zài shí nián qián zhào de zhàopiàn."
+      },
+      {
+        "chinese": "我的生日是十月十號。",
+        "english": "My birthday is on October 10th.",
+        "pinyin": "Wǒ de shēngrì shì shí yuè shí hào."
+      }
+    ],
+    "gpt-4": []
+  },
+  "零": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "車牌號碼是零二三。",
+        "english": "The license plate number is zero two three.",
+        "pinyin": "Chēpái hàomǎ shì líng èr sān."
+      },
+      {
+        "chinese": "他昨天上午十點零五分到達。",
+        "english": "He arrived at ten o'clock and five minutes yesterday morning.",
+        "pinyin": "Tā zuótiān shàngwǔ shí diǎn líng wǔ fēn dào dá."
+      },
+      {
+        "chinese": "請問你有零錢嗎？",
+        "english": "Do you have any loose change?",
+        "pinyin": "Qǐngwèn nǐ yǒu língqián ma?"
+      },
+      {
+        "chinese": "今天是西元二零二二年。",
+        "english": "Today is the year two zero two two in AD.",
+        "pinyin": "Jīntiān shì xīyuán èr líng èr èr nián."
+      },
+      {
+        "chinese": "銀行的利率降到了百分之零點三。",
+        "english": "The bank interest rate has dropped to zero point three percent.",
+        "pinyin": "Yínháng de lìlǜ jiàng dào le bǎi fēn zhī líng diǎn sān."
+      }
+    ],
+    "gpt-4": []
+  },
+  "兩": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們有兩個小孩。",
+        "english": "We have two children.",
+        "pinyin": "Wǒmen yǒu liǎng gè xiǎo hái."
+      },
+      {
+        "chinese": "他有兩張紙。",
+        "english": "He has two pieces of paper.",
+        "pinyin": "Tā yǒu liǎng zhāng zhǐ."
+      },
+      {
+        "chinese": "這本書有兩百頁。",
+        "english": "This book has two hundred pages.",
+        "pinyin": "Zhè běn shū yǒu liǎng bǎi yè."
+      },
+      {
+        "chinese": "她們有兩條狗。",
+        "english": "They have two dogs.",
+        "pinyin": "Tāmen yǒu liǎng tiáo gǒu."
+      },
+      {
+        "chinese": "我的生日是兩月的十七號。",
+        "english": "My birthday is on the 17th of the second month.",
+        "pinyin": "Wǒ de shēngrì shì liǎng yuè de shíqī hào."
+      }
+    ],
+    "gpt-4": []
+  },
+  "百": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "一百個人",
+        "english": "One hundred people.",
+        "pinyin": "Yībǎi gè rén."
+      },
+      {
+        "chinese": "這本書有三百頁。",
+        "english": "This book has three hundred pages.",
+        "pinyin": "Zhè běn shū yǒu sānbǎi yè."
+      },
+      {
+        "chinese": "小明拿了二百塊錢。",
+        "english": "Xiao Ming took two hundred dollars.",
+        "pinyin": "Xiǎo Míng nále èrbǎi kuài qián."
+      },
+      {
+        "chinese": "她已經學會數到了五百。",
+        "english": "She has already learned how to count to five hundred.",
+        "pinyin": "Tā yǐjīng xuéhuì shǔ dàole wǔbǎi."
+      },
+      {
+        "chinese": "昨天我在商店買了一百元的東西。",
+        "english": "Yesterday I bought one hundred yuan worth of things in the store.",
+        "pinyin": "Zuótiān wǒ zài shāngdiàn mǎile yībǎi yuán de dōngxi."
+      }
+    ],
+    "gpt-4": []
+  },
+  "千": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我買了一千元的東西。",
+        "english": "I bought something worth a thousand dollars.",
+        "pinyin": "Wǒ mǎi le yī qiān yuán de dōngxi."
+      },
+      {
+        "chinese": "這裡的風景真美，值得一千個讚。",
+        "english": "The scenery here is so beautiful, it's worth a thousand likes.",
+        "pinyin": "Zhèlǐ de fēngjǐng zhēn měi, zhíde yī qiān gè zàn."
+      },
+      {
+        "chinese": "我一個人可以走千里路。",
+        "english": "I can travel thousands of miles alone.",
+        "pinyin": "Wǒ yī gè rén kěyǐ zǒu qiānlǐ lù."
+      },
+      {
+        "chinese": "這本書的價值不止千言萬語。",
+        "english": "The value of this book is beyond words.",
+        "pinyin": "Zhè běn shū de jiàzhí bùzhǐ qiān yán wàn yǔ."
+      },
+      {
+        "chinese": "他用了千方百計來達到目標。",
+        "english": "He tried every possible means to achieve his goal.",
+        "pinyin": "Tā yòng le qiān fāng bǎi jì lái dádào mùbiāo."
+      }
+    ],
+    "gpt-4": []
+  },
+  "第一": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "你是我的第一個學生。",
+        "english": "You are my first student.",
+        "pinyin": "Nǐ shì wǒ de dì yī gè xuéshēng."
+      },
+      {
+        "chinese": "我喜歡第一個月。",
+        "english": "I like the first month.",
+        "pinyin": "Wǒ xǐhuān dì yī gè yuè."
+      },
+      {
+        "chinese": "這是我的第一次旅行。",
+        "english": "This is my first trip.",
+        "pinyin": "Zhè shì wǒ de dì yī cì lǚxíng."
+      },
+      {
+        "chinese": "你是第一個到達的人。",
+        "english": "You are the first person to arrive.",
+        "pinyin": "Nǐ shì dì yī gè dàodá de rén."
+      },
+      {
+        "chinese": "這是我第一次見到他。",
+        "english": "This is the first time I've seen him.",
+        "pinyin": "Zhè shì wǒ dì yī cì jiàn dào tā."
+      }
+    ],
+    "gpt-4": []
+  },
+  "個": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我有一個書包。",
+        "english": "I have a backpack.",
+        "pinyin": "Wǒ yǒu yī gè shūbāo."
+      },
+      {
+        "chinese": "這是一個蘋果。",
+        "english": "This is an apple.",
+        "pinyin": "Zhè shì yī gè píngguǒ."
+      },
+      {
+        "chinese": "你們有幾個朋友？",
+        "english": "How many friends do you have?",
+        "pinyin": "Nǐmen yǒu jǐ gè péngyǒu?"
+      },
+      {
+        "chinese": "我只要一個杯子。",
+        "english": "I only want one cup.",
+        "pinyin": "Wǒ zhǐyào yī gè bēizi."
+      },
+      {
+        "chinese": "他們有兩個孩子。",
+        "english": "They have two children.",
+        "pinyin": "Tāmen yǒu liǎng gè háizi."
+      }
+    ],
+    "gpt-4": []
+  },
+  "歲": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我今年一歲。",
+        "english": "I am one year old this year.",
+        "pinyin": "Wǒ jīnnián yī suì."
+      },
+      {
+        "chinese": "他的生日快到了，他將滿三歲。",
+        "english": "His birthday is coming soon, he will be three years old.",
+        "pinyin": "Tā de shēngrì kuài dào le, tā jiāng mǎn sān suì."
+      },
+      {
+        "chinese": "她的姊姊已經十八歲了。",
+        "english": "Her older sister is already eighteen years old.",
+        "pinyin": "Tā de zǐzǐ yǐjīng shíbā suì le."
+      },
+      {
+        "chinese": "每年我都會慶祝我的生日。",
+        "english": "I celebrate my birthday every year.",
+        "pinyin": "Měi nián wǒ dōu huì qìngzhù wǒ de shēngrì."
+      },
+      {
+        "chinese": "我姐姐比我小兩歲。",
+        "english": "My older sister is two years younger than me.",
+        "pinyin": "Wǒ jiějie bǐ wǒ xiǎo liǎng suì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "本": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這是我的本。",
+        "english": "This is my book.",
+        "pinyin": "Zhè shì wǒ de běn."
+      },
+      {
+        "chinese": "我每天都帶著一本筆記本。",
+        "english": "I bring a notebook with me every day.",
+        "pinyin": "Wǒ měitiān dōu dàizhe yī běn bǐjìběn."
+      },
+      {
+        "chinese": "請把書本放在桌子上。",
+        "english": "Please put the books on the table.",
+        "pinyin": "Qǐng bǎ shūběn fàng zài zhuōzi shàng."
+      },
+      {
+        "chinese": "這本書很厚。",
+        "english": "This book is very thick.",
+        "pinyin": "Zhè běn shū hěn hòu."
+      },
+      {
+        "chinese": "我最喜歡的本是小說。",
+        "english": "My favorite book is a novel.",
+        "pinyin": "Wǒ zuì xǐhuān de běn shì xiǎoshuō."
+      }
+    ],
+    "gpt-4": []
+  },
+  "些": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我有些問題。",
+        "english": "I have some questions.",
+        "pinyin": "Wǒ yǒu xiē wèntí."
+      },
+      {
+        "chinese": "這些書很有趣。",
+        "english": "These books are interesting.",
+        "pinyin": "Zhèxiē shū hěn yǒuqù."
+      },
+      {
+        "chinese": "我帶了一些水果。",
+        "english": "I brought some fruits.",
+        "pinyin": "Wǒ dài le yīxiē shuǐguǒ."
+      },
+      {
+        "chinese": "那些學生非常聰明。",
+        "english": "Those students are very smart.",
+        "pinyin": "Nàxiē xuéshēng fēicháng cōngming."
+      },
+      {
+        "chinese": "他們收集了一些郵票。",
+        "english": "They collected some stamps.",
+        "pinyin": "Tāmen shōují le yīxiē yóupiào."
+      }
+    ],
+    "gpt-4": []
+  },
+  "塊": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個蘋果五塊錢。",
+        "english": "This apple costs five yuan.",
+        "pinyin": "Zhège píngguǒ wǔ kuài qián."
+      },
+      {
+        "chinese": "他每天都吃兩塊巧克力。",
+        "english": "He eats two pieces of chocolate every day.",
+        "pinyin": "Tā měitiān dōu chī liǎng kuài qiǎokèlì."
+      },
+      {
+        "chinese": "我們買了三塊手錶。",
+        "english": "We bought three watches.",
+        "pinyin": "Wǒmen mǎile sān kuài shǒubiǎo."
+      },
+      {
+        "chinese": "這本書只要十塊錢。",
+        "english": "This book only costs ten yuan.",
+        "pinyin": "Zhè běn shū zhǐyào shí kuài qián."
+      },
+      {
+        "chinese": "一塊蛋糕太小了。",
+        "english": "One piece of cake is too small.",
+        "pinyin": "Yī kuài dàngāo tài xiǎo le."
+      }
+    ],
+    "gpt-4": []
+  },
+  "次": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天刷牙兩次。",
+        "english": "I brush my teeth twice a day.",
+        "pinyin": "Wǒ měitiān shuā yá liǎng cì."
+      },
+      {
+        "chinese": "我這個星期已經去了三次超市。",
+        "english": "I have already been to the supermarket three times this week.",
+        "pinyin": "Wǒ zhège xīngqī yǐjīng qùle sān cì chāoshì."
+      },
+      {
+        "chinese": "我哥哥在學校留過一次。",
+        "english": "My brother stayed at school once.",
+        "pinyin": "Wǒ gēgē zài xuéxiào liú guò yī cì."
+      },
+      {
+        "chinese": "剛剛下雨的時候，我撐了兩次傘。",
+        "english": "I used an umbrella two times when it was raining just now.",
+        "pinyin": "Gānggāng xiàyǔ de shíhou, wǒ chēng le liǎng cì sǎn."
+      },
+      {
+        "chinese": "我坐了一次電梯就感到頭暈。",
+        "english": "I felt dizzy after taking the elevator once.",
+        "pinyin": "Wǒ zuò le yī cì diàntī jiù gǎndào tóuyūn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "公斤": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他買了五公斤的蘋果。",
+        "english": "He bought five kilograms of apples.",
+        "pinyin": "Tā mǎi le wǔ gōngjīn de píngguǒ."
+      },
+      {
+        "chinese": "這本書有一公斤重。",
+        "english": "This book weighs one kilogram.",
+        "pinyin": "Zhè běn shū yǒu yī gōngjīn zhòng."
+      },
+      {
+        "chinese": "我能提起二十公斤的重物。",
+        "english": "I can lift a weight of twenty kilograms.",
+        "pinyin": "Wǒ néng tíqǐ èrshí gōngjīn de zhòngwù."
+      },
+      {
+        "chinese": "我每天要喝八杯水，大約兩公升。",
+        "english": "I need to drink eight cups of water every day, about two liters.",
+        "pinyin": "Wǒ měitiān yào hē bā bēi shuǐ, dàyuē liǎng gōngshēng."
+      },
+      {
+        "chinese": "兩公斤等於兩千克。",
+        "english": "Two kilograms is equal to two thousand grams.",
+        "pinyin": "Liǎng gōngjīn děngyú liǎng qiān kè."
+      }
+    ],
+    "gpt-4": []
+  },
+  "元": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我有一百元。",
+        "english": "I have one hundred yuan.",
+        "pinyin": "Wǒ yǒu yībǎi yuán."
+      },
+      {
+        "chinese": "這件衣服多少錢？五十元。",
+        "english": "How much is this piece of clothing? Fifty yuan.",
+        "pinyin": "Zhè jiàn yīfú duōshǎo qián? Wǔshí yuán."
+      },
+      {
+        "chinese": "我可以借你十元。",
+        "english": "I can lend you ten yuan.",
+        "pinyin": "Wǒ kěyǐ jiè nǐ shí yuán."
+      },
+      {
+        "chinese": "我要換五百元新台幣。",
+        "english": "I want to exchange five hundred yuan for New Taiwan dollars.",
+        "pinyin": "Wǒ yào huàn wǔbǎi yuán xīn táibì."
+      },
+      {
+        "chinese": "這杯飲料三十元。",
+        "english": "This cup of beverage costs thirty yuan.",
+        "pinyin": "Zhè bēi yǐnliào sānshí yuán."
+      }
+    ],
+    "gpt-4": []
+  },
+  "事": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我有很多事情要做。",
+        "english": "I have a lot of things to do.",
+        "pinyin": "Wǒ yǒu hěnduō shìqíng yào zuò."
+      },
+      {
+        "chinese": "這件事很重要。",
+        "english": "This matter is very important.",
+        "pinyin": "Zhè jiàn shì hěn zhòngyào."
+      },
+      {
+        "chinese": "我需要你的幫助解決這個問題。",
+        "english": "I need your help to solve this problem.",
+        "pinyin": "Wǒ xūyào nǐ de bāngzhù jiějué zhège wèntí."
+      },
+      {
+        "chinese": "他經常忘記做重要的事情。",
+        "english": "He often forgets to do important things.",
+        "pinyin": "Tā jīngcháng wàngjì zuò zhòngyào de shìqíng."
+      },
+      {
+        "chinese": "同事們都很忙，沒時間做其他的事情。",
+        "english": "Colleagues are all busy and have no time for other things.",
+        "pinyin": "Tóngshìmen dōu hěn máng, méi shíjiān zuò qítā de shìqíng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "張": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我有一張紙。",
+        "english": "I have a piece of paper.",
+        "pinyin": "Wǒ yǒu yī zhāng zhǐ."
+      },
+      {
+        "chinese": "這張桌子很大。",
+        "english": "This table is big.",
+        "pinyin": "Zhè zhāng zhuōzi hěn dà."
+      },
+      {
+        "chinese": "他拿了一張照片給我看。",
+        "english": "He showed me a photo.",
+        "pinyin": "Tā nále yī zhāng zhàopiàn gěi wǒ kàn."
+      },
+      {
+        "chinese": "我今天晚上要去張老師的家。",
+        "english": "I'm going to Teacher Zhang's house tonight.",
+        "pinyin": "Wǒ jīntiān wǎnshàng yào qù zhāng lǎoshī de jiā."
+      },
+      {
+        "chinese": "請問這裡有一張地圖嗎？",
+        "english": "Excuse me, do you have a map here?",
+        "pinyin": "Qǐngwèn zhèlǐ yǒu yī zhāng dìtú ma?"
+      }
+    ],
+    "gpt-4": []
+  },
+  "不": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我不喜歡吃辣的食物。",
+        "english": "I don't like to eat spicy food.",
+        "pinyin": "Wǒ bù xǐhuān chī là de shíwù."
+      },
+      {
+        "chinese": "我不會游泳。",
+        "english": "I can't swim.",
+        "pinyin": "Wǒ bù huì yóuyǒng."
+      },
+      {
+        "chinese": "他不喜歡唱歌。",
+        "english": "He doesn't like singing.",
+        "pinyin": "Tā bù xǐhuān chànggē."
+      },
+      {
+        "chinese": "這是不對的。",
+        "english": "This is wrong.",
+        "pinyin": "Zhè shì bù duì de."
+      },
+      {
+        "chinese": "他不常去運動。",
+        "english": "He doesn't go exercise often.",
+        "pinyin": "Tā bù cháng qù yùndòng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "沒": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我沒有時間。",
+        "english": "I don't have time.",
+        "pinyin": "Wǒ méiyǒu shíjiān."
+      },
+      {
+        "chinese": "他沒有錢。",
+        "english": "He doesn't have money.",
+        "pinyin": "Tā méiyǒu qián."
+      },
+      {
+        "chinese": "我沒有問題。",
+        "english": "I don't have any questions.",
+        "pinyin": "Wǒ méiyǒu wèntí."
+      },
+      {
+        "chinese": "我沒有看到他。",
+        "english": "I didn't see him.",
+        "pinyin": "Wǒ méiyǒu kàn dào tā."
+      },
+      {
+        "chinese": "你沒有理解他的意思。",
+        "english": "You didn't understand his meaning.",
+        "pinyin": "Nǐ méiyǒu lǐjiě tā de yìsi."
+      }
+    ],
+    "gpt-4": []
+  },
+  "很": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他很高。",
+        "english": "He is tall.",
+        "pinyin": "Tā hěn gāo."
+      },
+      {
+        "chinese": "她很漂亮。",
+        "english": "She is beautiful.",
+        "pinyin": "Tā hěn piàoliang."
+      },
+      {
+        "chinese": "這個東西很貴。",
+        "english": "This thing is expensive.",
+        "pinyin": "Zhège dōngxi hěn guì."
+      },
+      {
+        "chinese": "我很喜歡中國菜。",
+        "english": "I really like Chinese food.",
+        "pinyin": "Wǒ hěn xǐhuan zhōngguó cài."
+      },
+      {
+        "chinese": "他很忙。",
+        "english": "He is busy.",
+        "pinyin": "Tā hěn máng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "太": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "今天太熱了。",
+        "english": "Today is too hot.",
+        "pinyin": "Jīntiān tài rè le."
+      },
+      {
+        "chinese": "這個東西太貴了。",
+        "english": "This thing is too expensive.",
+        "pinyin": "Zhège dōngxi tài guì le."
+      },
+      {
+        "chinese": "他太高了，我夠不到他。",
+        "english": "He is too tall, I can't reach him.",
+        "pinyin": "Tā tài gāo le, wǒ gòu bù dào tā."
+      },
+      {
+        "chinese": "這本書太難了，我看不懂。",
+        "english": "This book is too difficult, I can't understand it.",
+        "pinyin": "Zhè běn shū tài nán le, wǒ kàn bù dǒng."
+      },
+      {
+        "chinese": "他們的房子太小了，放不下這麼多東西。",
+        "english": "Their house is too small, it can't fit so many things.",
+        "pinyin": "Tāmen de fángzi tài xiǎo le, fàng bù xià zhème duō dōngxi."
+      }
+    ],
+    "gpt-4": []
+  },
+  "都": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們都去看電影。",
+        "english": "We all go to watch movies.",
+        "pinyin": "Wǒmen dōu qù kàn diànyǐng."
+      },
+      {
+        "chinese": "他們都是我的朋友。",
+        "english": "They are all my friends.",
+        "pinyin": "Tāmen dōu shì wǒ de péngyǒu."
+      },
+      {
+        "chinese": "我們都喜歡吃中國菜。",
+        "english": "We all like to eat Chinese food.",
+        "pinyin": "Wǒmen dōu xǐhuān chī zhōngguó cài."
+      },
+      {
+        "chinese": "我都遲到了。",
+        "english": "I am late.",
+        "pinyin": "Wǒ dōu chídào le."
+      },
+      {
+        "chinese": "我都看過這個電影。",
+        "english": "I have seen this movie.",
+        "pinyin": "Wǒ dōu kànguò zhège diànyǐng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "別": {
+    "gpt-3.5-turbo": [
+      { "chinese": "別走！", "english": "Don't go!", "pinyin": "Bié zǒu!" },
+      {
+        "chinese": "請別說話。",
+        "english": "Please don't speak.",
+        "pinyin": "Qǐng bié shuōhuà."
+      },
+      {
+        "chinese": "我別無選擇。",
+        "english": "I have no choice.",
+        "pinyin": "Wǒ bié wú xuǎnzé."
+      },
+      {
+        "chinese": "別擔心，我會幫助你。",
+        "english": "Don't worry, I will help you.",
+        "pinyin": "Bié dān​xīn, wǒ huì​ bāngzhù nǐ."
+      },
+      {
+        "chinese": "別忘了明天的會議。",
+        "english": "Don't forget the meeting tomorrow.",
+        "pinyin": "Bié wàng le míngtiān de huìyì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "非常": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "今天的天氣非常好。",
+        "english": "The weather today is very good.",
+        "pinyin": "Jīntiān de tiānqì fēicháng hǎo."
+      },
+      {
+        "chinese": "我非常喜歡看電影。",
+        "english": "I really like watching movies.",
+        "pinyin": "Wǒ fēicháng xǐhuān kàn diànyǐng."
+      },
+      {
+        "chinese": "他覺得這個菜非常好吃。",
+        "english": "He thinks this dish is delicious.",
+        "pinyin": "Tā juéde zhège cài fēicháng hào chī."
+      },
+      {
+        "chinese": "她對學習中文非常有興趣。",
+        "english": "She is very interested in learning Chinese.",
+        "pinyin": "Tā duì xuéxí zhōngwén fēicháng yǒu xìngqù."
+      },
+      {
+        "chinese": "我非常高興見到你。",
+        "english": "I am very happy to see you.",
+        "pinyin": "Wǒ fēicháng gāoxìng jiàn dào nǐ."
+      }
+    ],
+    "gpt-4": []
+  },
+  "也": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他也是老師。",
+        "english": "He is also a teacher.",
+        "pinyin": "Tā yě shì lǎoshī."
+      },
+      {
+        "chinese": "我也喜歡吃水果。",
+        "english": "I also like to eat fruits.",
+        "pinyin": "Wǒ yě xǐhuān chī shuǐguǒ."
+      },
+      {
+        "chinese": "我們也要一起去。",
+        "english": "We also want to go together.",
+        "pinyin": "Wǒmen yě yào yīqǐ qù."
+      },
+      {
+        "chinese": "今天也是好天氣。",
+        "english": "Today is also a good weather.",
+        "pinyin": "Jīntiān yě shì hǎo tiānqì."
+      },
+      {
+        "chinese": "他也在學中文。",
+        "english": "He is also learning Chinese.",
+        "pinyin": "Tā yě zài xué zhōngwén."
+      }
+    ],
+    "gpt-4": []
+  },
+  "還": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我還沒吃飯。",
+        "english": "I haven't eaten yet.",
+        "pinyin": "Wǒ hái méi chīfàn."
+      },
+      {
+        "chinese": "她還在學校。",
+        "english": "She is still at school.",
+        "pinyin": "Tā hái zài xuéxiào."
+      },
+      {
+        "chinese": "我還不懂中文。",
+        "english": "I still don't understand Chinese.",
+        "pinyin": "Wǒ hái bù dǒng zhōngwén."
+      },
+      {
+        "chinese": "這是我的書，還請你幫我看一下。",
+        "english": "This is my book, could you please take a look for me.",
+        "pinyin": "Zhè shì wǒ de shū, hái qǐng nǐ bāng wǒ kàn yīxià."
+      },
+      {
+        "chinese": "我們還有很多工作要做。",
+        "english": "We still have a lot of work to do.",
+        "pinyin": "Wǒmen háiyǒu hěnduō gōngzuò yào zuò."
+      }
+    ],
+    "gpt-4": []
+  },
+  "最": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我的哥哥是最高的。",
+        "english": "My older brother is the tallest.",
+        "pinyin": "Wǒ de gēge shì zuì gāo de."
+      },
+      {
+        "chinese": "這台電視是最新的。",
+        "english": "This TV is the newest.",
+        "pinyin": "Zhè tái diànshì shì zuìxīn de."
+      },
+      {
+        "chinese": "我最喜歡的顏色是紅色。",
+        "english": "My favorite color is red.",
+        "pinyin": "Wǒ zuì xǐhuān de yánsè shì hóngsè."
+      },
+      {
+        "chinese": "她是最聰明的學生。",
+        "english": "She is the smartest student.",
+        "pinyin": "Tā shì zuì cōngmíng de xuéshēng."
+      },
+      {
+        "chinese": "今天是最熱的一天。",
+        "english": "Today is the hottest day.",
+        "pinyin": "Jīntiān shì zuì rè de yītiān."
+      }
+    ],
+    "gpt-4": []
+  },
+  "真": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "她的笑聲真甜。",
+        "english": "Her laughter is really sweet.",
+        "pinyin": "Tā de xiào shēng zhēn tián."
+      },
+      {
+        "chinese": "這本書真好看。",
+        "english": "This book is really interesting.",
+        "pinyin": "Zhè běn shū zhēn hǎokàn."
+      },
+      {
+        "chinese": "他的中文水平真高。",
+        "english": "His Chinese level is really high.",
+        "pinyin": "Tā de zhōngwén shuǐpíng zhēn gāo."
+      },
+      {
+        "chinese": "這幕景色真美。",
+        "english": "This scenery is really beautiful.",
+        "pinyin": "Zhè mù jǐngsè zhēn měi."
+      },
+      {
+        "chinese": "這道菜真好吃。",
+        "english": "This dish is really delicious.",
+        "pinyin": "Zhè dào cài zhēn hǎochī."
+      }
+    ],
+    "gpt-4": []
+  },
+  "正在": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我正在學習中文。",
+        "english": "I am learning Chinese.",
+        "pinyin": "Wǒ zhèngzài xuéxí zhōngwén."
+      },
+      {
+        "chinese": "他正在吃飯。",
+        "english": "He is eating.",
+        "pinyin": "Tā zhèngzài chīfàn."
+      },
+      {
+        "chinese": "我們正在看電影。",
+        "english": "We are watching a movie.",
+        "pinyin": "Wǒmen zhèngzài kàn diànyǐng."
+      },
+      {
+        "chinese": "她正在工作。",
+        "english": "She is working.",
+        "pinyin": "Tā zhèngzài gōngzuò."
+      },
+      {
+        "chinese": "他們正在做晚餐。",
+        "english": "They are making dinner.",
+        "pinyin": "Tāmen zhèngzài zuò wǎncān."
+      }
+    ],
+    "gpt-4": []
+  },
+  "已經": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我已經吃飯了。",
+        "english": "I have already eaten.",
+        "pinyin": "Wǒ yǐjīng chīfàn le."
+      },
+      {
+        "chinese": "他已經離開了。",
+        "english": "He has already left.",
+        "pinyin": "Tā yǐjīng líkāi le."
+      },
+      {
+        "chinese": "我已經學了一年中文。",
+        "english": "I have already studied Chinese for one year.",
+        "pinyin": "Wǒ yǐjīng xué le yī nián zhōngwén."
+      },
+      {
+        "chinese": "我已經寫好了作業。",
+        "english": "I have already finished my homework.",
+        "pinyin": "Wǒ yǐjīng xiě hǎo le zuòyè."
+      },
+      {
+        "chinese": "他已經買了禮物。",
+        "english": "He has already bought a gift.",
+        "pinyin": "Tā yǐjīng mǎi le lǐwù."
+      }
+    ],
+    "gpt-4": []
+  },
+  "一起": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們一起去吃飯吧。",
+        "english": "Let's go eat together.",
+        "pinyin": "Wǒmen yìqǐ qù chīfàn ba."
+      },
+      {
+        "chinese": "我和我的朋友一起看電影。",
+        "english": "I watch movies with my friends.",
+        "pinyin": "Wǒ hé wǒ de péngyǒu yìqǐ kàn diànyǐng."
+      },
+      {
+        "chinese": "我每天早上和家人一起吃早飯。",
+        "english": "I eat breakfast with my family every morning.",
+        "pinyin": "Wǒ měitiān zǎoshang hé jiārén yìqǐ chī zǎofàn."
+      },
+      {
+        "chinese": "我想和你一起去旅行。",
+        "english": "I want to travel with you.",
+        "pinyin": "Wǒ xiǎng hé nǐ yìqǐ qù lǚxíng."
+      },
+      {
+        "chinese": "我們一起學習中文。",
+        "english": "Let's learn Chinese together.",
+        "pinyin": "Wǒmen yìqǐ xuéxí zhōngwén."
+      }
+    ],
+    "gpt-4": []
+  },
+  "再": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我再看一遍。",
+        "english": "I will watch it again.",
+        "pinyin": "Wǒ zài kàn yī biàn."
+      },
+      {
+        "chinese": "他再也不會遲到了。",
+        "english": "He will never be late again.",
+        "pinyin": "Tā zài yě bú huì chídào le."
+      },
+      {
+        "chinese": "我們明天再見吧。",
+        "english": "Let's meet again tomorrow.",
+        "pinyin": "Wǒmen míngtiān zàijiàn ba."
+      },
+      {
+        "chinese": "他再也不喜歡吃辣的食物了。",
+        "english": "He doesn't like spicy food anymore.",
+        "pinyin": "Tā zài yě bù xǐhuān chī là de shíwù le."
+      },
+      {
+        "chinese": "這首歌我已經聽過很多遍了，不想再聽。",
+        "english": "I have listened to this song many times already, I don't want to listen to it again.",
+        "pinyin": "Zhè shǒu gē wǒ yǐjīng tīngguò hěn duō biàn le, bù xiǎng zài tīng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "就": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他下午就會來。",
+        "english": "He will come in the afternoon.",
+        "pinyin": "Tā xiàwǔ jiù huì lái."
+      },
+      {
+        "chinese": "我們就去吃飯吧。",
+        "english": "Let's go eat now.",
+        "pinyin": "Wǒmen jiù qù chīfàn ba."
+      },
+      {
+        "chinese": "這本書就是我買的。",
+        "english": "This book is the one I bought.",
+        "pinyin": "Zhè běn shū jiù shì wǒ mǎi de."
+      },
+      {
+        "chinese": "你今天早上就要到學校。",
+        "english": "You have to be at school early in the morning today.",
+        "pinyin": "Nǐ jīntiān zǎoshang jiù yào dào xuéxiào."
+      },
+      {
+        "chinese": "明天就是我生日了。",
+        "english": "Tomorrow is my birthday.",
+        "pinyin": "Míngtiān jiù shì wǒ shēngrì le."
+      }
+    ],
+    "gpt-4": []
+  },
+  "您": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "請問您貴姓？",
+        "english": "May I ask for your surname?",
+        "pinyin": "Qǐng wèn nín guìxìng?"
+      },
+      {
+        "chinese": "請您稍等一會兒。",
+        "english": "Please wait a moment.",
+        "pinyin": "Qǐng nín shāo děng yīhuǐ'er."
+      },
+      {
+        "chinese": "這是您的包包。",
+        "english": "This is your bag.",
+        "pinyin": "Zhè shì nín de bāobāo."
+      },
+      {
+        "chinese": "請問您需要什麼幫助？",
+        "english": "May I ask what kind of help you need?",
+        "pinyin": "Qǐng wèn nín xūyào shénme bāngzhù?"
+      },
+      {
+        "chinese": "感謝您的光臨！",
+        "english": "Thank you for coming!",
+        "pinyin": "Gǎnxiè nín de guānglín!"
+      }
+    ],
+    "gpt-4": []
+  },
+  "和": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡和朋友一起玩。",
+        "english": "I like to play with friends.",
+        "pinyin": "Wǒ xǐhuān hé péngyǒu yīqǐ wán."
+      },
+      {
+        "chinese": "這本書是關於中國和中國文化的。",
+        "english": "This book is about China and Chinese culture.",
+        "pinyin": "Zhè běn shū shì guānyú zhōngguó hé zhōngguó wénhuà de."
+      },
+      {
+        "chinese": "我跟爸爸媽媽一起做飯。",
+        "english": "I cook with my mom and dad.",
+        "pinyin": "Wǒ gēn bàba māmā yīqǐ zuòfàn."
+      },
+      {
+        "chinese": "弟弟和姐姐都是我的親人。",
+        "english": "My younger brother and older sister are my relatives.",
+        "pinyin": "Dìdi hé jiějiě dōu shì wǒ de qīnrén."
+      },
+      {
+        "chinese": "我今天很忙，不能和你出去玩。",
+        "english": "I'm busy today, I can't go out and play with you.",
+        "pinyin": "Wǒ jīntiān hěn máng, bù néng hé nǐ chūqù wán."
+      }
+    ],
+    "gpt-4": []
+  },
+  "因為": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡運動，因為它有助於保持健康。",
+        "english": "I like to exercise because it helps maintain health.",
+        "pinyin": "Wǒ xǐhuān yùndòng, yīnwèi tā yǒu zhùyú bǎochí jiànkāng."
+      },
+      {
+        "chinese": "我喜歡喝茶，因為它能讓我放鬆。",
+        "english": "I like to drink tea because it helps me relax.",
+        "pinyin": "Wǒ xǐhuān hē chá, yīnwèi tā néng ràng wǒ fàngsōng."
+      },
+      {
+        "chinese": "我晚上不吃太多食物，因為會影響睡眠。",
+        "english": "I don't eat too much food at night because it affects sleep.",
+        "pinyin": "Wǒ wǎnshàng bù chī tài duō shíwù, yīnwèi huì yǐngxiǎng shuìmián."
+      },
+      {
+        "chinese": "我去圖書館借書，因為我想學習更多知識。",
+        "english": "I go to the library to borrow books because I want to learn more knowledge.",
+        "pinyin": "Wǒ qù túshūguǎn jièshū, yīnwèi wǒ xiǎng xuéxí gèng duō zhīshì."
+      },
+      {
+        "chinese": "我喜歡旅行，因為可以體驗不同的文化。",
+        "english": "I like to travel because it allows me to experience different cultures.",
+        "pinyin": "Wǒ xǐhuān lǚxíng, yīnwèi kěyǐ tǐyàn bùtóng de wénhuà."
+      }
+    ],
+    "gpt-4": []
+  },
+  "所以": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我很累，所以想早點睡。",
+        "english": "I'm tired, so I want to sleep early.",
+        "pinyin": "Wǒ hěn lèi, suǒyǐ xiǎng zǎodiǎn shuì."
+      },
+      {
+        "chinese": "他不喜歡吃辣，所以他不吃川菜。",
+        "english": "He doesn't like spicy food, so he doesn't eat Sichuan cuisine.",
+        "pinyin": "Tā bù xǐhuān chī là, suǒyǐ tā bù chī chuāncài."
+      },
+      {
+        "chinese": "今天下雨，所以我帶了傘出門。",
+        "english": "It's raining today, so I brought an umbrella when I went out.",
+        "pinyin": "Jīntiān xiàyǔ, suǒyǐ wǒ dài le sǎn chūmén."
+      },
+      {
+        "chinese": "她很喜歡唱歌，所以她參加了合唱團。",
+        "english": "She loves singing, so she joined the choir.",
+        "pinyin": "Tā hěn xǐhuān chànggē, suǒyǐ tā cānjiā le héchàngtuán."
+      },
+      {
+        "chinese": "他好好學習，所以考試得到了好成績。",
+        "english": "He studies hard, so he got good grades in the exam.",
+        "pinyin": "Tā hǎohǎo xuéxí, suǒyǐ kǎoshì dédào le hǎo chéngjī."
+      }
+    ],
+    "gpt-4": []
+  },
+  "但是": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡喝咖啡，但是我不喜歡喝茶。",
+        "english": "I like to drink coffee, but I don't like to drink tea.",
+        "pinyin": "Wǒ xǐhuān hē kāfēi, dànshì wǒ bù xǐhuān hē chá."
+      },
+      {
+        "chinese": "我想去旅行，但是現在沒有時間。",
+        "english": "I want to travel, but I don't have time now.",
+        "pinyin": "Wǒ xiǎng qù lǚxíng, dànshì xiànzài méiyǒu shíjiān."
+      },
+      {
+        "chinese": "他很聰明，但是有時候也會犯錯誤。",
+        "english": "He is very smart, but sometimes he makes mistakes too.",
+        "pinyin": "Tā hěn cōngmíng, dànshì yǒu shíhòu yě huì fàn cuòwù."
+      },
+      {
+        "chinese": "這個餐廳的菜很好吃，但是服務不太好。",
+        "english": "The food at this restaurant is delicious, but the service is not very good.",
+        "pinyin": "Zhègè cāntīng de cài hěn hǎochī, dànshì fúwù bù tài hǎo."
+      },
+      {
+        "chinese": "我明天想跟你一起去看電影，但是我晚上有事情。",
+        "english": "I want to go watch a movie with you tomorrow, but I have plans in the evening.",
+        "pinyin": "Wǒ míngtiān xiǎng gēn nǐ yīqǐ qù kàn diànyǐng, dànshì wǒ wǎnshàng yǒu shìqíng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "在": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我在家。",
+        "english": "I am at home.",
+        "pinyin": "Wǒ zài jiā."
+      },
+      {
+        "chinese": "他在學校。",
+        "english": "He is at school.",
+        "pinyin": "Tā zài xuéxiào."
+      },
+      {
+        "chinese": "我在吃飯。",
+        "english": "I am eating.",
+        "pinyin": "Wǒ zài chīfàn."
+      },
+      {
+        "chinese": "我在工作。",
+        "english": "I am working.",
+        "pinyin": "Wǒ zài gōngzuò."
+      },
+      {
+        "chinese": "他在看電影。",
+        "english": "He is watching a movie.",
+        "pinyin": "Tā zài kàn diànyǐng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "從": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我從家裡到學校需要二十分鐘。",
+        "english": "It takes me twenty minutes to go from home to school.",
+        "pinyin": "Wǒ cóng jiālǐ dào xuéxiào xūyào èrshí fēnzhōng."
+      },
+      {
+        "chinese": "你從哪裡來？",
+        "english": "Where are you from?",
+        "pinyin": "Nǐ cóng nǎlǐ lái?"
+      },
+      {
+        "chinese": "我們從小學開始學中文。",
+        "english": "We started learning Chinese from elementary school.",
+        "pinyin": "Wǒmen cóng xiǎoxué kāishǐ xué zhōngwén."
+      },
+      {
+        "chinese": "我要從這裡坐巴士到火車站。",
+        "english": "I need to take a bus from here to the train station.",
+        "pinyin": "Wǒ yào cóng zhèlǐ zuò bāshì dào huǒchē zhàn."
+      },
+      {
+        "chinese": "你能從上面找到答案嗎？",
+        "english": "Can you find the answer from above?",
+        "pinyin": "Nǐ néng cóng shàngmiàn zhǎodào dá'àn ma?"
+      }
+    ],
+    "gpt-4": []
+  },
+  "對": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我對中國文化很感興趣。",
+        "english": "I am very interested in Chinese culture.",
+        "pinyin": "Wǒ duì zhōngguó wénhuà hěn gǎn xìngqù."
+      },
+      {
+        "chinese": "我對這個問題沒有答案。",
+        "english": "I don't have an answer for this question.",
+        "pinyin": "Wǒ duì zhègè wèntí méiyǒu dá'àn."
+      },
+      {
+        "chinese": "他對音樂有濃厚的興趣。",
+        "english": "He has a strong interest in music.",
+        "pinyin": "Tā duì yīnyuè yǒu nónghòu de xìngqù."
+      },
+      {
+        "chinese": "我對這個地方不太熟悉。",
+        "english": "I am not very familiar with this place.",
+        "pinyin": "Wǒ duì zhègè dìfāng bù tài shúxī."
+      },
+      {
+        "chinese": "我的朋友對旅行很感興趣。",
+        "english": "My friend is very interested in traveling.",
+        "pinyin": "Wǒ de péngyǒu duì lǚxíng hěn gǎn xìngqù."
+      }
+    ],
+    "gpt-4": []
+  },
+  "此": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "此檯子很重。",
+        "english": "This table is very heavy.",
+        "pinyin": "Cǐ táizi hěn zhòng."
+      },
+      {
+        "chinese": "我喜歡此書。",
+        "english": "I like this book.",
+        "pinyin": "Wǒ xǐhuan cǐ shū."
+      },
+      {
+        "chinese": "我們在此等候。",
+        "english": "We are waiting here.",
+        "pinyin": "Wǒmen zài cǐ děnghòu."
+      },
+      {
+        "chinese": "此事很重要。",
+        "english": "This matter is very important.",
+        "pinyin": "Cǐ shì hěn zhòngyào."
+      },
+      {
+        "chinese": "此人是我的朋友。",
+        "english": "This person is my friend.",
+        "pinyin": "Cǐ rén shì wǒ de péngyǒu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "向": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他向我問好。",
+        "english": "He said hello to me.",
+        "pinyin": "Tā xiàng wǒ wènhǎo."
+      },
+      {
+        "chinese": "我向你道歉。",
+        "english": "I apologize to you.",
+        "pinyin": "Wǒ xiàng nǐ dàoqiàn."
+      },
+      {
+        "chinese": "學生向老師請教問題。",
+        "english": "Students ask the teacher questions.",
+        "pinyin": "Xuéshēng xiàng lǎoshī qǐngjiào wèntí."
+      },
+      {
+        "chinese": "他向前跑了。",
+        "english": "He ran forward.",
+        "pinyin": "Tā xiàng qián pǎo le."
+      },
+      {
+        "chinese": "她向右轉彎。",
+        "english": "She turned right.",
+        "pinyin": "Tā xiàng yòu zhuǎnwān."
+      }
+    ],
+    "gpt-4": []
+  },
+  "離": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我住離學校很近。",
+        "english": "I live close to the school.",
+        "pinyin": "Wǒ zhù lí xuéxiào hěn jìn."
+      },
+      {
+        "chinese": "明天我要離開台灣回國。",
+        "english": "Tomorrow I will leave Taiwan and return to my country.",
+        "pinyin": "Míngtiān wǒ yào líkāi Táiwān huíguó."
+      },
+      {
+        "chinese": "你的家離這裡遠嗎？",
+        "english": "Is your home far away from here?",
+        "pinyin": "Nǐ de jiā lí zhèlǐ yuǎn ma?"
+      },
+      {
+        "chinese": "我們只有一分鐘的時間離開這裡。",
+        "english": "We only have one minute to leave here.",
+        "pinyin": "Wǒmen zhǐyǒu yī fēnzhōng de shíjiān líkāi zhèlǐ."
+      },
+      {
+        "chinese": "他們要離開中國去旅行。",
+        "english": "They want to leave China to travel.",
+        "pinyin": "Tāmen yào líkāi Zhōngguó qù lǚxíng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "餵": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "請餵食狗食。",
+        "english": "Please feed the dog.",
+        "pinyin": "Qǐng wèishí gǒushí."
+      },
+      {
+        "chinese": "他很晚了才餵魚。",
+        "english": "He fed the fish very late.",
+        "pinyin": "Tā hěn wǎnle cái wèi yú."
+      },
+      {
+        "chinese": "我會餵小鳥。",
+        "english": "I can feed the birds.",
+        "pinyin": "Wǒ huì wèi xiǎo niǎo."
+      },
+      {
+        "chinese": "請餵食這隻貓。",
+        "english": "Please feed this cat.",
+        "pinyin": "Qǐng wèishí zhè zhī māo."
+      },
+      {
+        "chinese": "他餵了魚給小孩。",
+        "english": "He fed the fish to the child.",
+        "pinyin": "Tā wèile yú gěi xiǎo hái."
+      }
+    ],
+    "gpt-4": []
+  },
+  "家": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這是我的家。",
+        "english": "This is my home.",
+        "pinyin": "Zhè shì wǒ de jiā."
+      },
+      {
+        "chinese": "他們一起住在一個大家庭裡。",
+        "english": "They live together in a big family.",
+        "pinyin": "Tāmen yīqǐ zhù zài yīgè dà jiātíng lǐ."
+      },
+      {
+        "chinese": "她的家離學校很近。",
+        "english": "Her home is very close to the school.",
+        "pinyin": "Tā de jiā lí xuéxiào hěn jìn."
+      },
+      {
+        "chinese": "這座城市有很多高樓大廈和豪華的家。",
+        "english": "This city has many tall buildings and luxury homes.",
+        "pinyin": "Zhè zuò chéngshì yǒu hěnduō gāolóu dàshà hé háohuá de jiā."
+      },
+      {
+        "chinese": "我很喜歡在家裡放鬆。",
+        "english": "I really enjoy relaxing at home.",
+        "pinyin": "Wǒ hěn xǐhuān zài jiā lǐ fàngsōng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "學校": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天去學校。",
+        "english": "I go to school every day.",
+        "pinyin": "Wǒ měitiān qù xuéxiào."
+      },
+      {
+        "chinese": "我在學校認識了很多朋友。",
+        "english": "I met many friends at school.",
+        "pinyin": "Wǒ zài xuéxiào rènshi le hěnduō péngyǒu."
+      },
+      {
+        "chinese": "學校裡有很多老師和學生。",
+        "english": "There are many teachers and students in school.",
+        "pinyin": "Xuéxiào lǐ yǒu hěnduō lǎoshī hé xuéshēng."
+      },
+      {
+        "chinese": "我在學校上中文課。",
+        "english": "I take Chinese classes at school.",
+        "pinyin": "Wǒ zài xuéxiào shàng zhōngwén kè."
+      },
+      {
+        "chinese": "明天是我們的學校節。",
+        "english": "Tomorrow is our school festival.",
+        "pinyin": "Míngtiān shì wǒmen de xuéxiào jié."
+      }
+    ],
+    "gpt-4": []
+  },
+  "飯館": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們今天晚上要去一家新的飯館吃飯。",
+        "english": "We are going to a new restaurant to eat tonight.",
+        "pinyin": "Wǒmen jīntiān wǎnshàng yào qù yī jiā xīn de fànguǎn chīfàn."
+      },
+      {
+        "chinese": "那家飯館的菜很好吃。",
+        "english": "The food at that restaurant is very delicious.",
+        "pinyin": "Nà jiā fànguǎn de cài hěn hǎochī."
+      },
+      {
+        "chinese": "我昨天在一家日本飯館吃晚飯。",
+        "english": "I had dinner at a Japanese restaurant yesterday.",
+        "pinyin": "Wǒ zuótiān zài yī jiā rìběn fànguǎn chī wǎnfàn."
+      },
+      {
+        "chinese": "這家飯館的服務很親切。",
+        "english": "The service at this restaurant is very friendly.",
+        "pinyin": "Zhè jiā fànguǎn de fúwù hěn qīnqiè."
+      },
+      {
+        "chinese": "我經常跟朋友一起去飯館吃飯。",
+        "english": "I often go to a restaurant with my friends to eat.",
+        "pinyin": "Wǒ jīngcháng gēn péngyǒu yīqǐ qù fànguǎn chīfàn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "商店": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我去商店買東西。",
+        "english": "I go to the store to buy things.",
+        "pinyin": "Wǒ qù shāngdiàn mǎi dōngxī."
+      },
+      {
+        "chinese": "這家商店很大。",
+        "english": "This store is very big.",
+        "pinyin": "Zhè jiā shāngdiàn hěn dà."
+      },
+      {
+        "chinese": "我在商店找不到鑰匙。",
+        "english": "I can't find the keys in the store.",
+        "pinyin": "Wǒ zài shāngdiàn zhǎo bù dào yàoshi."
+      },
+      {
+        "chinese": "商店裡賣很多衣服。",
+        "english": "The store sells a lot of clothes.",
+        "pinyin": "Shāngdiàn lǐ mài hěn duō yīfú."
+      },
+      {
+        "chinese": "你知道這家商店的地址嗎？",
+        "english": "Do you know the address of this store?",
+        "pinyin": "Nǐ zhīdào zhè jiā shāngdiàn de dìzhǐ ma?"
+      }
+    ],
+    "gpt-4": []
+  },
+  "醫院": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我今天要去醫院看病。",
+        "english": "I'm going to the hospital to see a doctor today.",
+        "pinyin": "Wǒ jīntiān yào qù yīyuàn kàn bìng."
+      },
+      {
+        "chinese": "我媽媽在醫院工作。",
+        "english": "My mom works at the hospital.",
+        "pinyin": "Wǒ māmā zài yīyuàn gōngzuò."
+      },
+      {
+        "chinese": "他昨天在醫院接受手術。",
+        "english": "He underwent surgery at the hospital yesterday.",
+        "pinyin": "Tā zuótiān zài yīyuàn jiēshòu shǒushù."
+      },
+      {
+        "chinese": "這家醫院的設施很現代化。",
+        "english": "The facilities at this hospital are very modern.",
+        "pinyin": "Zhè jiā yīyuàn de shèshī hěn xiàndàihuà."
+      },
+      {
+        "chinese": "醫院附近有停車場嗎？",
+        "english": "Is there a parking lot near the hospital?",
+        "pinyin": "Yīyuàn fùjìn yǒu tíngchēchǎng ma?"
+      }
+    ],
+    "gpt-4": []
+  },
+  "火車站": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天都從火車站坐火車上班。",
+        "english": "I take the train to work from the train station every day.",
+        "pinyin": "Wǒ měitiān dōu cóng huǒchē zhàn zuò huǒchē shàngbān."
+      },
+      {
+        "chinese": "我去火車站接我的朋友。",
+        "english": "I go to the train station to pick up my friend.",
+        "pinyin": "Wǒ qù huǒchē zhàn jiē wǒ de péngyǒu."
+      },
+      {
+        "chinese": "火車站附近有一家很好吃的餐廳。",
+        "english": "There is a delicious restaurant near the train station.",
+        "pinyin": "Huǒchē zhàn fùjìn yǒu yī jiā hěn hǎo chī de cāntīng."
+      },
+      {
+        "chinese": "我昨天在火車站迷路了。",
+        "english": "I got lost at the train station yesterday.",
+        "pinyin": "Wǒ zuótiān zài huǒchē zhàn mílù le."
+      },
+      {
+        "chinese": "火車站的大廳很寬敞。",
+        "english": "The hall of the train station is spacious.",
+        "pinyin": "Huǒchē zhàn de dàtīng hěn kuānchǎng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "中國": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡中國的文化。",
+        "english": "I like Chinese culture.",
+        "pinyin": "Wǒ xǐhuān zhōngguó de wénhuà."
+      },
+      {
+        "chinese": "我的朋友來自中國。",
+        "english": "My friend is from China.",
+        "pinyin": "Wǒ de péngyǒu láizì zhōngguó."
+      },
+      {
+        "chinese": "他正在學習中國話。",
+        "english": "He is learning Chinese.",
+        "pinyin": "Tā zhèngzài xuéxí zhōngguóhuà."
+      },
+      {
+        "chinese": "我想去中國旅行。",
+        "english": "I want to travel to China.",
+        "pinyin": "Wǒ xiǎng qù zhōngguó lǚxíng."
+      },
+      {
+        "chinese": "中國菜很好吃。",
+        "english": "Chinese food is delicious.",
+        "pinyin": "Zhōngguó cài hěn hào chī."
+      }
+    ],
+    "gpt-4": []
+  },
+  "機場": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我要去機場接我的朋友。",
+        "english": "I'm going to the airport to pick up my friend.",
+        "pinyin": "Wǒ yào qù jīchǎng jiē wǒ de péngyǒu."
+      },
+      {
+        "chinese": "機場的大廳非常熱鬧。",
+        "english": "The airport terminal is very lively.",
+        "pinyin": "Jīchǎng de dàtīng fēicháng rènào."
+      },
+      {
+        "chinese": "我昨天在機場見到了一位明星。",
+        "english": "I saw a celebrity at the airport yesterday.",
+        "pinyin": "Wǒ zuótiān zài jīchǎng jiàn dào le yī wèi míngxīng."
+      },
+      {
+        "chinese": "飛機即將降落在機場。",
+        "english": "The plane is about to land at the airport.",
+        "pinyin": "Fēijī jíjiāng jiàngluò zài jīchǎng."
+      },
+      {
+        "chinese": "我和家人一起去機場送別我的朋友。",
+        "english": "I went to the airport with my family to say goodbye to my friend.",
+        "pinyin": "Wǒ hé jiārén yīqǐ qù jīchǎng sòngbié wǒ de péngyǒu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "教室": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們在教室學習中文。",
+        "english": "We learn Chinese in the classroom.",
+        "pinyin": "Wǒmen zài jiàoshì xuéxí zhōngwén."
+      },
+      {
+        "chinese": "老師在教室裡教學生課文。",
+        "english": "The teacher teaches students the lesson in the classroom.",
+        "pinyin": "Lǎoshī zài jiàoshì lǐ jiào xuéshēng kèwén."
+      },
+      {
+        "chinese": "這是我們的教室，很乾淨。",
+        "english": "This is our classroom, it's very clean.",
+        "pinyin": "Zhè shì wǒmen de jiàoshì, hěn gānjìng."
+      },
+      {
+        "chinese": "學生們在教室裡做作業。",
+        "english": "The students do homework in the classroom.",
+        "pinyin": "Xuéshēngmen zài jiàoshì lǐ zuò zuòyè."
+      },
+      {
+        "chinese": "教室裡有桌子、椅子和書櫃。",
+        "english": "The classroom has tables, chairs, and bookshelves.",
+        "pinyin": "Jiàoshì lǐ yǒu zhuōzi, yǐzi hé shūguì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "房間": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡我的房間。",
+        "english": "I like my room.",
+        "pinyin": "Wǒ xǐhuān wǒ de fángjiān."
+      },
+      {
+        "chinese": "你的房間很大。",
+        "english": "Your room is big.",
+        "pinyin": "Nǐ de fángjiān hěn dà."
+      },
+      {
+        "chinese": "這是我的房間鑰匙。",
+        "english": "This is the key to my room.",
+        "pinyin": "Zhè shì wǒ de fángjiān yàoshi."
+      },
+      {
+        "chinese": "我正在打掃房間。",
+        "english": "I am cleaning the room.",
+        "pinyin": "Wǒ zhèngzài dǎsǎo fángjiān."
+      },
+      {
+        "chinese": "我們一起去房間吃飯。",
+        "english": "Let's go to the room and have a meal together.",
+        "pinyin": "Wǒmen yīqǐ qù fángjiān chīfàn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "路": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這條路很寬闊。",
+        "english": "This road is very wide.",
+        "pinyin": "Zhè tiáo lù hěn kuān kuò."
+      },
+      {
+        "chinese": "我走在人行道上的路。",
+        "english": "I am walking on the sidewalk.",
+        "pinyin": "Wǒ zǒu zài rén xíng dào shàng de lù."
+      },
+      {
+        "chinese": "他住在鄉村的小路上。",
+        "english": "He lives on a small road in the countryside.",
+        "pinyin": "Tā zhù zài xiāng cūn de xiǎo lù shàng."
+      },
+      {
+        "chinese": "這條路通往市中心。",
+        "english": "This road leads to the city center.",
+        "pinyin": "Zhè tiáo lù tōng wǎng shì zhōng xīn."
+      },
+      {
+        "chinese": "我喜歡沿著海岸線開車旅行。",
+        "english": "I enjoy driving along the coastline for travel.",
+        "pinyin": "Wǒ xǐ huān yán zhe hǎi àn xiàn kāi chē lǚ xíng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "北京": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我想去北京旅行。",
+        "english": "I want to travel to Beijing.",
+        "pinyin": "Wǒ xiǎng qù Běijīng lǚxíng."
+      },
+      {
+        "chinese": "北京是中國的首都。",
+        "english": "Beijing is the capital of China.",
+        "pinyin": "Běijīng shì Zhōngguó de shǒudū."
+      },
+      {
+        "chinese": "我在北京學中文。",
+        "english": "I am learning Chinese in Beijing.",
+        "pinyin": "Wǒ zài Běijīng xué Zhōngwén."
+      },
+      {
+        "chinese": "北京有很多有名的景點。",
+        "english": "Beijing has many famous attractions.",
+        "pinyin": "Běijīng yǒu hěn duō yǒumíng de jǐngdiǎn."
+      },
+      {
+        "chinese": "北京的冬天很冷。",
+        "english": "The winter in Beijing is very cold.",
+        "pinyin": "Běijīng de dōngtiān hěn lěng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "上": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我上學了。",
+        "english": "I went to school.",
+        "pinyin": "Wǒ shàngxué le."
+      },
+      {
+        "chinese": "請上車。",
+        "english": "Please get on the car.",
+        "pinyin": "Qǐng shàngchē."
+      },
+      {
+        "chinese": "他上班很早。",
+        "english": "He goes to work very early.",
+        "pinyin": "Tā shàngbān hěn zǎo."
+      },
+      {
+        "chinese": "我上學時坐公車。",
+        "english": "I take the bus to school.",
+        "pinyin": "Wǒ shàngxué shí zuò gōngchē."
+      },
+      {
+        "chinese": "爸爸上網找工作。",
+        "english": "Dad searches for jobs online.",
+        "pinyin": "Bàba shàngwǎng zhǎo gōngzuò."
+      }
+    ],
+    "gpt-4": []
+  },
+  "下": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他在下車之前買了一個蘋果。",
+        "english": "He bought an apple before getting off the car.",
+        "pinyin": "Tā zài xiàchē zhīqián mǎi le yīge píngguǒ."
+      },
+      {
+        "chinese": "我下午要開會。",
+        "english": "I have a meeting in the afternoon.",
+        "pinyin": "Wǒ xiàwǔ yào kāihuì."
+      },
+      {
+        "chinese": "請下一個站下車。",
+        "english": "Please get off at the next stop.",
+        "pinyin": "Qǐng xià yīge zhàn xiàchē."
+      },
+      {
+        "chinese": "我要下個星期去旅行。",
+        "english": "I am going on a trip next week.",
+        "pinyin": "Wǒ yào xià gè xīngqí qù lǚxíng."
+      },
+      {
+        "chinese": "明天早上我要下飛機。",
+        "english": "I will get off the plane tomorrow morning.",
+        "pinyin": "Míngtiān zǎoshang wǒ yào xià fēijī."
+      }
+    ],
+    "gpt-4": []
+  },
+  "前面": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "請坐在前面的椅子上。",
+        "english": "Please sit on the chair in front.",
+        "pinyin": "Qǐng zuò zài qiánmiàn de yǐzi shàng."
+      },
+      {
+        "chinese": "請不要在前面開快車。",
+        "english": "Please do not drive fast in front.",
+        "pinyin": "Qǐng bùyào zài qiánmiàn kāi kuàichē."
+      },
+      {
+        "chinese": "前面的景色真美。",
+        "english": "The scenery in front is beautiful.",
+        "pinyin": "Qiánmiàn de jǐngsè zhēn měi."
+      },
+      {
+        "chinese": "我的家就在前面。",
+        "english": "My home is just ahead.",
+        "pinyin": "Wǒ de jiā jiù zài qiánmiàn."
+      },
+      {
+        "chinese": "前面有一家很好吃的餐廳。",
+        "english": "There is a very delicious restaurant ahead.",
+        "pinyin": "Qiánmiàn yǒu yī jiā hěn hǎo chī de cāntīng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "後面": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "請站在我後面。",
+        "english": "Please stand behind me.",
+        "pinyin": "Qǐng zhàn zài wǒ hòumiàn."
+      },
+      {
+        "chinese": "我住在你後面的公寓。",
+        "english": "I live in the apartment behind you.",
+        "pinyin": "Wǒ zhù zài nǐ hòumiàn de gōngyù."
+      },
+      {
+        "chinese": "這是我的後面。",
+        "english": "This is my back.",
+        "pinyin": "Zhè shì wǒ de hòumiàn."
+      },
+      {
+        "chinese": "後面那個人是我的老師。",
+        "english": "The person behind is my teacher.",
+        "pinyin": "Hòumiàn nàgè rén shì wǒ de lǎoshī."
+      },
+      {
+        "chinese": "我喜歡坐在車的後面。",
+        "english": "I like to sit in the back of the car.",
+        "pinyin": "Wǒ xǐhuan zuò zài chē de hòumiàn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "左邊": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他坐在我左邊。",
+        "english": "He is sitting on my left side.",
+        "pinyin": "Tā zuò zài wǒ zuǒbiān."
+      },
+      {
+        "chinese": "請把杯子放在左邊。",
+        "english": "Please put the cup on the left side.",
+        "pinyin": "Qǐng bǎ bēizi fàng zài zuǒbiān."
+      },
+      {
+        "chinese": "他左手拿著書。",
+        "english": "He is holding a book in his left hand.",
+        "pinyin": "Tā zuǒshǒu názhe shū."
+      },
+      {
+        "chinese": "我喜歡在左邊睡覺。",
+        "english": "I like to sleep on the left side.",
+        "pinyin": "Wǒ xǐhuān zài zuǒbiān shuìjiào."
+      },
+      {
+        "chinese": "請往左邊轉。",
+        "english": "Please turn left.",
+        "pinyin": "Qǐng wǎng zuǒbiān zhuǎn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "右邊": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "桌子右邊有一本書。",
+        "english": "There is a book on the right side of the table.",
+        "pinyin": "Zhuōzi yòubiān yǒu yī běn shū."
+      },
+      {
+        "chinese": "請你坐在我右邊。",
+        "english": "Please sit on my right side.",
+        "pinyin": "Qǐng nǐ zuò zài wǒ yòubiān."
+      },
+      {
+        "chinese": "他住在我右邊的房間。",
+        "english": "He lives in the room on my right side.",
+        "pinyin": "Tā zhù zài wǒ yòubiān de fángjiān."
+      },
+      {
+        "chinese": "蘋果在樹的右邊。",
+        "english": "The apple is on the right side of the tree.",
+        "pinyin": "Píngguǒ zài shù de yòubiān."
+      },
+      {
+        "chinese": "右邊的門是出口。",
+        "english": "The door on the right is the exit.",
+        "pinyin": "Yòubiān de mén shì chūkǒu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "外": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我的朋友來自外國。",
+        "english": "My friend is from a foreign country.",
+        "pinyin": "Wǒ de péngyǒu láizì wàiguó."
+      },
+      {
+        "chinese": "我喜歡在外面運動。",
+        "english": "I like to exercise outdoors.",
+        "pinyin": "Wǒ xǐhuān zài wàimiàn yùndòng."
+      },
+      {
+        "chinese": "這是我們學校的外面。",
+        "english": "This is the outside of our school.",
+        "pinyin": "Zhè shì wǒmen xuéxiào de wàimiàn."
+      },
+      {
+        "chinese": "我想了解一下外星人。",
+        "english": "I want to learn about aliens.",
+        "pinyin": "Wǒ xiǎng liǎojiě yīxià wàixīngrén."
+      },
+      {
+        "chinese": "我忘記把窗戶關好，外面進來了一些蚊子。",
+        "english": "I forgot to close the window, and some mosquitoes came in from outside.",
+        "pinyin": "Wǒ wàngjì bǎ chuānghù guān hǎo, wàimiàn jìnlái le yīxiē wénzi."
+      }
+    ],
+    "gpt-4": []
+  },
+  "旁邊": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他坐在我旁邊。",
+        "english": "He is sitting next to me.",
+        "pinyin": "Tā zuò zài wǒ pángbiān."
+      },
+      {
+        "chinese": "書櫃在客廳的旁邊。",
+        "english": "The bookshelf is next to the living room.",
+        "pinyin": "Shūguì zài kètīng de pángbiān."
+      },
+      {
+        "chinese": "我家的超市就在我們家旁邊。",
+        "english": "The supermarket near my house is right next to our house.",
+        "pinyin": "Wǒ jiā de chāoshì jiù zài wǒmen jiā pángbiān."
+      },
+      {
+        "chinese": "昨天的會議室在這個大樓旁邊。",
+        "english": "The meeting room yesterday was next to this building.",
+        "pinyin": "Zuótiān de huìyìshì zài zhège dàlóu pángbiān."
+      },
+      {
+        "chinese": "她喜歡坐在教室的旁邊。",
+        "english": "She likes to sit next to the classroom.",
+        "pinyin": "Tā xǐhuān zuò zài jiàoshì de pángbiān."
+      }
+    ],
+    "gpt-4": []
+  },
+  "裡": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我家裡很舒適。",
+        "english": "My home is very comfortable.",
+        "pinyin": "Wǒ jiā lǐ hěn shūshì."
+      },
+      {
+        "chinese": "他喜歡待在房裡。",
+        "english": "He likes to stay in the room.",
+        "pinyin": "Tā xǐhuan dài zài fáng lǐ."
+      },
+      {
+        "chinese": "這裡有很多好吃的食物。",
+        "english": "There are many delicious foods here.",
+        "pinyin": "Zhè lǐ yǒu hěn duō hǎochī de shíwù."
+      },
+      {
+        "chinese": "學校裡有許多學生。",
+        "english": "There are many students in the school.",
+        "pinyin": "Xuéxiào lǐ yǒu xǔduō xuéshēng."
+      },
+      {
+        "chinese": "圖書館裡有很多書。",
+        "english": "There are many books in the library.",
+        "pinyin": "Túshūguǎn lǐ yǒu hěn duō shū."
+      }
+    ],
+    "gpt-4": []
+  },
+  "今天": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我今天很忙。",
+        "english": "I am busy today.",
+        "pinyin": "Wǒ jīntiān hěn máng."
+      },
+      {
+        "chinese": "今天天氣很好。",
+        "english": "The weather is good today.",
+        "pinyin": "Jīntiān tiānqì hěn hǎo."
+      },
+      {
+        "chinese": "今天是星期三。",
+        "english": "Today is Wednesday.",
+        "pinyin": "Jīntiān shì xīngqīsān."
+      },
+      {
+        "chinese": "我今天要去學校。",
+        "english": "I am going to school today.",
+        "pinyin": "Wǒ jīntiān yào qù xuéxiào."
+      },
+      {
+        "chinese": "今天下午我要見朋友。",
+        "english": "I am going to meet a friend this afternoon.",
+        "pinyin": "Jīntiān xiàwǔ wǒ yào jiàn péngyǒu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "明天": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "明天是星期一。",
+        "english": "Tomorrow is Monday.",
+        "pinyin": "Míngtiān shì xīngqī yī."
+      },
+      {
+        "chinese": "我明天要去看電影。",
+        "english": "I'm going to watch a movie tomorrow.",
+        "pinyin": "Wǒ míngtiān yào qù kàn diànyǐng."
+      },
+      {
+        "chinese": "明天的天氣很晴朗。",
+        "english": "The weather tomorrow is very sunny.",
+        "pinyin": "Míngtiān de tiānqì hěn qínglǎng."
+      },
+      {
+        "chinese": "你明天有空嗎?",
+        "english": "Are you free tomorrow?",
+        "pinyin": "Nǐ míngtiān yǒu kòng ma?"
+      },
+      {
+        "chinese": "明天下午我要去上課。",
+        "english": "I have to go to class tomorrow afternoon.",
+        "pinyin": "Míngtiān xiàwǔ wǒ yào qù shàngkè."
+      }
+    ],
+    "gpt-4": []
+  },
+  "昨天": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "昨天我去了公園。",
+        "english": "Yesterday I went to the park.",
+        "pinyin": "Zuótiān wǒ qù le gōngyuán."
+      },
+      {
+        "chinese": "我昨天見到了我的朋友。",
+        "english": "I saw my friend yesterday.",
+        "pinyin": "Wǒ zuótiān jiàn dào le wǒ de péngyǒu."
+      },
+      {
+        "chinese": "昨天的天氣很好。",
+        "english": "The weather was nice yesterday.",
+        "pinyin": "Zuótiān de tiānqì hěn hǎo."
+      },
+      {
+        "chinese": "我昨天晚上看了一部電影。",
+        "english": "I watched a movie last night.",
+        "pinyin": "Wǒ zuótiān wǎnshàng kàn le yī bù diànyǐng."
+      },
+      {
+        "chinese": "昨天晚上我沒有睡好。",
+        "english": "I didn't sleep well last night.",
+        "pinyin": "Zuótiān wǎnshàng wǒ méiyǒu shuì hǎo."
+      }
+    ],
+    "gpt-4": []
+  },
+  "上午": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡早上的陽光。",
+        "english": "I like the sunlight in the morning.",
+        "pinyin": "Wǒ xǐhuān zǎoshang de yángguāng."
+      },
+      {
+        "chinese": "上午九點是我上課的時間。",
+        "english": "9 o'clock in the morning is my class time.",
+        "pinyin": "Shàngwǔ jiǔ diǎn shì wǒ shàngkè de shíjiān."
+      },
+      {
+        "chinese": "我通常在上午做運動。",
+        "english": "I usually exercise in the morning.",
+        "pinyin": "Wǒ tōngcháng zài shàngwǔ zuò yùndòng."
+      },
+      {
+        "chinese": "上午的時候，我們去了公園。",
+        "english": "We went to the park in the morning.",
+        "pinyin": "Shàngwǔ de shíhou, wǒmen qùle gōngyuán."
+      },
+      {
+        "chinese": "上午有一個重要的會議。",
+        "english": "There is an important meeting in the morning.",
+        "pinyin": "Shàngwǔ yǒu yīgè zhòngyào de huìyì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "中午": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡在中午吃飯。",
+        "english": "I like to eat lunch in the afternoon.",
+        "pinyin": "Wǒ xǐhuān zài zhōngwǔ chīfàn."
+      },
+      {
+        "chinese": "中午的太陽很熱。",
+        "english": "The sun at noon is very hot.",
+        "pinyin": "Zhōngwǔ de tàiyáng hěn rè."
+      },
+      {
+        "chinese": "我每天中午都吃三明治。",
+        "english": "I eat sandwiches every day at noon.",
+        "pinyin": "Wǒ měitiān zhōngwǔ dōu chī sānmíngzhì."
+      },
+      {
+        "chinese": "我中午休息一個小時。",
+        "english": "I take a one-hour break at noon.",
+        "pinyin": "Wǒ zhōngwǔ xiūxi yīgè xiǎoshí."
+      },
+      {
+        "chinese": "我喜歡在中午散步。",
+        "english": "I like to take a walk at noon.",
+        "pinyin": "Wǒ xǐhuān zài zhōngwǔ sànbù."
+      }
+    ],
+    "gpt-4": []
+  },
+  "下午": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡在下午運動。",
+        "english": "I like to exercise in the afternoon.",
+        "pinyin": "Wǒ xǐhuān zài xiàwǔ yùndòng."
+      },
+      {
+        "chinese": "今天下午我有一個會議。",
+        "english": "I have a meeting this afternoon.",
+        "pinyin": "Jīntiān xiàwǔ wǒ yǒu yí gè huìyì."
+      },
+      {
+        "chinese": "我下午三點鐘去超市買東西。",
+        "english": "I go to the supermarket to buy things at three o'clock in the afternoon.",
+        "pinyin": "Wǒ xiàwǔ sān diǎn zhōng qù chāoshì mǎi dōngxī."
+      },
+      {
+        "chinese": "下午的陽光很溫暖。",
+        "english": "The afternoon sunshine is warm.",
+        "pinyin": "Xiàwǔ de yángguāng hěn wēnnuǎn."
+      },
+      {
+        "chinese": "你下午有空嗎？我想約你出去玩。",
+        "english": "Are you free this afternoon? I want to invite you to go out.",
+        "pinyin": "Nǐ xiàwǔ yǒu kòng ma? Wǒ xiǎng yuē nǐ chūqù wán."
+      }
+    ],
+    "gpt-4": []
+  },
+  "年": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "明天是新年。",
+        "english": "Tomorrow is New Year.",
+        "pinyin": "Míngtiān shì xīnnián."
+      },
+      {
+        "chinese": "他今年二十歲了。",
+        "english": "He is twenty years old this year.",
+        "pinyin": "Tā jīnnián èrshí suì le."
+      },
+      {
+        "chinese": "我每年都去旅行。",
+        "english": "I travel every year.",
+        "pinyin": "Wǒ měi nián dōu qù lǚxíng."
+      },
+      {
+        "chinese": "我喜歡在年底買新衣服。",
+        "english": "I like to buy new clothes at the end of the year.",
+        "pinyin": "Wǒ xǐhuān zài niándǐ mǎi xīn yīfú."
+      },
+      {
+        "chinese": "我們國家有很多傳統新年活動。",
+        "english": "Our country has many traditional New Year activities.",
+        "pinyin": "Wǒmen guójiā yǒu hěnduō chuántǒng xīnnián huódòng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "月": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我在國外住了六個月。",
+        "english": "I have been living abroad for six months.",
+        "pinyin": "Wǒ zài guówài zhù le liù gè yuè."
+      },
+      {
+        "chinese": "我每個月都要繳房租。",
+        "english": "I have to pay rent every month.",
+        "pinyin": "Wǒ měi gè yuè dōu yào jiǎo fángzū."
+      },
+      {
+        "chinese": "今天是十月一號，是中國的國慶節日。",
+        "english": "Today is October 1st, which is China's National Day.",
+        "pinyin": "Jīntiān shì shí yuè yī hào, shì zhōngguó de guóqìng jiérì."
+      },
+      {
+        "chinese": "我每個月都會去銀行存錢。",
+        "english": "I go to the bank to deposit money every month.",
+        "pinyin": "Wǒ měi gè yuè dōu huì qù yínháng cúnqián."
+      },
+      {
+        "chinese": "我喜歡在晚上看月亮。",
+        "english": "I like to look at the moon at night.",
+        "pinyin": "Wǒ xǐhuān zài wǎnshàng kàn yuèliàng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "日": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "今天是星期日。",
+        "english": "Today is Sunday.",
+        "pinyin": "Jīntiān shì xīngqī rì."
+      },
+      {
+        "chinese": "他每天都看報紙。",
+        "english": "He reads the newspaper every day.",
+        "pinyin": "Tā měitiān dōu kàn bàozhǐ."
+      },
+      {
+        "chinese": "我很喜歡晴天。",
+        "english": "I really like sunny days.",
+        "pinyin": "Wǒ hěn xǐhuān qíngtiān."
+      },
+      {
+        "chinese": "我喜歡去海邊遊玩。",
+        "english": "I enjoy playing at the beach.",
+        "pinyin": "Wǒ xǐhuān qù hǎibiān yóuwán."
+      },
+      {
+        "chinese": "他有很多朋友，所以每天都很忙。",
+        "english": "He has many friends, so he is busy every day.",
+        "pinyin": "Tā yǒu hěnduō péngyǒu, suǒyǐ měitiān dōu hěn máng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "星期": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "星期一是一個新的開始。",
+        "english": "Monday is a fresh start.",
+        "pinyin": "Xīngqī yī shì yīgè xīn de kāishǐ."
+      },
+      {
+        "chinese": "我們在星期六去郊遊。",
+        "english": "We go on an outing on Saturday.",
+        "pinyin": "Wǒmen zài xīngqīliù qù jiāoyóu."
+      },
+      {
+        "chinese": "我們每星期都有一次中文課。",
+        "english": "We have a Chinese class every week.",
+        "pinyin": "Wǒmen měi xīngqī dōu yǒu yīcì zhōngwén kè."
+      },
+      {
+        "chinese": "星期天是我最喜歡的日子。",
+        "english": "Sunday is my favorite day.",
+        "pinyin": "Xīngqītiān shì wǒ zuì xǐhuan de rìzi."
+      },
+      {
+        "chinese": "今天是星期四。",
+        "english": "Today is Thursday.",
+        "pinyin": "Jīntiān shì xīngqīsì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "點": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天晚上十點睡覺。",
+        "english": "I go to bed at ten o'clock every night.",
+        "pinyin": "Wǒ měitiān wǎnshàng shí diǎn shuìjiào."
+      },
+      {
+        "chinese": "我今天點了一份宅配披薩。",
+        "english": "I ordered a home delivery pizza today.",
+        "pinyin": "Wǒ jīntiān diǎnle yī fèn zhái pèi pīsà."
+      },
+      {
+        "chinese": "請問現在幾點？",
+        "english": "Excuse me, what time is it now?",
+        "pinyin": "Qǐngwèn xiànzài jǐ diǎn?"
+      },
+      {
+        "chinese": "我們兩點在學校見面。",
+        "english": "Let's meet at the school at two o'clock.",
+        "pinyin": "Wǒmen liǎng diǎn zài xuéxiào jiànmiàn."
+      },
+      {
+        "chinese": "這家商店每天早上七點開門。",
+        "english": "This shop opens at 7 o'clock every morning.",
+        "pinyin": "Zhè jiā shāngdiàn měitiān zǎoshang qī diǎn kāimén."
+      }
+    ],
+    "gpt-4": []
+  },
+  "分鐘": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我需要五分鐘準備。",
+        "english": "I need five minutes to prepare.",
+        "pinyin": "Wǒ xūyào wǔ fēnzhōng zhǔnbèi."
+      },
+      {
+        "chinese": "請等我五分鐘，我馬上就到。",
+        "english": "Please wait five minutes, I'll be there soon.",
+        "pinyin": "Qǐng děng wǒ wǔ fēnzhōng, wǒ mǎshàng jiù dào."
+      },
+      {
+        "chinese": "我每天早上騎腳踏車上班，需要二十分鐘。",
+        "english": "I ride my bicycle to work every morning, it takes twenty minutes.",
+        "pinyin": "Wǒ měitiān zǎoshang qí jiǎotàchē shàngbān, xūyào èrshí fēnzhōng."
+      },
+      {
+        "chinese": "這個電影有一百分鐘。",
+        "english": "This movie is one hundred minutes long.",
+        "pinyin": "Zhège diànyǐng yǒu yībǎi fēnzhōng."
+      },
+      {
+        "chinese": "我們剛剛錯過了最後一班公車，還有十五分鐘就結束了。",
+        "english": "We just missed the last bus, it will end in fifteen minutes.",
+        "pinyin": "Wǒmen gānggāng cuòguò le zuìhòuyībān gōngchē, háiyǒu shíwǔ fēnzhōng jiù jiéshù le."
+      }
+    ],
+    "gpt-4": []
+  },
+  "現在": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "現在是下午三點。",
+        "english": "It is now three o'clock in the afternoon.",
+        "pinyin": "Xiànzài shì xiàwǔ sān diǎn."
+      },
+      {
+        "chinese": "我現在很忙，明天再跟你聊天吧。",
+        "english": "I am busy now, let's chat tomorrow.",
+        "pinyin": "Wǒ xiànzài hěn máng, míngtiān zài gēn nǐ liáotiān ba."
+      },
+      {
+        "chinese": "現在的天氣很熱，要記得多喝水。",
+        "english": "The weather is hot now, remember to drink more water.",
+        "pinyin": "Xiànzài de tiānqì hěn rè, yào jìdé duō hē shuǐ."
+      },
+      {
+        "chinese": "她現在在圖書館閱讀一本書。",
+        "english": "She is reading a book in the library now.",
+        "pinyin": "Tā xiànzài zài túshūguǎn yuèdú yī běn shū."
+      },
+      {
+        "chinese": "我們現在要去吃晚飯。",
+        "english": "We are going to have dinner now.",
+        "pinyin": "Wǒmen xiànzài yào qù chī wǎnfàn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "時候": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "早上七點的時候，我起床了。",
+        "english": "I got up at seven o'clock in the morning.",
+        "pinyin": "Zǎoshang qī diǎn de shíhòu, wǒ qǐchuáng le."
+      },
+      {
+        "chinese": "下午三點的時候，我去買了一杯咖啡。",
+        "english": "I bought a cup of coffee at three o'clock in the afternoon.",
+        "pinyin": "Xiàwǔ sān diǎn de shíhòu, wǒ qù mǎi le yī bēi kāfēi."
+      },
+      {
+        "chinese": "晚上八點的時候，我會去陪爸爸看電視。",
+        "english": "I will accompany my dad to watch TV at eight o'clock in the evening.",
+        "pinyin": "Wǎnshàng bā diǎn de shíhòu, wǒ huì qù péi bàba kàn diànshì."
+      },
+      {
+        "chinese": "中午十二點的時候，我通常吃飯。",
+        "english": "I usually eat lunch at twelve o'clock noon.",
+        "pinyin": "Zhōngwǔ shí'èr diǎn de shíhòu, wǒ tōngcháng chīfàn."
+      },
+      {
+        "chinese": "晚上九點的時候，我要上床睡覺。",
+        "english": "I will go to bed to sleep at nine o'clock in the evening.",
+        "pinyin": "Wǎnshàng jiǔ diǎn de shíhòu, wǒ yào shàngchuáng shuìjiào."
+      }
+    ],
+    "gpt-4": []
+  },
+  "早上": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天早上六點起床。",
+        "english": "I wake up at six o'clock every morning.",
+        "pinyin": "Wǒ měitiān zǎoshang liù diǎn qǐchuáng."
+      },
+      {
+        "chinese": "早上好！",
+        "english": "Good morning!",
+        "pinyin": "Zǎoshang hǎo!"
+      },
+      {
+        "chinese": "我喜歡早上吃麥片。",
+        "english": "I like to eat cereal in the morning.",
+        "pinyin": "Wǒ xǐhuān zǎoshang chī màipiàn."
+      },
+      {
+        "chinese": "我通常在早上運動半小時。",
+        "english": "I usually exercise for half an hour in the morning.",
+        "pinyin": "Wǒ tōngcháng zài zǎoshang yùndòng bàn xiǎoshí."
+      },
+      {
+        "chinese": "我每天早上都喝一杯咖啡。",
+        "english": "I drink a cup of coffee every morning.",
+        "pinyin": "Wǒ měitiān zǎoshang dōu hē yī bēi kāfēi."
+      }
+    ],
+    "gpt-4": []
+  },
+  "晚上": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "晚上我喜歡看電視。",
+        "english": "I like to watch TV in the evening.",
+        "pinyin": "Wǎnshàng wǒ xǐhuān kàn diànshì."
+      },
+      {
+        "chinese": "晚上我通常在家休息。",
+        "english": "I usually rest at home in the evening.",
+        "pinyin": "Wǎnshàng wǒ tōngcháng zài jiā xiūxi."
+      },
+      {
+        "chinese": "晚上天氣很涼爽。",
+        "english": "The weather is cool in the evening.",
+        "pinyin": "Wǎnshàng tiānqì hěn liángshuǎng."
+      },
+      {
+        "chinese": "晚上我常常和朋友出去吃飯。",
+        "english": "I often go out to eat with friends in the evening.",
+        "pinyin": "Wǎnshàng wǒ chángcháng hé péngyǒu chūqù chīfàn."
+      },
+      {
+        "chinese": "晚上我喜歡散步。",
+        "english": "I like to take a walk in the evening.",
+        "pinyin": "Wǎnshàng wǒ xǐhuān sànbù."
+      }
+    ],
+    "gpt-4": []
+  },
+  "小時": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天睡八小時。",
+        "english": "I sleep eight hours every day.",
+        "pinyin": "Wǒ měitiān shuì bā xiǎo shí."
+      },
+      {
+        "chinese": "這個電影長兩小時。",
+        "english": "This movie is two hours long.",
+        "pinyin": "Zhège diànyǐng cháng liǎng xiǎo shí."
+      },
+      {
+        "chinese": "我每天花兩小時學習中文。",
+        "english": "I spend two hours studying Chinese every day.",
+        "pinyin": "Wǒ měitiān huā liǎng xiǎo shí xuéxí zhōngwén."
+      },
+      {
+        "chinese": "這本書我花了三小時才看完。",
+        "english": "It took me three hours to finish reading this book.",
+        "pinyin": "Zhè běn shū wǒ huāle sān xiǎo shí cái kàn wán."
+      },
+      {
+        "chinese": "我在公園散步散了一個小時。",
+        "english": "I took a one-hour walk in the park.",
+        "pinyin": "Wǒ zài gōngyuán sànbù sànle yīgè xiǎo shí."
+      }
+    ],
+    "gpt-4": []
+  },
+  "時間": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "你有時間嗎？",
+        "english": "Do you have time?",
+        "pinyin": "Nǐ yǒu shíjiān ma?"
+      },
+      {
+        "chinese": "我每天晚上都有一點時間放鬆。",
+        "english": "I have some time to relax every evening.",
+        "pinyin": "Wǒ měitiān wǎnshàng dōu yǒu yīdiǎn shíjiān fàngsōng."
+      },
+      {
+        "chinese": "明天早上我們有很多時間一起準備。",
+        "english": "We have a lot of time to prepare together tomorrow morning.",
+        "pinyin": "Míngtiān zǎoshang wǒmen yǒu hěnduō shíjiān yīqǐ zhǔnbèi."
+      },
+      {
+        "chinese": "你可以告訴我你的空閒時間嗎？",
+        "english": "Can you tell me your free time?",
+        "pinyin": "Nǐ kěyǐ gàosù wǒ nǐ de kòngxián shíjiān ma?"
+      },
+      {
+        "chinese": "這裡的時間過得很快。",
+        "english": "Time passes quickly here.",
+        "pinyin": "Zhèlǐ de shíjiān guò de hěn kuài."
+      }
+    ],
+    "gpt-4": []
+  },
+  "去年": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "去年的冬天很冷。",
+        "english": "Last winter was very cold.",
+        "pinyin": "Qùnián de dōngtiān hěn lěng."
+      },
+      {
+        "chinese": "去年我去了上海旅行。",
+        "english": "I traveled to Shanghai last year.",
+        "pinyin": "Qùnián wǒ qùle Shànghǎi lǚxíng."
+      },
+      {
+        "chinese": "去年我的生日派對很開心。",
+        "english": "My birthday party last year was very happy.",
+        "pinyin": "Qùnián wǒ de shēngrì pàiduì hěn kāixīn."
+      },
+      {
+        "chinese": "我去年學了中文。",
+        "english": "I learned Chinese last year.",
+        "pinyin": "Wǒ qùnián xuéle zhōngwén."
+      },
+      {
+        "chinese": "去年我沒有回家過年。",
+        "english": "I didn't go home for Chinese New Year last year.",
+        "pinyin": "Qùnián wǒ méiyǒu huí jiā guònián."
+      }
+    ],
+    "gpt-4": []
+  },
+  "號": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我有一千個朋友的電話號碼。",
+        "english": "I have the phone numbers of one thousand friends.",
+        "pinyin": "Wǒ yǒu yīqiān gè péngyǒu de diànhuà hàomǎ."
+      },
+      {
+        "chinese": "你的信用卡號碼是多少？",
+        "english": "What is your credit card number?",
+        "pinyin": "Nǐ de xìnyòngkǎ hàomǎ shì duōshǎo?"
+      },
+      {
+        "chinese": "今天是幾月幾號？",
+        "english": "What is the date today?",
+        "pinyin": "Jīntiān shì jǐ yuè jǐ hào?"
+      },
+      {
+        "chinese": "這是我家的門牌號碼。",
+        "english": "This is the door number of my house.",
+        "pinyin": "Zhè shì wǒ jiā de ménpái hàomǎ."
+      },
+      {
+        "chinese": "請問你住在哪個街號？",
+        "english": "May I ask which street number you live on?",
+        "pinyin": "Qǐngwèn nǐ zhù zài nǎge jiē hào?"
+      }
+    ],
+    "gpt-4": []
+  },
+  "生日": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我今天生日。",
+        "english": "Today is my birthday.",
+        "pinyin": "Wǒ jīntiān shēngrì."
+      },
+      {
+        "chinese": "我給爸爸買了一個生日禮物。",
+        "english": "I bought a birthday gift for my dad.",
+        "pinyin": "Wǒ gěi bàba mǎile yīgè shēngrì lǐwù."
+      },
+      {
+        "chinese": "我們要給她一個驚喜生日派對。",
+        "english": "We are going to throw her a surprise birthday party.",
+        "pinyin": "Wǒmen yào gěi tā yīgè jīngxǐ shēngrì pàiduì."
+      },
+      {
+        "chinese": "他的生日是四月二十號。",
+        "english": "His birthday is on April 20th.",
+        "pinyin": "Tā de shēngrì shì sìyuè èrshí hào."
+      },
+      {
+        "chinese": "送你一份生日禮物。",
+        "english": "Here's a birthday present for you.",
+        "pinyin": "Sòng nǐ yī fèn shēngrì lǐwù."
+      }
+    ],
+    "gpt-4": []
+  },
+  "爸爸": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我的爸爸是個工程師。",
+        "english": "My dad is an engineer.",
+        "pinyin": "Wǒ de bàba shì gè gōngchéngshī."
+      },
+      {
+        "chinese": "爸爸昨天帶我去公園玩。",
+        "english": "Dad took me to the park to play yesterday.",
+        "pinyin": "Bàba zuótiān dài wǒ qù gōngyuán wán."
+      },
+      {
+        "chinese": "我和爸爸一起買了一個蛋糕。",
+        "english": "I bought a cake with my dad.",
+        "pinyin": "Wǒ hé bàba yīqǐ mǎi le yīgè dàngāo."
+      },
+      {
+        "chinese": "爸爸每天騎腳踏車上班。",
+        "english": "Dad rides a bicycle to work every day.",
+        "pinyin": "Bàba měitiān qí jiǎotàchē shàngbān."
+      },
+      {
+        "chinese": "爸爸喜歡看電影。",
+        "english": "Dad likes to watch movies.",
+        "pinyin": "Bàba xǐhuān kàn diànyǐng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "媽媽": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我的媽媽很好。",
+        "english": "My mom is very good.",
+        "pinyin": "Wǒ de māma hěn hǎo."
+      },
+      {
+        "chinese": "我喜歡和媽媽一起逛街。",
+        "english": "I like to go shopping with my mom.",
+        "pinyin": "Wǒ xǐhuān hé māma yīqǐ guàngjiē."
+      },
+      {
+        "chinese": "媽媽每天都做飯給我吃。",
+        "english": "My mom cooks for me every day.",
+        "pinyin": "Māma měitiān dōu zuò fàn gěi wǒ chī."
+      },
+      {
+        "chinese": "我媽媽是老師。",
+        "english": "My mom is a teacher.",
+        "pinyin": "Wǒ māma shì lǎoshī."
+      },
+      {
+        "chinese": "明天是母親節，我要送花給媽媽。",
+        "english": "Tomorrow is Mother's Day, I want to give flowers to my mom.",
+        "pinyin": "Míngtiān shì mǔqīn jié, wǒ yào sòng huā gěi māma."
+      }
+    ],
+    "gpt-4": []
+  },
+  "兒子": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他有一個兒子。",
+        "english": "He has a son.",
+        "pinyin": "Tā yǒu yīgè érzi."
+      },
+      {
+        "chinese": "我每天跟兒子玩遊戲。",
+        "english": "I play games with my son every day.",
+        "pinyin": "Wǒ měitiān gēn érzi wán yóuxì."
+      },
+      {
+        "chinese": "他的兒子非常聰明。",
+        "english": "His son is very clever.",
+        "pinyin": "Tā de érzi fēicháng cōngmíng."
+      },
+      {
+        "chinese": "這個兒子很孝順。",
+        "english": "This son is very filial.",
+        "pinyin": "Zhège érzi hěn xiàoshùn."
+      },
+      {
+        "chinese": "我教兒子寫字。",
+        "english": "I teach my son how to write.",
+        "pinyin": "Wǒ jiào érzi xiězì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "女兒": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個女兒很漂亮。",
+        "english": "This daughter is very beautiful.",
+        "pinyin": "Zhège nǚ'ér hěn piàoliang."
+      },
+      {
+        "chinese": "他的女兒喜歡唱歌。",
+        "english": "His daughter likes singing.",
+        "pinyin": "Tā de nǚ'ér xǐhuān chànggē."
+      },
+      {
+        "chinese": "我的女兒很聰明。",
+        "english": "My daughter is very smart.",
+        "pinyin": "Wǒ de nǚ'ér hěn cōngmíng."
+      },
+      {
+        "chinese": "他女兒五歲了。",
+        "english": "His daughter is five years old.",
+        "pinyin": "Tā nǚ'ér wǔ suì le."
+      },
+      {
+        "chinese": "我們的女兒喜歡畫畫。",
+        "english": "Our daughter likes painting.",
+        "pinyin": "Wǒmen de nǚ'ér xǐhuān huàhuà."
+      }
+    ],
+    "gpt-4": []
+  },
+  "老師": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們的老師很好。",
+        "english": "Our teacher is very good.",
+        "pinyin": "Wǒmen de lǎoshī hěn hǎo."
+      },
+      {
+        "chinese": "我們的老師教我們中文。",
+        "english": "Our teacher teaches us Chinese.",
+        "pinyin": "Wǒmen de lǎoshī jiāo wǒmen zhōngwén."
+      },
+      {
+        "chinese": "我的老師很有耐心。",
+        "english": "My teacher is very patient.",
+        "pinyin": "Wǒ de lǎoshī hěn yǒu nàixīn."
+      },
+      {
+        "chinese": "明天我們上老師的課。",
+        "english": "Tomorrow we have our teacher's class.",
+        "pinyin": "Míngtiān wǒmen shàng lǎoshī de kè."
+      },
+      {
+        "chinese": "我們的老師很喜歡教學生。",
+        "english": "Our teacher really enjoys teaching students.",
+        "pinyin": "Wǒmen de lǎoshī hěn xǐhuān jiāo xuéshēng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "學生": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這是一個學生。",
+        "english": "This is a student.",
+        "pinyin": "Zhè shì yīgè xuéshēng."
+      },
+      {
+        "chinese": "我是一名學生。",
+        "english": "I am a student.",
+        "pinyin": "Wǒ shì yī míng xuéshēng."
+      },
+      {
+        "chinese": "她是一位學生。",
+        "english": "She is a student.",
+        "pinyin": "Tā shì yī wèi xuéshēng."
+      },
+      {
+        "chinese": "學生在學校學習。",
+        "english": "Students learn at school.",
+        "pinyin": "Xuéshēng zài xuéxiào xuéxí."
+      },
+      {
+        "chinese": "我有很多學生朋友。",
+        "english": "I have many student friends.",
+        "pinyin": "Wǒ yǒu hěnduō xuéshēng péngyǒu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "同學": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個同學很聰明。",
+        "english": "This student is very smart.",
+        "pinyin": "Zhège tóngxué hěn cōngmíng."
+      },
+      {
+        "chinese": "我們是同學。",
+        "english": "We are classmates.",
+        "pinyin": "Wǒmen shì tóngxué."
+      },
+      {
+        "chinese": "今天，我的同學們一起去遊樂園玩。",
+        "english": "Today, my classmates and I went to the amusement park together.",
+        "pinyin": "Jīntiān, wǒ de tóngxuémen yīqǐ qù yóulèyuán wán."
+      },
+      {
+        "chinese": "這位同學很努力，總是得到好成績。",
+        "english": "This student works hard and always gets good grades.",
+        "pinyin": "Zhè wèi tóngxué hěn nǔlì, zǒngshì dédào hǎo chéngjī."
+      },
+      {
+        "chinese": "我有一個好朋友，他是我的同學。",
+        "english": "I have a good friend, he is my classmate.",
+        "pinyin": "Wǒ yǒu yīgè hǎo péngyǒu, tā shì wǒ de tóngxué."
+      }
+    ],
+    "gpt-4": []
+  },
+  "朋友": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我有很多朋友。",
+        "english": "I have many friends.",
+        "pinyin": "Wǒ yǒu hěnduō péngyǒu."
+      },
+      {
+        "chinese": "他是我最好的朋友。",
+        "english": "He is my best friend.",
+        "pinyin": "Tā shì wǒ zuì hǎo de péngyǒu."
+      },
+      {
+        "chinese": "我和我的朋友一起去吃飯。",
+        "english": "I go to eat with my friends.",
+        "pinyin": "Wǒ hé wǒ de péngyǒu yīqǐ qù chīfàn."
+      },
+      {
+        "chinese": "我的朋友很喜歡音樂。",
+        "english": "My friend likes music a lot.",
+        "pinyin": "Wǒ de péngyǒu hěn xǐhuān yīnyuè."
+      },
+      {
+        "chinese": "她是我在學校認識的朋友。",
+        "english": "She is a friend I met at school.",
+        "pinyin": "Tā shì wǒ zài xuéxiào rènshí de péngyǒu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "醫生": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "她的父親是一位醫生。",
+        "english": "Her father is a doctor.",
+        "pinyin": "Tā de fùqīn shì yī wèi yīshēng."
+      },
+      {
+        "chinese": "我明天要去醫生那裡看病。",
+        "english": "I am going to the doctor tomorrow to see the doctor.",
+        "pinyin": "Wǒ míngtiān yào qù yī shēng nà lǐ kàn bìng."
+      },
+      {
+        "chinese": "這位醫生很有經驗。",
+        "english": "This doctor is very experienced.",
+        "pinyin": "Zhè wèi yī shēng hěn yǒu jīng yàn."
+      },
+      {
+        "chinese": "我媽媽是一位醫生。",
+        "english": "My mother is a doctor.",
+        "pinyin": "Wǒ māmā shì yī wèi yīshēng."
+      },
+      {
+        "chinese": "我要去看醫生，因為我生病了。",
+        "english": "I have to go see the doctor because I am sick.",
+        "pinyin": "Wǒ yào qù kàn yī shēng, yīn wèi wǒ shēng bìng le."
+      }
+    ],
+    "gpt-4": []
+  },
+  "先生": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他是個非常有知識的先生。",
+        "english": "He is a very knowledgeable gentleman.",
+        "pinyin": "Tā shì gè fēicháng yǒu zhīshi de xiānshēng."
+      },
+      {
+        "chinese": "這位先生會說多少種語言？",
+        "english": "How many languages does this gentleman speak?",
+        "pinyin": "Zhè wèi xiānshēng huì shuō duōshǎo zhǒng yǔyán?"
+      },
+      {
+        "chinese": "我父親是一名先生。",
+        "english": "My father is a gentleman.",
+        "pinyin": "Wǒ fùqīn shì yī míng xiānshēng."
+      },
+      {
+        "chinese": "這位先生對這個問題有什麼看法？",
+        "english": "What is this gentleman's opinion on this issue?",
+        "pinyin": "Zhè wèi xiānshēng duì zhège wèntí yǒu shénme kànfǎ?"
+      },
+      {
+        "chinese": "同學們，請大家對這位先生表示歡迎。",
+        "english": "Classmates, please welcome this gentleman.",
+        "pinyin": "Tóngxuémen, qǐng dàjiā duì zhè wèi xiānshēng biǎoshì huānyíng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "小姐": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這位小姐是老師嗎？",
+        "english": "Is this young lady a teacher?",
+        "pinyin": "Zhè wèi xiǎojiě shì lǎoshī ma?"
+      },
+      {
+        "chinese": "昨天我見到一位漂亮的小姐。",
+        "english": "Yesterday, I saw a beautiful young lady.",
+        "pinyin": "Zuótiān wǒ jiàn dào yī wèi piàoliang de xiǎojiě."
+      },
+      {
+        "chinese": "那個小姐是我朋友的姐姐。",
+        "english": "That young lady is my friend's older sister.",
+        "pinyin": "Nàge xiǎojiě shì wǒ péngyǒu de jiějie."
+      },
+      {
+        "chinese": "她是一位很有才華的小姐。",
+        "english": "She is a very talented young lady.",
+        "pinyin": "Tā shì yī wèi hěn yǒu cáihuá de xiǎojiě."
+      },
+      {
+        "chinese": "這位小姐是我們的服務員。",
+        "english": "This young lady is our waitress.",
+        "pinyin": "Zhè wèi xiǎojiě shì wǒmen de fúwùyuán."
+      }
+    ],
+    "gpt-4": []
+  },
+  "哥哥": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我有一個哥哥和一個妹妹。",
+        "english": "I have one older brother and one younger sister.",
+        "pinyin": "Wǒ yǒu yīgè gēge hé yīgè mèimei."
+      },
+      {
+        "chinese": "哥哥在學校教英文。",
+        "english": "My older brother teaches English at school.",
+        "pinyin": "Gēge zài xuéxiào jiāo yīngwén."
+      },
+      {
+        "chinese": "哥哥喜歡打籃球。",
+        "english": "My older brother likes playing basketball.",
+        "pinyin": "Gēge xǐhuān dǎ lánqiú."
+      },
+      {
+        "chinese": "我哥哥很高，有一米八五。",
+        "english": "My older brother is tall, he is 1.85 meters.",
+        "pinyin": "Wǒ gēge hěn gāo, yǒu yī mǐ bā wǔ."
+      },
+      {
+        "chinese": "我哥哥今年二十三歲。",
+        "english": "My older brother is twenty-three years old this year.",
+        "pinyin": "Wǒ gēge jīnnián èrshísān suì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "姐姐": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我的姐姐很漂亮。",
+        "english": "My older sister is very beautiful.",
+        "pinyin": "Wǒ de jiějiě hěn piàoliang."
+      },
+      {
+        "chinese": "我姐姐今天生日。",
+        "english": "Today is my sister's birthday.",
+        "pinyin": "Wǒ jiějiě jīntiān shēngrì."
+      },
+      {
+        "chinese": "我姐姐是一位醫生。",
+        "english": "My sister is a doctor.",
+        "pinyin": "Wǒ jiějiě shì yí wèi yīshēng."
+      },
+      {
+        "chinese": "姐姐喜歡唱歌。",
+        "english": "My sister likes to sing.",
+        "pinyin": "Jiějiě xǐhuān chànggē."
+      },
+      {
+        "chinese": "我和姐姐很親近。",
+        "english": "I am very close to my sister.",
+        "pinyin": "Wǒ hé jiějiě hěn qīnjìn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "弟弟": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我有一個弟弟。",
+        "english": "I have a younger brother.",
+        "pinyin": "Wǒ yǒu yí gè dìdi."
+      },
+      {
+        "chinese": "我的弟弟很聰明。",
+        "english": "My younger brother is very smart.",
+        "pinyin": "Wǒ de dìdi hěn cōngmíng."
+      },
+      {
+        "chinese": "我弟弟喜歡打籃球。",
+        "english": "My younger brother likes to play basketball.",
+        "pinyin": "Wǒ dìdi xǐhuan dǎ lánqiú."
+      },
+      {
+        "chinese": "我每天和弟弟一起吃飯。",
+        "english": "I eat with my younger brother every day.",
+        "pinyin": "Wǒ měitiān hé dìdi yīqǐ chīfàn."
+      },
+      {
+        "chinese": "我弟弟的生日是十月十號。",
+        "english": "My younger brother's birthday is on October tenth.",
+        "pinyin": "Wǒ dìdi de shēngrì shì shí yuè shí hào."
+      }
+    ],
+    "gpt-4": []
+  },
+  "妹妹": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我有一個妹妹。",
+        "english": "I have a younger sister.",
+        "pinyin": "Wǒ yǒu yīgè mèimei."
+      },
+      {
+        "chinese": "她是我妹妹。",
+        "english": "She is my younger sister.",
+        "pinyin": "Tā shì wǒ mèimei."
+      },
+      {
+        "chinese": "我妹妹喜歡唱歌。",
+        "english": "My younger sister likes to sing.",
+        "pinyin": "Wǒ mèimei xǐhuān chànggē."
+      },
+      {
+        "chinese": "妹妹在上學。",
+        "english": "My younger sister is going to school.",
+        "pinyin": "Mèimei zài shàngxué."
+      },
+      {
+        "chinese": "這是我妹妹的書。",
+        "english": "This is my younger sister's book.",
+        "pinyin": "Zhè shì wǒ mèimei de shū."
+      }
+    ],
+    "gpt-4": []
+  },
+  "丈夫": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我的丈夫很帥氣。",
+        "english": "My husband is very handsome.",
+        "pinyin": "Wǒ de zhàngfū hěn shuàiqì."
+      },
+      {
+        "chinese": "她的丈夫很有錢。",
+        "english": "Her husband is very rich.",
+        "pinyin": "Tā de zhàngfū hěn yǒu qián."
+      },
+      {
+        "chinese": "他的丈夫是一位醫生。",
+        "english": "His husband is a doctor.",
+        "pinyin": "Tā de zhàngfū shì yī wèi yīshēng."
+      },
+      {
+        "chinese": "我丈夫喜歡運動。",
+        "english": "My husband likes sports.",
+        "pinyin": "Wǒ zhàngfū xǐhuān yùndòng."
+      },
+      {
+        "chinese": "我的丈夫非常溫柔。",
+        "english": "My husband is very gentle.",
+        "pinyin": "Wǒ de zhàngfū fēicháng wēnróu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "妻子": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "他的妻子很漂亮。",
+        "english": "His wife is very beautiful.",
+        "pinyin": "Tā de qīzi hěn piàoliang."
+      },
+      {
+        "chinese": "這位先生和他的妻子一起來的。",
+        "english": "This gentleman came with his wife.",
+        "pinyin": "Zhè wèi xiānshēng hé tā de qīzi yīqǐ lái de."
+      },
+      {
+        "chinese": "妻子是我的好朋友。",
+        "english": "My wife is my good friend.",
+        "pinyin": "Qīzi shì wǒ de hǎo péngyǒu."
+      },
+      {
+        "chinese": "他的妻子是位律師。",
+        "english": "His wife is a lawyer.",
+        "pinyin": "Tā de qīzi shì wèi lǜshī."
+      },
+      {
+        "chinese": "他對妻子非常溫柔。",
+        "english": "He is very gentle with his wife.",
+        "pinyin": "Tā duì qīzi fēicháng wēnróu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "孩子": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "父母愛護他們的孩子。",
+        "english": "Parents love and care for their children.",
+        "pinyin": "Fùmǔ àihù tāmen de háizi."
+      },
+      {
+        "chinese": "他的孩子很聰明。",
+        "english": "His child is very smart.",
+        "pinyin": "Tā de háizi hěn cōngmíng."
+      },
+      {
+        "chinese": "孩子們在公園玩得很開心。",
+        "english": "The children are having a great time playing in the park.",
+        "pinyin": "Háizimen zài gōngyuán wán de hěn kāixīn."
+      },
+      {
+        "chinese": "那個孩子一直在笑。",
+        "english": "That child has been laughing all the time.",
+        "pinyin": "Nàge háizi yīzhí zài xiào."
+      },
+      {
+        "chinese": "這些孩子都很有禮貌。",
+        "english": "These children are very polite.",
+        "pinyin": "Zhèxiē háizi dōu hěn yǒu lǐmào."
+      }
+    ],
+    "gpt-4": []
+  },
+  "男人": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我爸爸是一個男人。",
+        "english": "My dad is a man.",
+        "pinyin": "Wǒ bàba shì yīgè nánrén."
+      },
+      {
+        "chinese": "他是一位年輕的男人。",
+        "english": "He is a young man.",
+        "pinyin": "Tā shì yī wèi niánqīng de nánrén."
+      },
+      {
+        "chinese": "這個城市有很多男人。",
+        "english": "This city has many men.",
+        "pinyin": "Zhège chéngshì yǒu hěnduō nánrén."
+      },
+      {
+        "chinese": "那個男人很高。",
+        "english": "That man is tall.",
+        "pinyin": "Nàgè nánrén hěn gāo."
+      },
+      {
+        "chinese": "我弟弟現在已經是一個男人了。",
+        "english": "My younger brother is already a man now.",
+        "pinyin": "Wǒ dìdì xiànzài yǐjīng shì yīgè nánrén le."
+      }
+    ],
+    "gpt-4": []
+  },
+  "女人": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這個園區裡有很多女人。",
+        "english": "There are many women in this park.",
+        "pinyin": "Zhè gè yuánqū lǐ yǒu hěnduō nǚrén."
+      },
+      {
+        "chinese": "我媽媽是一位勇敢的女人。",
+        "english": "My mother is a brave woman.",
+        "pinyin": "Wǒ māmā shì yī wèi yǒnggǎn de nǚrén."
+      },
+      {
+        "chinese": "這本書是關於一位成功的女人的故事。",
+        "english": "This book is about the story of a successful woman.",
+        "pinyin": "Zhè běn shū shì guānyú yī wèi chénggōng de nǚrén de gùshì."
+      },
+      {
+        "chinese": "那位女人正在穿著漂亮的禮服。",
+        "english": "That woman is wearing a beautiful dress.",
+        "pinyin": "Nà wèi nǚrén zhèngzài chuānzhuó piàoliang de lǐfú."
+      },
+      {
+        "chinese": "我妹妹長大後想要成為一名醫生，像媽媽一樣堅強的女人。",
+        "english": "My younger sister wants to become a doctor when she grows up, like our strong mother.",
+        "pinyin": "Wǒ mèimei zhǎngdà hòu xiǎng yào chéngwéi yī míng yīshēng, xiàng māmā yīyàng jiānqiáng de nǚrén."
+      }
+    ],
+    "gpt-4": []
+  },
+  "服務員": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這家餐廳的服務員非常友好。",
+        "english": "The restaurant's waiter is very friendly.",
+        "pinyin": "Zhè jiā cāntīng de fúwùyuán fēicháng yǒuhǎo."
+      },
+      {
+        "chinese": "我向服務員問了一些問題。",
+        "english": "I asked the waiter some questions.",
+        "pinyin": "Wǒ xiàng fúwùyuán wènle yīxiē wèntí."
+      },
+      {
+        "chinese": "服務員幫我們點了菜。",
+        "english": "The waiter ordered dishes for us.",
+        "pinyin": "Fúwùyuán bāng wǒmen diǎnle cài."
+      },
+      {
+        "chinese": "他是個有經驗的服務員。",
+        "english": "He is an experienced waiter.",
+        "pinyin": "Tā shì gè yǒu jīngyàn de fúwùyuán."
+      },
+      {
+        "chinese": "請問服務員在哪裡？",
+        "english": "Excuse me, where is the waiter?",
+        "pinyin": "Qǐngwèn fúwùyuán zài nǎlǐ?"
+      }
+    ],
+    "gpt-4": []
+  },
+  "衣服": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡這件衣服。",
+        "english": "I like this piece of clothing.",
+        "pinyin": "Wǒ xǐhuān zhè jiàn yīfú."
+      },
+      {
+        "chinese": "你的衣服很漂亮。",
+        "english": "Your clothes are very beautiful.",
+        "pinyin": "Nǐ de yīfú hěn piàoliang."
+      },
+      {
+        "chinese": "我今天穿的衣服是新的。",
+        "english": "The clothes I'm wearing today are new.",
+        "pinyin": "Wǒ jīntiān chuān de yīfú shì xīn de."
+      },
+      {
+        "chinese": "我需要買一些新的衣服。",
+        "english": "I need to buy some new clothes.",
+        "pinyin": "Wǒ xūyào mǎi yīxiē xīn de yīfú."
+      },
+      {
+        "chinese": "這件衣服很舒服。",
+        "english": "This piece of clothing is very comfortable.",
+        "pinyin": "Zhè jiàn yīfú hěn shūfu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "水": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天喝很多水。",
+        "english": "I drink a lot of water every day.",
+        "pinyin": "Wǒ měitiān hē hěn duō shuǐ."
+      },
+      {
+        "chinese": "這個水很清澈。",
+        "english": "This water is very clear.",
+        "pinyin": "Zhège shuǐ hěn qīngchè."
+      },
+      {
+        "chinese": "夏天很熱，我想喝冷水。",
+        "english": "It's hot in summer, I want to drink cold water.",
+        "pinyin": "Xiàtiān hěn rè, wǒ xiǎng hē lěng shuǐ."
+      },
+      {
+        "chinese": "水對我們的身體很重要。",
+        "english": "Water is important for our body.",
+        "pinyin": "Shuǐ duì wǒmen de shēntǐ hěn zhòngyào."
+      },
+      {
+        "chinese": "這瓶水是瓶裝水。",
+        "english": "This bottle of water is bottled water.",
+        "pinyin": "Zhè píng shuǐ shì píngzhuāng shuǐ."
+      }
+    ],
+    "gpt-4": []
+  },
+  "菜": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我今天在家裡做菜。",
+        "english": "I'm cooking at home today.",
+        "pinyin": "Wǒ jīntiān zài jiālǐ zuò cài."
+      },
+      {
+        "chinese": "我喜歡吃中國菜。",
+        "english": "I like to eat Chinese food.",
+        "pinyin": "Wǒ xǐhuān chī zhōngguó cài."
+      },
+      {
+        "chinese": "這道菜很好吃。",
+        "english": "This dish is delicious.",
+        "pinyin": "Zhè dào cài hěn hǎochī."
+      },
+      {
+        "chinese": "你會做什麼菜呢？",
+        "english": "What dishes can you cook?",
+        "pinyin": "Nǐ huì zuò shénme cài ne?"
+      },
+      {
+        "chinese": "這家餐廳的菜很有名。",
+        "english": "The dishes in this restaurant are famous.",
+        "pinyin": "Zhè jiā cāntīng de cài hěn yǒumíng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "米飯": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡吃米飯。",
+        "english": "I like to eat rice.",
+        "pinyin": "Wǒ xǐhuān chī mǐfàn."
+      },
+      {
+        "chinese": "這個餐廳的米飯很好吃。",
+        "english": "The rice in this restaurant is delicious.",
+        "pinyin": "Zhège cāntīng de mǐfàn hěn hào chī."
+      },
+      {
+        "chinese": "我通常在晚飯時吃米飯。",
+        "english": "I usually eat rice during dinner time.",
+        "pinyin": "Wǒ tōngcháng zài wǎnfàn shí chī mǐfàn."
+      },
+      {
+        "chinese": "你想要多少米飯？",
+        "english": "How much rice would you like?",
+        "pinyin": "Nǐ xiǎngyào duōshǎo mǐfàn?"
+      },
+      {
+        "chinese": "這是一碗熱米飯。",
+        "english": "This is a bowl of hot rice.",
+        "pinyin": "Zhè shì yī wǎn rè mǐfàn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "水果": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡吃水果。",
+        "english": "I like to eat fruits.",
+        "pinyin": "Wǒ xǐhuān chī shuǐguǒ."
+      },
+      {
+        "chinese": "這個水果很甜。",
+        "english": "This fruit is very sweet.",
+        "pinyin": "Zhège shuǐguǒ hěn tián."
+      },
+      {
+        "chinese": "你喜歡吃哪些水果？",
+        "english": "Which fruits do you like to eat?",
+        "pinyin": "Nǐ xǐhuān chī nǎxiē shuǐguǒ?"
+      },
+      {
+        "chinese": "我家有很多種類的水果。",
+        "english": "There are many kinds of fruits at my home.",
+        "pinyin": "Wǒ jiā yǒu hěnduō zhǒnglèi de shuǐguǒ."
+      },
+      {
+        "chinese": "水果對健康非常好。",
+        "english": "Fruits are very good for health.",
+        "pinyin": "Shuǐguǒ duì jiànkāng fēicháng hǎo."
+      }
+    ],
+    "gpt-4": []
+  },
+  "蘋果": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡吃蘋果。",
+        "english": "I like to eat apples.",
+        "pinyin": "Wǒ xǐhuān chī píngguǒ."
+      },
+      {
+        "chinese": "這個蘋果很甜。",
+        "english": "This apple is very sweet.",
+        "pinyin": "Zhège píngguǒ hěn tián."
+      },
+      {
+        "chinese": "他每天都吃一個蘋果。",
+        "english": "He eats an apple every day.",
+        "pinyin": "Tā měitiān dōu chī yī gè píngguǒ."
+      },
+      {
+        "chinese": "我把蘋果切成小塊。",
+        "english": "I cut the apple into small pieces.",
+        "pinyin": "Wǒ bǎ píngguǒ qiē chéng xiǎo kuài."
+      },
+      {
+        "chinese": "我在超市買了一袋蘋果。",
+        "english": "I bought a bag of apples at the supermarket.",
+        "pinyin": "Wǒ zài chāoshì mǎi le yī dài píngguǒ."
+      }
+    ],
+    "gpt-4": []
+  },
+  "茶": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡喝茶。",
+        "english": "I like to drink tea.",
+        "pinyin": "Wǒ xǐhuān hē chá."
+      },
+      {
+        "chinese": "我每天早上喝一杯茶。",
+        "english": "I drink a cup of tea every morning.",
+        "pinyin": "Wǒ měitiān zǎoshang hē yī bēi chá."
+      },
+      {
+        "chinese": "這裡的茶很好喝。",
+        "english": "The tea here tastes very good.",
+        "pinyin": "Zhèlǐ de chá hěn hǎo hē."
+      },
+      {
+        "chinese": "我請你喝杯茶，好嗎？",
+        "english": "May I invite you to have a cup of tea?",
+        "pinyin": "Wǒ qǐng nǐ hē bēi chá, hǎo ma?"
+      },
+      {
+        "chinese": "茶是中國的傳統飲品。",
+        "english": "Tea is a traditional Chinese beverage.",
+        "pinyin": "Chá shì zhōngguó de chuántǒng yǐnpǐn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "杯子": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "桌子上有一個杯子。",
+        "english": "There is a cup on the table.",
+        "pinyin": "Zhuōzi shàng yǒu yīgè bēizi."
+      },
+      {
+        "chinese": "我每天喝兩杯茶。",
+        "english": "I drink two cups of tea every day.",
+        "pinyin": "Wǒ měitiān hē liǎng bēi chá."
+      },
+      {
+        "chinese": "他用一個大杯子喝水。",
+        "english": "He drinks water with a big cup.",
+        "pinyin": "Tā yòng yīgè dà bēizi hē shuǐ."
+      },
+      {
+        "chinese": "請借我一個杯子。",
+        "english": "Please lend me a cup.",
+        "pinyin": "Qǐng jiè wǒ yīgè bēizi."
+      },
+      {
+        "chinese": "這杯子是我媽媽的。",
+        "english": "This cup belongs to my mother.",
+        "pinyin": "Zhè bēizi shì wǒ māmā de."
+      }
+    ],
+    "gpt-4": []
+  },
+  "錢": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "昨天我去銀行換錢。",
+        "english": "Yesterday I went to the bank to exchange money.",
+        "pinyin": "Zuótiān wǒ qù yínháng huànqián."
+      },
+      {
+        "chinese": "這麼多錢，買什麼東西呢？",
+        "english": "With so much money, what can I buy?",
+        "pinyin": "Zhème duō qián, mǎi shénme dōngxi ne?"
+      },
+      {
+        "chinese": "我之前在這家公司工作，但薪水不多。",
+        "english": "I used to work in this company before, but the salary was not high.",
+        "pinyin": "Wǒ zhīqián zài zhè jiā gōngsī gōngzuò, dàn xīnshuǐ bù duō."
+      },
+      {
+        "chinese": "明天的生日派對你要給我一些錢嗎？",
+        "english": "Will you give me some money for tomorrow's birthday party?",
+        "pinyin": "Míngtiān de shēngrì pàiduì nǐ yào gěi wǒ yīxiē qián ma?"
+      },
+      {
+        "chinese": "我現在在存錢，為了以後的旅行。",
+        "english": "I am saving money now for future travels.",
+        "pinyin": "Wǒ xiànzài zài cúnqián, wèile yǐhòu de lǚxíng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "飛機": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我坐飛機去北京。",
+        "english": "I take a plane to Beijing.",
+        "pinyin": "Wǒ zuò fēijī qù Běijīng."
+      },
+      {
+        "chinese": "他的工作是駕駛飛機。",
+        "english": "His job is to pilot a plane.",
+        "pinyin": "Tā de gōngzuò shì jiàshǐ fēijī."
+      },
+      {
+        "chinese": "我喜歡坐飛機旅行。",
+        "english": "I enjoy traveling by plane.",
+        "pinyin": "Wǒ xǐhuān zuò fēijī lǚxíng."
+      },
+      {
+        "chinese": "飛機起飛了。",
+        "english": "The plane has taken off.",
+        "pinyin": "Fēijī qǐfēi le."
+      },
+      {
+        "chinese": "飛機在天空中飛行。",
+        "english": "The plane is flying in the sky.",
+        "pinyin": "Fēijī zài tiānkōng zhōng fēixíng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "出租車": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我在路上打個出租車。",
+        "english": "I will hail a taxi on the road.",
+        "pinyin": "Wǒ zài lùshàng dǎ ge chūzūchē."
+      },
+      {
+        "chinese": "出租車司機很親切。",
+        "english": "The taxi driver is very friendly.",
+        "pinyin": "Chūzūchē sījī hěn qīnqiè."
+      },
+      {
+        "chinese": "這輛出租車很舒適。",
+        "english": "This taxi is very comfortable.",
+        "pinyin": "Zhè liàng chūzūchē hěn shūshì."
+      },
+      {
+        "chinese": "我常常坐出租車上學。",
+        "english": "I often take a taxi to go to school.",
+        "pinyin": "Wǒ chángcháng zuò chūzūchē shàngxué."
+      },
+      {
+        "chinese": "出租車速度很快。",
+        "english": "Taxis drive very fast.",
+        "pinyin": "Chūzūchē sùdù hěn kuài."
+      }
+    ],
+    "gpt-4": []
+  },
+  "電視": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡在晚上看電視。",
+        "english": "I like to watch TV in the evening.",
+        "pinyin": "Wǒ xǐhuān zài wǎnshàng kàn diànshì."
+      },
+      {
+        "chinese": "這台電視很新。",
+        "english": "This TV is very new.",
+        "pinyin": "Zhè tái diànshì hěn xīn."
+      },
+      {
+        "chinese": "我昨天買了一台新的電視。",
+        "english": "I bought a new TV yesterday.",
+        "pinyin": "Wǒ zuótiān mǎi le yī tái xīn de diànshì."
+      },
+      {
+        "chinese": "他每天晚上都看電視。",
+        "english": "He watches TV every evening.",
+        "pinyin": "Tā měitiān wǎnshàng dōu kàn diànshì."
+      },
+      {
+        "chinese": "我家的電視壞了，我們需要修理。",
+        "english": "The TV in my house is broken, we need to repair it.",
+        "pinyin": "Wǒ jiā de diànshì huài le, wǒmen xūyào xiūlǐ."
+      }
+    ],
+    "gpt-4": []
+  },
+  "電腦": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天使用電腦。",
+        "english": "I use the computer every day.",
+        "pinyin": "Wǒ měitiān shǐyòng diànnǎo."
+      },
+      {
+        "chinese": "這台電腦很好用。",
+        "english": "This computer is very easy to use.",
+        "pinyin": "Zhè tái diànnǎo hěn hǎoyòng."
+      },
+      {
+        "chinese": "我在電腦上寫作業。",
+        "english": "I write my homework on the computer.",
+        "pinyin": "Wǒ zài diànnǎo shàng xiě zuòyè."
+      },
+      {
+        "chinese": "這個電腦有很大的螢幕。",
+        "english": "This computer has a large screen.",
+        "pinyin": "Zhège diànnǎo yǒu hěn dà de yíngmù."
+      },
+      {
+        "chinese": "我喜歡在網上購物，用電腦很方便。",
+        "english": "I like to shop online, using the computer is very convenient.",
+        "pinyin": "Wǒ xǐhuān zài wǎngshàng gòuwù, yòng diànnǎo hěn fāngbiàn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "電影": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡看電影。",
+        "english": "I like to watch movies.",
+        "pinyin": "Wǒ xǐhuān kàn diànyǐng."
+      },
+      {
+        "chinese": "我們邀請你一起去看電影。",
+        "english": "We invite you to come watch a movie with us.",
+        "pinyin": "Wǒmen yāoqǐng nǐ yīqǐ qù kàn diànyǐng."
+      },
+      {
+        "chinese": "這部電影非常好看。",
+        "english": "This movie is very good.",
+        "pinyin": "Zhè bù diànyǐng fēicháng hǎokàn."
+      },
+      {
+        "chinese": "我昨天晚上在家看了一部電影。",
+        "english": "I watched a movie at home last night.",
+        "pinyin": "Wǒ zuótiān wǎnshàng zài jiā kàn le yī bù diànyǐng."
+      },
+      {
+        "chinese": "他喜歡看恐怖電影。",
+        "english": "He likes to watch horror movies.",
+        "pinyin": "Tā xǐhuān kàn kǒngbù diànyǐng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "天氣": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "今天的天氣很熱。",
+        "english": "Today's weather is very hot.",
+        "pinyin": "Jīntiān de tiānqì hěn rè."
+      },
+      {
+        "chinese": "我喜歡晴朗的天氣。",
+        "english": "I like sunny weather.",
+        "pinyin": "Wǒ xǐhuān qínglǎng de tiānqì."
+      },
+      {
+        "chinese": "明天天氣會變涼。",
+        "english": "The weather will become cooler tomorrow.",
+        "pinyin": "Míngtiān tiānqì huì biàn liáng."
+      },
+      {
+        "chinese": "下雨的天氣讓我感到悶。",
+        "english": "The rainy weather makes me feel bored.",
+        "pinyin": "Xiàyǔ de tiānqì ràng wǒ gǎndào mèn."
+      },
+      {
+        "chinese": "這裡的天氣非常多變。",
+        "english": "The weather here is very changeable.",
+        "pinyin": "Zhèlǐ de tiānqì fēicháng duōbiàn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "貓": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我家有一隻貓。",
+        "english": "I have a cat at home.",
+        "pinyin": "Wǒ jiā yǒu yī zhī māo."
+      },
+      {
+        "chinese": "我喜歡養貓。",
+        "english": "I like to raise cats.",
+        "pinyin": "Wǒ xǐhuān yǎng māo."
+      },
+      {
+        "chinese": "貓很可愛。",
+        "english": "Cats are very cute.",
+        "pinyin": "Māo hěn kě'ài."
+      },
+      {
+        "chinese": "我在公園看到一隻貓。",
+        "english": "I saw a cat in the park.",
+        "pinyin": "Wǒ zài gōngyuán kàndào yī zhī māo."
+      },
+      {
+        "chinese": "貓喜歡吃魚。",
+        "english": "Cats like to eat fish.",
+        "pinyin": "Māo xǐhuān chī yú."
+      }
+    ],
+    "gpt-4": []
+  },
+  "狗": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我家有一隻狗。",
+        "english": "I have a dog at home.",
+        "pinyin": "Wǒ jiā yǒu yī zhī gǒu."
+      },
+      {
+        "chinese": "她很喜歡養狗。",
+        "english": "She really likes raising dogs.",
+        "pinyin": "Tā hěn xǐhuān yǎng gǒu."
+      },
+      {
+        "chinese": "我每天都帶狗去散步。",
+        "english": "I take my dog for a walk every day.",
+        "pinyin": "Wǒ měitiān dōu dài gǒu qù sànbù."
+      },
+      {
+        "chinese": "狗狗很聰明。",
+        "english": "Dogs are very smart.",
+        "pinyin": "Gǒu gǒu hěn cōngmíng."
+      },
+      {
+        "chinese": "這隻狗很友善。",
+        "english": "This dog is very friendly.",
+        "pinyin": "Zhè zhī gǒu hěn yǒushàn."
+      }
+    ],
+    "gpt-4": []
+  },
+  "東西": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我在超市買了一些東西。",
+        "english": "I bought some things at the supermarket.",
+        "pinyin": "Wǒ zài chāoshì mǎi le yīxiē dōngxi."
+      },
+      {
+        "chinese": "請你幫我拿一下這個東西。",
+        "english": "Please help me to get this thing.",
+        "pinyin": "Qǐng nǐ bāng wǒ ná yīxià zhège dōngxi."
+      },
+      {
+        "chinese": "妹妹很喜歡玩具東西。",
+        "english": "My younger sister likes toy things very much.",
+        "pinyin": "Mèimei hěn xǐhuān wánjù dōngxi."
+      },
+      {
+        "chinese": "我忘記帶東西了。",
+        "english": "I forgot to bring something.",
+        "pinyin": "Wǒ wàngjì dài dōngxi le."
+      },
+      {
+        "chinese": "這東西很好用。",
+        "english": "This thing is very useful.",
+        "pinyin": "Zhè dōngxi hěn hǎoyòng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "魚": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡吃魚。",
+        "english": "I like to eat fish.",
+        "pinyin": "Wǒ xǐhuān chī yú."
+      },
+      {
+        "chinese": "這個魚很好吃。",
+        "english": "This fish is delicious.",
+        "pinyin": "Zhè gè yú hěn hǎo chī."
+      },
+      {
+        "chinese": "我昨天去市場買了一條魚。",
+        "english": "I went to the market yesterday and bought a fish.",
+        "pinyin": "Wǒ zuótiān qù shìchǎng mǎi le yī tiáo yú."
+      },
+      {
+        "chinese": "我的家養了一隻金魚。",
+        "english": "My family has a pet goldfish.",
+        "pinyin": "Wǒ de jiā yǎng le yī zhī jīnyú."
+      },
+      {
+        "chinese": "我去海邊釣魚。",
+        "english": "I go fishing at the seaside.",
+        "pinyin": "Wǒ qù hǎibiān diào yú."
+      }
+    ],
+    "gpt-4": []
+  },
+  "羊肉": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡吃羊肉。",
+        "english": "I like to eat lamb.",
+        "pinyin": "Wǒ xǐhuān chī yángròu."
+      },
+      {
+        "chinese": "這道菜用的是羊肉。",
+        "english": "This dish is made with lamb.",
+        "pinyin": "Zhè dào cài yòng de shì yángròu."
+      },
+      {
+        "chinese": "他們在烤羊肉串。",
+        "english": "They are grilling lamb skewers.",
+        "pinyin": "Tāmen zài kǎo yángròu chuàn."
+      },
+      {
+        "chinese": "這個湯裡有羊肉和蔬菜。",
+        "english": "This soup has lamb and vegetables.",
+        "pinyin": "Zhège tāng lǐ yǒu yángròu hé shūcài."
+      },
+      {
+        "chinese": "我的朋友很會煮羊肉。",
+        "english": "My friend is very good at cooking lamb.",
+        "pinyin": "Wǒ de péngyǒu hěn huì zhǔ yángròu."
+      }
+    ],
+    "gpt-4": []
+  },
+  "牛奶": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我早上喝牛奶。",
+        "english": "I drink milk in the morning.",
+        "pinyin": "Wǒ zǎoshang hē niúnǎi."
+      },
+      {
+        "chinese": "這裡有賣牛奶的商店嗎？",
+        "english": "Is there a store here that sells milk?",
+        "pinyin": "Zhèlǐ yǒu mài niúnǎi de shāngdiàn ma?"
+      },
+      {
+        "chinese": "牛奶對身體很有益處。",
+        "english": "Milk is good for the body.",
+        "pinyin": "Niúnǎi duì shēntǐ hěn yǒuyìchù."
+      },
+      {
+        "chinese": "我喜歡喝牛奶茶。",
+        "english": "I like to drink milk tea.",
+        "pinyin": "Wǒ xǐhuān hē niúnǎi chá."
+      },
+      {
+        "chinese": "我每天都喝一杯牛奶。",
+        "english": "I drink a glass of milk every day.",
+        "pinyin": "Wǒ měitiān dōu hē yī bēi niúnǎi."
+      }
+    ],
+    "gpt-4": []
+  },
+  "雞蛋": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我今天早上吃了兩個雞蛋。",
+        "english": "I ate two eggs this morning.",
+        "pinyin": "Wǒ jīntiān zǎoshang chīle liǎng gè jīdàn."
+      },
+      {
+        "chinese": "雞蛋是非常營養的食物。",
+        "english": "Eggs are very nutritious food.",
+        "pinyin": "Jīdàn shì fēicháng yíngyǎng de shíwù."
+      },
+      {
+        "chinese": "我喜歡吃煎雞蛋。",
+        "english": "I like to eat fried eggs.",
+        "pinyin": "Wǒ xǐhuān chī jiān jīdàn."
+      },
+      {
+        "chinese": "這裡有一打雞蛋。",
+        "english": "There is a dozen eggs here.",
+        "pinyin": "Zhèlǐ yǒu yī dǎ jīdàn."
+      },
+      {
+        "chinese": "雞蛋煮熟以後可以做很多菜。",
+        "english": "After boiling the eggs, you can make many dishes.",
+        "pinyin": "Jīdàn zhǔshú yǐhòu kěyǐ zuò hěnduō cài."
+      }
+    ],
+    "gpt-4": []
+  },
+  "西瓜": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "今天天氣很熱，我想吃一個西瓜。",
+        "english": "Today is hot, I want to eat a watermelon.",
+        "pinyin": "Jīntiān tiānqì hěn rè, wǒ xiǎng chī yíge xīguā."
+      },
+      {
+        "chinese": "夏天的時候，我們經常吃西瓜。",
+        "english": "We often eat watermelon in the summer.",
+        "pinyin": "Xiàtiān de shíhou, wǒmen jīngcháng chī xīguā."
+      },
+      {
+        "chinese": "這個超市賣的西瓜很甜。",
+        "english": "The watermelon sold in this supermarket is very sweet.",
+        "pinyin": "Zhège chāoshì mài de xīguā hěn tián."
+      },
+      {
+        "chinese": "這個西瓜多少錢一斤？",
+        "english": "How much does this watermelon cost per kilogram?",
+        "pinyin": "Zhège xīguā duōshǎo qián yī jīn?"
+      },
+      {
+        "chinese": "我喜歡吃冰涼的西瓜。",
+        "english": "I like to eat cold watermelons.",
+        "pinyin": "Wǒ xǐhuān chī bīngliáng de xīguā."
+      }
+    ],
+    "gpt-4": []
+  },
+  "咖啡": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喝咖啡。",
+        "english": "I drink coffee.",
+        "pinyin": "Wǒ hē kāfēi."
+      },
+      {
+        "chinese": "早上喝咖啡可以提神。",
+        "english": "Drinking coffee in the morning can energize you.",
+        "pinyin": "Zǎoshang hē kāfēi kěyǐ tíshén."
+      },
+      {
+        "chinese": "你喜歡喝什麼口味的咖啡？",
+        "english": "What flavor of coffee do you like to drink?",
+        "pinyin": "Nǐ xǐhuān hē shénme kǒuwèi de kāfēi?"
+      },
+      {
+        "chinese": "他每天都喝咖啡。",
+        "english": "He drinks coffee every day.",
+        "pinyin": "Tā měitiān dōu hē kāfēi."
+      },
+      {
+        "chinese": "我還是喜歡喝茶，不太喜歡喝咖啡。",
+        "english": "I still prefer drinking tea, not really fond of coffee.",
+        "pinyin": "Wǒ háishì xǐhuān hē chá, bù tài xǐhuān hē kāfēi."
+      }
+    ],
+    "gpt-4": []
+  },
+  "自行車": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天騎自行車上學。",
+        "english": "I ride a bicycle to school every day.",
+        "pinyin": "Wǒ měitiān qí zìxíngchē shàng xué."
+      },
+      {
+        "chinese": "這是我的新自行車。",
+        "english": "This is my new bicycle.",
+        "pinyin": "Zhè shì wǒ de xīn zìxíngchē."
+      },
+      {
+        "chinese": "他用自行車代替開車上班。",
+        "english": "He uses a bicycle instead of driving to work.",
+        "pinyin": "Tā yòng zìxíngchē dàitì kāichē shàngbān."
+      },
+      {
+        "chinese": "我在自行車上遇到了我的朋友。",
+        "english": "I met my friend on the bicycle.",
+        "pinyin": "Wǒ zài zìxíngchē shàng yùdàole wǒ de péngyǒu."
+      },
+      {
+        "chinese": "公園裡有很多人騎自行車。",
+        "english": "There are many people riding bicycles in the park.",
+        "pinyin": "Gōngyuán lǐ yǒu hěnduō rén qí zìxíngchē."
+      }
+    ],
+    "gpt-4": []
+  },
+  "船": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我們坐船去旅行。",
+        "english": "We travel by boat.",
+        "pinyin": "Wǒmen zuò chuán qù lǚxíng."
+      },
+      {
+        "chinese": "那是一艘大船。",
+        "english": "That is a big ship.",
+        "pinyin": "Nà shì yī sōu dà chuán."
+      },
+      {
+        "chinese": "他每天都在海上開船。",
+        "english": "He drives a boat on the sea every day.",
+        "pinyin": "Tā měitiān dōu zài hǎi shàng kāi chuán."
+      },
+      {
+        "chinese": "船上有很多旅客。",
+        "english": "There are many passengers on the boat.",
+        "pinyin": "Chuán shàng yǒu hěn duō lǚkè."
+      },
+      {
+        "chinese": "我看到一艘漂亮的輪船。",
+        "english": "I saw a beautiful cruise ship.",
+        "pinyin": "Wǒ kàn dào yī sōu piàoliang de lúnchuán."
+      }
+    ],
+    "gpt-4": []
+  },
+  "雪": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "下雪的時候，地面會變白。",
+        "english": "When it snows, the ground becomes white.",
+        "pinyin": "Xiàxuě de shíhòu, dìmian huì biàn bái."
+      },
+      {
+        "chinese": "冬天的時候，山上會有很多雪。",
+        "english": "There is a lot of snow on the mountains in winter.",
+        "pinyin": "Dōngtiān de shíhòu, shānshàng huì yǒu hěnduō xuě."
+      },
+      {
+        "chinese": "我喜歡看雪的美景。",
+        "english": "I enjoy looking at the beautiful scenery of snow.",
+        "pinyin": "Wǒ xǐhuān kàn xuě de měijǐng."
+      },
+      {
+        "chinese": "今天早上下了一場大雪。",
+        "english": "There was a heavy snowfall this morning.",
+        "pinyin": "Jīntiān zǎoshang xiàle yī chǎng dàxuě."
+      },
+      {
+        "chinese": "雪花飄落在地上。",
+        "english": "Snowflakes are falling on the ground.",
+        "pinyin": "Xuěhuā piāoluò zài dìshàng."
+      }
+    ],
+    "gpt-4": []
+  },
+  "藥": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "這是一種藥。",
+        "english": "This is a medicine.",
+        "pinyin": "Zhè shì yī zhǒng yào."
+      },
+      {
+        "chinese": "我今天吃了藥。",
+        "english": "I took medicine today.",
+        "pinyin": "Wǒ jīntiān chī le yào."
+      },
+      {
+        "chinese": "請問在哪裡買藥？",
+        "english": "Excuse me, where can I buy medicine?",
+        "pinyin": "Qǐngwèn zài nǎlǐ mǎi yào?"
+      },
+      {
+        "chinese": "吃藥之前要先問醫生。",
+        "english": "Before taking medicine, you should ask the doctor first.",
+        "pinyin": "Chī yào zhīqián yào xiān wèn yīshēng."
+      },
+      {
+        "chinese": "這種藥對感冒有效。",
+        "english": "This medicine is effective for colds.",
+        "pinyin": "Zhè zhǒng yào duì gǎnmào yǒuxiào."
+      }
+    ],
+    "gpt-4": []
+  },
+  "手機": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我有一部手機。",
+        "english": "I have a mobile phone.",
+        "pinyin": "Wǒ yǒu yī bù shǒujī."
+      },
+      {
+        "chinese": "他常常用手機看電影。",
+        "english": "He often uses his mobile phone to watch movies.",
+        "pinyin": "Tā chángcháng yòng shǒujī kàn diànyǐng."
+      },
+      {
+        "chinese": "妹妹的手機是紅色的。",
+        "english": "My younger sister's mobile phone is red.",
+        "pinyin": "Mèimei de shǒujī shì hóngsè de."
+      },
+      {
+        "chinese": "今天我忘了帶手機。",
+        "english": "I forgot to bring my mobile phone today.",
+        "pinyin": "Jīntiān wǒ wàngle dài shǒujī."
+      },
+      {
+        "chinese": "他正在手機上打遊戲。",
+        "english": "He is playing games on his mobile phone.",
+        "pinyin": "Tā zhèngzài shǒujī shàng dǎ yóuxì."
+      }
+    ],
+    "gpt-4": []
+  },
+  "手錶": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我看到一個很漂亮的手錶。",
+        "english": "I saw a very beautiful watch.",
+        "pinyin": "Wǒ kàndào yīgè hěn piàoliang de shǒubiǎo."
+      },
+      {
+        "chinese": "張先生的手錶是黑色的。",
+        "english": "Mr. Zhang's watch is black.",
+        "pinyin": "Zhāng xiānshēng de shǒubiǎo shì hēisè de."
+      },
+      {
+        "chinese": "你知道這個手錶多少錢嗎？",
+        "english": "Do you know how much this watch costs?",
+        "pinyin": "Nǐ zhīdào zhège shǒubiǎo duōshǎo qián ma?"
+      },
+      {
+        "chinese": "我每天戴著手錶去上班。",
+        "english": "I wear a watch to work every day.",
+        "pinyin": "Wǒ měitiān dàizhe shǒubiǎo qù shàngbān."
+      },
+      {
+        "chinese": "這塊手錶是我爸爸的禮物。",
+        "english": "This watch is a gift from my dad.",
+        "pinyin": "Zhè kuài shǒubiǎo shì wǒ bàba de lǐwù."
+      }
+    ],
+    "gpt-4": []
+  },
+  "眼睛": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我喜歡她的大眼睛。",
+        "english": "I like her big eyes.",
+        "pinyin": "Wǒ xǐhuān tā de dà yǎnjīng."
+      },
+      {
+        "chinese": "她的眼睛很漂亮。",
+        "english": "Her eyes are beautiful.",
+        "pinyin": "Tā de yǎnjīng hěn piàoliang."
+      },
+      {
+        "chinese": "我的眼睛有點疲倦。",
+        "english": "My eyes are a little tired.",
+        "pinyin": "Wǒ de yǎnjīng yǒudiǎn píjuàn."
+      },
+      {
+        "chinese": "請閉上你的眼睛。",
+        "english": "Please close your eyes.",
+        "pinyin": "Qǐng bìshàng nǐ de yǎnjīng."
+      },
+      {
+        "chinese": "我需要戴眼鏡看書。",
+        "english": "I need to wear glasses to read.",
+        "pinyin": "Wǒ xūyào dài yǎnjìng kànshū."
+      }
+    ],
+    "gpt-4": []
+  },
+  "身體": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "運動對身體很好。",
+        "english": "Exercise is good for the body.",
+        "pinyin": "Yùndòng duì shēntǐ hěn hǎo."
+      },
+      {
+        "chinese": "我今天身體不舒服。",
+        "english": "I'm not feeling well today.",
+        "pinyin": "Wǒ jīntiān shēntǐ bù shūfu."
+      },
+      {
+        "chinese": "她因為生病去看醫生檢查身體。",
+        "english": "She went to see the doctor for a physical examination because she was sick.",
+        "pinyin": "Tā yīnwèi shēngbìng qù kàn yīshēng jiǎnchá shēntǐ."
+      },
+      {
+        "chinese": "要多喝水保持身體健康。",
+        "english": "Drink plenty of water to maintain good health.",
+        "pinyin": "Yào duō hē shuǐ bǎochí shēntǐ jiànkāng."
+      },
+      {
+        "chinese": "我每天都洗澡以保持身體清潔。",
+        "english": "I take a shower every day to keep my body clean.",
+        "pinyin": "Wǒ měitiān dōu xǐzǎo yǐ bǎochí shēntǐ qīngjié."
+      }
+    ],
+    "gpt-4": []
+  },
+  "公共汽車": {
+    "gpt-3.5-turbo": [
+      {
+        "chinese": "我每天坐公共汽車上班。",
+        "english": "I take the bus to work every day.",
+        "pinyin": "Wǒ měitiān zuò gōnggòng qìchē shàngbān."
+      },
+      {
+        "chinese": "公共汽車站在這個路口。",
+        "english": "The bus stop is at this intersection.",
+        "pinyin": "Gōnggòng qìchē zhàn zài zhège lùkǒu."
+      },
+      {
+        "chinese": "公共汽車是一種方便的交通工具。",
+        "english": "Buses are a convenient means of transportation.",
+        "pinyin": "Gōnggòng qìchē shì yī zhǒng fāngbiàn de jiāotōng gōngjù."
+      },
+      {
+        "chinese": "我昨天錯過了末班公共汽車。",
+        "english": "I missed the last bus yesterday.",
+        "pinyin": "Wǒ zuótiān cuòguòle mòbān gōnggòng qìchē."
+      },
+      {
+        "chinese": "公共汽車上有很多人。",
+        "english": "There are many people on the bus.",
+        "pinyin": "Gōnggòng qìchē shàng yǒu hěnduō rén."
+      }
+    ],
+    "gpt-4": []
   }
 }
