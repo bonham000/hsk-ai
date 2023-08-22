@@ -168,7 +168,7 @@ function CharacterCard(props: CharacterCardProps) {
   const currentSentence = lastInArray(currentSentences) ?? null;
   const percentProgress = ((wordIndex + 1) / hskWordLength) * 100;
   return (
-    <div className="flex flex-col items-center md:items-stretch md:flex-row p-2 md:p-6 gap-2 md:gap-6 w-11/12 h-4/6 md:max-h-full max-h-[400px] bg-slate-950 rounded-lg">
+    <div className="flex flex-col items-center md:items-stretch md:flex-row p-2 md:p-6 gap-2 md:gap-6 w-11/12 md:h-4/6 md:max-h-full h-[480px] max-h-[520px] bg-slate-950 rounded-lg">
       <div
         className="relative w-full md:w-4/12 p-4 md:p-8 flex justify-around items-center bg-slate-800 rounded-lg"
         onClick={onClickCharacterPanel}
@@ -201,7 +201,7 @@ function CharacterCard(props: CharacterCardProps) {
         )}
       </div>
       <div
-        className="w-full md:w-8/12 p-4 flex h-1/12 gap-4 max-h-[400px] h-[400px] overflow-y-scroll flex-col flex-grow justify-start bg-slate-800 rounded-lg"
+        className="w-full md:w-8/12 p-4 flex overflow-y-scroll gap-4 flex-col flex-grow justify-start bg-slate-800 rounded-lg"
         onClick={onClickSentencePanel}
       >
         {currentSentences.map((sentence, index) => {
@@ -209,8 +209,8 @@ function CharacterCard(props: CharacterCardProps) {
           return (
             <TypedContent
               character={sentence.character}
-              className={`text-2xl md:text-5xl leading-5 font-normal ${
-                isCurrent ? "text-slate-200 font-light" : "text-slate-600"
+              className={`text-2xl md:text-5xl font-normal ${
+                isCurrent ? "text-slate-200 font-light" : "text-slate-500"
               }`}
               content={sentence.chinese}
               isCurrent={isCurrent}
@@ -244,7 +244,7 @@ function CharacterCard(props: CharacterCardProps) {
           finishedTyping &&
           !contentRevealedIndex && (
             <TypedContent
-              className="text-xs md:text-lg mt-4 text-slate-400"
+              className="text-xs md:text-lg text-slate-400"
               content={
                 isMobileView
                   ? "Tap to reveal the next sentence."
@@ -488,7 +488,7 @@ function App() {
             word={word}
             wordIndex={index}
           />
-          <div className="flex absolute bottom-0 gap-2 md:gap-6 bg-slate-950 p-2 md:p-6 rounded-t-3xl">
+          <div className="flex md:relative absolute bottom-0 gap-2 md:gap-6 bg-slate-950 p-2 md:p-6 rounded-t-3xl">
             <button
               className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-light py-4 px-8 text-md md:text-3xl rounded-full"
               disabled={index === 0}
