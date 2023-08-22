@@ -31,7 +31,7 @@ export default function Toast(props: ToastProps) {
             setOpen(true);
             timerRef.current = window.setTimeout(() => {
               setOpen(false);
-            }, 10000);
+            }, 3_000);
           }, 100);
         }}
       >

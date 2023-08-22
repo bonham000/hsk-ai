@@ -7,6 +7,7 @@ import {
   useEffect,
   useState,
   useMemo,
+  type MouseEvent,
 } from "react";
 import NoSSR from "react-no-ssr";
 import { useInterval, useLocalStorage, useWindowSize } from "usehooks-ts";
@@ -63,6 +64,7 @@ type TypedContentProps = {
   content: string;
   isCurrent?: boolean;
   isReviewSentence?: boolean;
+  onClick?: (e: MouseEvent<HTMLParagraphElement>) => void;
   setFinishedTyping?: () => void;
   typingDelay?: number;
 };
@@ -74,6 +76,7 @@ function TypedContent(props: TypedContentProps) {
     content,
     isCurrent = false,
     isReviewSentence = false,
+    onClick = noop,
     setFinishedTyping,
     typingDelay = 40,
   } = props;
@@ -102,7 +105,7 @@ function TypedContent(props: TypedContentProps) {
 
   const revealed = content.slice(0, revealIndex);
   return (
-    <p className={className}>
+    <p className={className} onClick={onClick}>
       {character == null || !isCurrent
         ? revealed
         : highlightCharacter(revealed, character, isReviewSentence)}
@@ -120,8 +123,9 @@ type CharacterCardProps = {
   contentRevealedIndex: ContentRevealedIndex;
   hskWordLength: number;
   isMobileView: boolean;
-  onClickCharacterPanel: () => void;
-  onClickSentencePanel: () => void;
+  onTapCharacterPanel: () => void;
+  onTapSentence: () => void;
+  onTapSentencePanel: () => void;
   sentenceRevealIndex: number;
   studySentences: StudySentence[];
   updateCheckpoints: () => void;
@@ -135,8 +139,9 @@ function CharacterCard(props: CharacterCardProps) {
     contentRevealedIndex,
     hskWordLength,
     isMobileView,
-    onClickCharacterPanel,
-    onClickSentencePanel,
+    onTapCharacterPanel,
+    onTapSentence,
+    onTapSentencePanel,
     sentenceRevealIndex,
     studySentences,
     updateCheckpoints,
@@ -171,7 +176,7 @@ function CharacterCard(props: CharacterCardProps) {
     <div className="flex flex-col items-center md:items-stretch md:flex-row p-2 md:p-6 gap-2 md:gap-6 w-11/12 md:h-4/6 md:max-h-full h-[480px] max-h-[520px] bg-slate-950 rounded-lg">
       <div
         className="relative w-full md:w-4/12 p-4 md:p-8 flex justify-around items-center bg-slate-800 rounded-lg"
-        onClick={onClickCharacterPanel}
+        onClick={onTapCharacterPanel}
       >
         <div className="absolute right-2 top-2">
           <p className="text-slate-400 text-xs md:text-md">
@@ -202,7 +207,7 @@ function CharacterCard(props: CharacterCardProps) {
       </div>
       <div
         className="w-full md:w-8/12 p-4 flex overflow-y-scroll gap-2 flex-col flex-grow justify-start bg-slate-800 rounded-lg"
-        onClick={onClickSentencePanel}
+        onClick={onTapSentencePanel}
       >
         {currentSentences.map((sentence, index) => {
           const isCurrent = index === currentSentences.length - 1;
@@ -216,15 +221,20 @@ function CharacterCard(props: CharacterCardProps) {
               isCurrent={isCurrent}
               isReviewSentence={sentence.isReviewSentence}
               key={sentence.chinese.replaceAll(" ", "")}
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                onTapSentence();
+              }}
               setFinishedTyping={() => setFinishedTyping(true)}
             />
           );
         })}
         {contentRevealedIndex > 0 && currentSentence != null && (
-          <div className="flex gap-2 mt-4 flex-col text-slate-400">
+          <div className="flex gap-2 flex-col text-slate-400">
             {contentRevealedIndex >= 1 && (
               <TypedContent
-                className="text-2xl"
+                className="text-md md:text-2xl"
                 content={currentSentence.pinyin}
                 isReviewSentence
                 typingDelay={8}
@@ -232,7 +242,7 @@ function CharacterCard(props: CharacterCardProps) {
             )}
             {contentRevealedIndex === 2 && (
               <TypedContent
-                className="text-xl"
+                className="text-xs md:text-xl"
                 content={currentSentence.english}
                 typingDelay={6}
               />
@@ -415,6 +425,12 @@ function App() {
     setContentRevealedIndex(0);
   };
 
+  const revealSentence = () => {
+    setContentRevealedIndex((cur) => {
+      return cur === 2 ? 0 : ((cur + 1) as ContentRevealedIndex);
+    });
+  };
+
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
       if (event.key === "ArrowRight") {
@@ -427,9 +443,7 @@ function App() {
         revealNextSentence();
       }
       if (event.key === "r") {
-        setContentRevealedIndex((cur) => {
-          return cur === 2 ? 0 : ((cur + 1) as ContentRevealedIndex);
-        });
+        revealSentence();
       }
       if (event.key === "c") {
         revealCharacter();
@@ -480,8 +494,9 @@ function App() {
             contentRevealedIndex={contentRevealedIndex}
             hskWordLength={hskWordLength}
             isMobileView={isMobileView}
-            onClickCharacterPanel={!isMobileView ? noop : revealCharacter}
-            onClickSentencePanel={!isMobileView ? noop : revealNextSentence}
+            onTapCharacterPanel={!isMobileView ? noop : revealCharacter}
+            onTapSentence={!isMobileView ? noop : revealSentence}
+            onTapSentencePanel={!isMobileView ? noop : revealNextSentence}
             sentenceRevealIndex={sentenceRevealIndex}
             studySentences={studySentences}
             updateCheckpoints={updateCheckpoints}
