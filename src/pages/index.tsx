@@ -201,7 +201,7 @@ function CharacterCard(props: CharacterCardProps) {
         )}
       </div>
       <div
-        className="w-full md:w-8/12 p-4 flex overflow-y-scroll gap-4 flex-col flex-grow justify-start bg-slate-800 rounded-lg"
+        className="w-full md:w-8/12 p-4 flex overflow-y-scroll gap-2 flex-col flex-grow justify-start bg-slate-800 rounded-lg"
         onClick={onClickSentencePanel}
       >
         {currentSentences.map((sentence, index) => {
@@ -450,7 +450,7 @@ function App() {
         <link href="/favicon.ico" rel="icon" />
       </Head>
       <main className="flex md:min-h-screen w-screen justify-center">
-        <div className="w-screen flex flex-col items-center justify-between">
+        <div className="w-screen flex flex-col items-center justify-between gap-4 md:gap-0">
           <div className="w-full flex items-center flex-col">
             <div className="h-2 w-full flex flex-row">
               {new Array(width).fill(null).map((_, i) => {
