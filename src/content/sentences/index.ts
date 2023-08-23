@@ -1,9 +1,9 @@
-import sentencesLevel1 from "~/chinese/sentences/level-1.json";
-import sentencesLevel2 from "~/chinese/sentences/level-2.json";
-import sentencesLevel3 from "~/chinese/sentences/level-3.json";
-import sentencesLevel4 from "~/chinese/sentences/level-4.json";
-import sentencesLevel5 from "~/chinese/sentences/level-5.json";
-import sentencesLevel6 from "~/chinese/sentences/level-6.json";
+import sentencesLevel1 from "~/content/sentences/level-1.json";
+import sentencesLevel2 from "~/content/sentences/level-2.json";
+import sentencesLevel3 from "~/content/sentences/level-3.json";
+import sentencesLevel4 from "~/content/sentences/level-4.json";
+import sentencesLevel5 from "~/content/sentences/level-5.json";
+import sentencesLevel6 from "~/content/sentences/level-6.json";
 import type HskLevel from "~/types/HskLevel";
 import { type SentenceMap } from "~/types/SentenceMap";
 

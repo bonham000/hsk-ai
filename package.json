@@ -13,8 +13,7 @@
     "prettier": "prettier . --check \"src/**/*.{ts,tsx,json}\"",
     "prettier:fix": "prettier --write \"src/**/*.{ts,tsx,json}\"",
     "c": "npm-run-all -p lint prettier tsc",
-    "x": "ts-node -O '{\"module\": \"commonjs\"}' -r tsconfig-paths/register src/scripts/dev.ts",
-    "hsk:dedupe": "ts-node -O '{\"module\": \"commonjs\"}' -r tsconfig-paths/register src/scripts/dedupe.ts"
+    "x": "ts-node -O '{\"module\": \"commonjs\"}' -r tsconfig-paths/register src/scripts/dev.ts"
   },
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.7",

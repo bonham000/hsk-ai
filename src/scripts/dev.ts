@@ -2,7 +2,7 @@ import { execSync } from "child_process";
 import "dotenv/config";
 import { readFileSync, writeFileSync } from "fs";
 import { Configuration, OpenAIApi } from "openai";
-import { HSK_MAP } from "~/chinese/hsk";
+import { HSK_MAP } from "~/content/hsk";
 import type HskLevel from "~/types/HskLevel";
 import {
   type SentenceMap,

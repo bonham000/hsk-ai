@@ -3,11 +3,11 @@
 import Head from "next/head";
 import { useCallback, useEffect, useState, useMemo } from "react";
 import { useLocalStorage, useWindowSize } from "usehooks-ts";
-import { HSK_MAP } from "~/chinese/hsk";
-import { HSK_SENTENCE_MAP } from "~/chinese/sentences";
 import SelectHskLevel from "~/components/SelectHskLevel";
 import Toast from "~/components/Toast";
 import TypedContent from "~/components/TypedContent";
+import { HSK_MAP } from "~/content/hsk";
+import { HSK_SENTENCE_MAP } from "~/content/sentences";
 import type HskEntry from "~/types/HskEntry";
 import type HskLevel from "~/types/HskLevel";
 import { type GeneratedSentenceType } from "~/types/SentenceMap";
