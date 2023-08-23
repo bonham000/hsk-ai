@@ -82,7 +82,7 @@ function CharacterCard(props: CharacterCardProps) {
   const currentSentence = lastInArray(currentSentences) ?? null;
   const percentProgress = ((wordIndex + 1) / hskWordLength) * 100;
   return (
-    <div className="flex flex-col items-center md:items-stretch cursor-pointer md:flex-row p-2 md:p-6 gap-2 md:gap-6 w-11/12 md:h-4/6 md:max-h-full h-[464px] max-h-[520px] bg-slate-950 rounded-lg">
+    <div className="flex flex-col items-center md:items-stretch md:cursor-pointer md:flex-row p-2 md:p-6 gap-2 md:gap-6 w-11/12 md:h-4/6 md:max-h-full h-[464px] max-h-[520px] bg-slate-950 rounded-lg">
       <div
         className="relative w-full md:w-4/12 p-4 md:p-8 flex justify-around items-center h-[132px] md:h-auto bg-slate-800 rounded-lg"
         onClick={onTapCharacterPanel}
