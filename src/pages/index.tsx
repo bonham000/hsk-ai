@@ -124,7 +124,6 @@ type CharacterCardProps = {
   onTapSentencePanel: () => void;
   sentenceRevealIndex: number;
   studySentences: StudySentence[];
-  updateCheckpoints: () => void;
   word: HskEntry;
   wordIndex: number;
 };
@@ -140,7 +139,6 @@ function CharacterCard(props: CharacterCardProps) {
     onTapSentencePanel,
     sentenceRevealIndex,
     studySentences,
-    updateCheckpoints,
     word,
     wordIndex,
   } = props;
@@ -190,16 +188,6 @@ function CharacterCard(props: CharacterCardProps) {
             </div>
           )}
         </div>
-        {!isMobileView && (
-          <div className="absolute bottom-2">
-            <Toast
-              description={`Progress for this HSK level saved at ${word.traditional}.`}
-              onPress={updateCheckpoints}
-              text="Save Checkpoint"
-              title="Checkpoint Saved!"
-            />
-          </div>
-        )}
       </div>
       <div
         className="w-full md:w-8/12 p-4 flex overflow-y-scroll gap-2 md:gap-6 flex-col flex-grow justify-start bg-slate-800 rounded-lg"
@@ -391,7 +379,7 @@ function App() {
       ...checkpoints,
       [hskLevel]: index,
     };
-    setCheckpoints(updatedCheckpoints);
+    setCheckpoints(() => updatedCheckpoints);
   };
 
   useEffect(() => {
@@ -505,28 +493,25 @@ function App() {
             onTapSentencePanel={!isMobileView ? noop : revealNextSentence}
             sentenceRevealIndex={sentenceRevealIndex}
             studySentences={studySentences}
-            updateCheckpoints={updateCheckpoints}
             word={word}
             wordIndex={index}
           />
           <div className="flex md:relative absolute bottom-0 gap-2 md:gap-6 bg-slate-950 p-2 md:p-6 rounded-t-3xl">
             <button
-              className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-light py-4 px-8 text-md md:text-3xl rounded-full"
+              className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-normal py-4 px-8 text-md md:text-3xl rounded-full"
               disabled={index === 0}
               onClick={previous}
             >
               上一張
             </button>
-            {isMobileView && (
-              <Toast
-                description={`Progress for this HSK level saved at ${word.traditional}.`}
-                onPress={updateCheckpoints}
-                text={isMobileView ? "Save" : "Save Checkpoint"}
-                title="Checkpoint Saved!"
-              />
-            )}
+            <Toast
+              description={`Progress for this HSK level saved at ${word.traditional}.`}
+              onPress={updateCheckpoints}
+              text={isMobileView ? "Save" : "Save Checkpoint"}
+              title="Checkpoint Saved!"
+            />
             <button
-              className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-light py-4 px-8 text-md md:text-3xl rounded-full"
+              className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-normal py-4 px-8 text-md md:text-3xl rounded-full"
               disabled={!hasNext}
               onClick={next}
             >
