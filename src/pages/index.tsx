@@ -61,6 +61,7 @@ type TypedContentProps = {
   isCurrent?: boolean;
   isReviewSentence?: boolean;
   onClick?: (e: MouseEvent<HTMLParagraphElement>) => void;
+  onStartedTyping?: () => void;
   setFinishedTyping?: () => void;
   typingDelay?: number;
 };
@@ -73,13 +74,19 @@ function TypedContent(props: TypedContentProps) {
     isCurrent = false,
     isReviewSentence = false,
     onClick = noop,
-    setFinishedTyping,
+    onStartedTyping = noop,
+    setFinishedTyping = noop,
     typingDelay = 40,
   } = props;
+  const [startedTyping, setStartedTyping] = useState(false);
   const [revealIndex, setRevealedIndex] = useState(0);
 
   const delay = revealIndex < content.length ? typingDelay : null;
   useInterval(() => {
+    if (startedTyping === false) {
+      onStartedTyping();
+      setStartedTyping(true);
+    }
     setRevealedIndex((cur) => cur + 1);
   }, delay);
 
@@ -87,9 +94,7 @@ function TypedContent(props: TypedContentProps) {
     let timeout: MaybeNull<ReturnType<typeof setTimeout>> = null;
     if (delay == null) {
       timeout = setTimeout(() => {
-        if (setFinishedTyping != null) {
-          setFinishedTyping();
-        }
+        setFinishedTyping();
       }, 250);
     }
     return () => {
@@ -116,7 +121,7 @@ type StudySentence = GeneratedSentenceType & {
 
 type CharacterCardProps = {
   characterRevealed: boolean;
-  contentRevealedIndex: ContentRevealedIndex;
+  contentRevealed: boolean;
   hskWordLength: number;
   isMobileView: boolean;
   onTapCharacterPanel: () => void;
@@ -128,10 +133,12 @@ type CharacterCardProps = {
   wordIndex: number;
 };
 
+const SENTENCE_PANEL = "SENTENCE_PANEL";
+
 function CharacterCard(props: CharacterCardProps) {
   const {
     characterRevealed,
-    contentRevealedIndex,
+    contentRevealed,
     hskWordLength,
     isMobileView,
     onTapCharacterPanel,
@@ -147,6 +154,13 @@ function CharacterCard(props: CharacterCardProps) {
   useEffect(() => {
     setFinishedTyping(false);
   }, [word.traditional]);
+
+  const scrollToBottomOfSentencePanel = () => {
+    const el = document.getElementById(SENTENCE_PANEL);
+    if (el != null) {
+      el.scrollTop = el.scrollHeight;
+    }
+  };
 
   const character = word.traditional;
   let fontSize = 204;
@@ -167,9 +181,9 @@ function CharacterCard(props: CharacterCardProps) {
   const currentSentence = lastInArray(currentSentences) ?? null;
   const percentProgress = ((wordIndex + 1) / hskWordLength) * 100;
   return (
-    <div className="flex flex-col items-center md:items-stretch md:flex-row p-2 md:p-6 gap-2 md:gap-6 w-11/12 md:h-4/6 md:max-h-full h-[480px] max-h-[520px] bg-slate-950 rounded-lg">
+    <div className="flex flex-col items-center md:items-stretch cursor-pointer md:flex-row p-2 md:p-6 gap-2 md:gap-6 w-11/12 md:h-4/6 md:max-h-full h-[464px] max-h-[520px] bg-slate-950 rounded-lg">
       <div
-        className="relative w-full md:w-4/12 p-4 md:p-8 flex justify-around items-center bg-slate-800 rounded-lg"
+        className="relative w-full md:w-4/12 p-4 md:p-8 flex justify-around items-center h-[132px] md:h-auto bg-slate-800 rounded-lg"
         onClick={onTapCharacterPanel}
       >
         <div className="absolute right-2 top-2">
@@ -182,15 +196,16 @@ function CharacterCard(props: CharacterCardProps) {
             {character}
           </p>
           {characterRevealed && (
-            <div className="flex gap-6 flex-col text-slate-300 items-center">
+            <div className="flex gap-2 md:gap-6 flex-col text-slate-300 items-center">
               <p className="text-md md:text-6xl">{word.pinyin}</p>
-              <p className="text-md md:text-3xl">{word.english}</p>
+              <p className="text-sm md:text-3xl">{word.english}</p>
             </div>
           )}
         </div>
       </div>
       <div
         className="w-full md:w-8/12 p-4 flex overflow-y-scroll gap-2 md:gap-6 flex-col flex-grow justify-start bg-slate-800 rounded-lg"
+        id={SENTENCE_PANEL}
         onClick={onTapSentencePanel}
       >
         {currentSentences.map((sentence, index) => {
@@ -212,38 +227,40 @@ function CharacterCard(props: CharacterCardProps) {
                   onTapSentence();
                 }
               }}
-              setFinishedTyping={() => setFinishedTyping(true)}
+              onStartedTyping={scrollToBottomOfSentencePanel}
+              setFinishedTyping={() => {
+                setFinishedTyping(true);
+                scrollToBottomOfSentencePanel();
+              }}
             />
           );
         })}
-        {contentRevealedIndex > 0 && currentSentence != null && (
+        {contentRevealed && currentSentence != null && (
           <div className="flex gap-2 flex-col text-slate-400">
-            {contentRevealedIndex >= 1 && (
-              <TypedContent
-                className="text-md md:text-2xl"
-                content={currentSentence.pinyin}
-                isReviewSentence
-                typingDelay={8}
-              />
-            )}
-            {contentRevealedIndex === 2 && (
-              <TypedContent
-                className="text-md md:text-xl"
-                content={currentSentence.english}
-                typingDelay={6}
-              />
-            )}
+            <TypedContent
+              className="text-md md:text-2xl"
+              content={currentSentence.pinyin}
+              isReviewSentence
+              setFinishedTyping={scrollToBottomOfSentencePanel}
+              typingDelay={8}
+            />
+            <TypedContent
+              className="text-md md:text-xl"
+              content={currentSentence.english}
+              setFinishedTyping={scrollToBottomOfSentencePanel}
+              typingDelay={6}
+            />
           </div>
         )}
         {hasMoreSentences &&
           sentenceRevealIndex === 0 &&
           finishedTyping &&
-          !contentRevealedIndex && (
+          !contentRevealed && (
             <TypedContent
               className="text-xs md:text-lg text-slate-400"
               content={
                 isMobileView
-                  ? "Tap to reveal the next sentence."
+                  ? "Tap to reveal the next sentence. Tap the sentence to reveal the meaning."
                   : "Press 'spacebar' to reveal the next sentence or press 'r' to reveal Pinyin/English."
               }
               isCurrent={false}
@@ -337,8 +354,6 @@ function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
   };
 }
 
-type ContentRevealedIndex = 0 | 1 | 2;
-
 const HSK_REVIEW_CHECKPOINTS = "HSK_REVIEW_CHECKPOINTS";
 const HSK_REVIEW_INDEX_MAP: Record<HskLevel, number> = {
   1: 0,
@@ -361,8 +376,7 @@ function App() {
   const [hskLevel, setHskLevel] = useLocalStorage(HSK_LEVEL, DEFAULT_HSK_LEVEL);
   const [index, setIndex] = useState(checkpoints[hskLevel]);
   const [sentenceRevealIndex, setSentenceRevealIndex] = useState(0);
-  const [contentRevealedIndex, setContentRevealedIndex] =
-    useState<ContentRevealedIndex>(0);
+  const [contentRevealed, setContentRevealed] = useState(false);
   const [characterRevealed, setCharacterRevealed] = useState(false);
   const { hasNext, studySentences, word } = useMemo(
     () => getCurrentContent(hskLevel, index),
@@ -384,7 +398,7 @@ function App() {
 
   useEffect(() => {
     setSentenceRevealIndex(0);
-    setContentRevealedIndex(0);
+    setContentRevealed(false);
     setCharacterRevealed(false);
   }, [hskLevel]);
 
@@ -396,14 +410,14 @@ function App() {
   const next = useCallback(() => {
     setIndex((cur) => (hasNext ? cur + 1 : cur));
     setSentenceRevealIndex(0);
-    setContentRevealedIndex(0);
+    setContentRevealed(false);
     setCharacterRevealed(false);
   }, [hasNext, setIndex]);
 
   const previous = useCallback(() => {
     setIndex((cur) => (cur > 0 ? cur - 1 : cur));
     setSentenceRevealIndex(0);
-    setContentRevealedIndex(0);
+    setContentRevealed(false);
     setCharacterRevealed(false);
   }, [setIndex]);
 
@@ -413,13 +427,11 @@ function App() {
 
   const revealNextSentence = () => {
     setSentenceRevealIndex((cur) => cur + 1);
-    setContentRevealedIndex(0);
+    setContentRevealed(false);
   };
 
   const revealSentence = () => {
-    setContentRevealedIndex((cur) => {
-      return cur === 2 ? 0 : ((cur + 1) as ContentRevealedIndex);
-    });
+    setContentRevealed(true);
   };
 
   useEffect(() => {
@@ -485,12 +497,12 @@ function App() {
           </div>
           <CharacterCard
             characterRevealed={characterRevealed}
-            contentRevealedIndex={contentRevealedIndex}
+            contentRevealed={contentRevealed}
             hskWordLength={hskSentenceKeys.length}
             isMobileView={isMobileView}
-            onTapCharacterPanel={!isMobileView ? noop : revealCharacter}
-            onTapSentence={!isMobileView ? noop : revealSentence}
-            onTapSentencePanel={!isMobileView ? noop : revealNextSentence}
+            onTapCharacterPanel={revealCharacter}
+            onTapSentence={revealSentence}
+            onTapSentencePanel={revealNextSentence}
             sentenceRevealIndex={sentenceRevealIndex}
             studySentences={studySentences}
             word={word}
