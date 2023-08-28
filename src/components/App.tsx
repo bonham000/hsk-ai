@@ -51,16 +51,31 @@ function CharacterCard(props: CharacterCardProps) {
     wordIndex,
   } = props;
   const [finishedTyping, setFinishedTyping] = useState(false);
+  const [finishedTypingPinyinContent, setFinishedTypingPinyinContent] =
+    useState(false);
 
   useEffect(() => {
     setFinishedTyping(false);
   }, [word.traditional]);
+
+  useEffect(() => {
+    setFinishedTypingPinyinContent(false);
+  }, [sentenceRevealIndex]);
 
   const scrollToBottomOfSentencePanel = () => {
     const el = document.getElementById(SENTENCE_PANEL_ID);
     if (el != null) {
       el.scrollTop = el.scrollHeight;
     }
+  };
+
+  const finishedTypingPinyin = () => {
+    setFinishedTypingPinyinContent(true);
+    scrollToBottomOfSentencePanel();
+  };
+
+  const finishedTypingEnglish = () => {
+    scrollToBottomOfSentencePanel();
   };
 
   const character = word.traditional;
@@ -98,8 +113,8 @@ function CharacterCard(props: CharacterCardProps) {
           </p>
           {characterRevealed && (
             <div className="flex gap-2 md:gap-6 flex-col text-slate-300 items-center">
-              <p className="text-md md:text-6xl">{word.pinyin}</p>
-              <p className="text-sm md:text-3xl">{word.english}</p>
+              <p className="text-lg md:text-6xl">{word.pinyin}</p>
+              <p className="text-md md:text-3xl">{word.english}</p>
             </div>
           )}
         </div>
@@ -142,15 +157,17 @@ function CharacterCard(props: CharacterCardProps) {
               className="text-md md:text-2xl"
               content={currentSentence.pinyin}
               isReviewSentence
-              setFinishedTyping={scrollToBottomOfSentencePanel}
+              setFinishedTyping={finishedTypingPinyin}
               typingDelay={8}
             />
-            <TypedContent
-              className="text-md md:text-xl"
-              content={currentSentence.english}
-              setFinishedTyping={scrollToBottomOfSentencePanel}
-              typingDelay={6}
-            />
+            {finishedTypingPinyinContent && (
+              <TypedContent
+                className="text-md md:text-xl"
+                content={currentSentence.english}
+                setFinishedTyping={finishedTypingEnglish}
+                typingDelay={6}
+              />
+            )}
           </div>
         )}
         {hasMoreSentences &&
@@ -414,7 +431,7 @@ export default function App() {
           />
           <div className="flex md:relative absolute bottom-0 gap-2 md:gap-6 bg-slate-950 p-2 md:p-6 rounded-t-3xl">
             <button
-              className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-normal py-4 px-8 text-md md:text-3xl rounded-full"
+              className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-bold py-4 px-8 text-md md:text-3xl rounded-full"
               disabled={index === 0}
               onClick={previous}
             >
@@ -427,7 +444,7 @@ export default function App() {
               title="Checkpoint Saved!"
             />
             <button
-              className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-normal py-4 px-8 text-md md:text-3xl rounded-full"
+              className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-bold py-4 px-8 text-md md:text-3xl rounded-full"
               disabled={!hasNext}
               onClick={next}
             >

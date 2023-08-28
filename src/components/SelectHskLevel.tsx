@@ -18,7 +18,6 @@ const SelectItem = React.forwardRef<object, SelectItemProps>(
   ({ children, className, ...props }, forwardedRef) => {
     return (
       <Select.Item
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-call
         className={classnames(
           "text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] pr-[35px] pl-[25px] relative select-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:outline-none data-[highlighted]:bg-rose-400 data-[highlighted]:text-violet1",
           className
@@ -60,7 +59,6 @@ const SelectHskLevel = (props: SelectHskLevelProps) => (
       <Select.Content
         className="overflow-hidden bg-slate-950 rounded-md shadow-[0px_10px_38px_-10px_rgba(22,_23,_24,_0.35),0px_10px_20px_-15px_rgba(22,_23,_24,_0.2)]"
         onCloseAutoFocus={(e) => {
-          // eslint-disable-next-line @typescript-eslint/no-unsafe-call
           e.preventDefault();
         }}
       >
@@ -70,7 +68,7 @@ const SelectHskLevel = (props: SelectHskLevelProps) => (
         <Select.Viewport className="p-[5px]">
           <Select.Group>
             <Select.Label className="px-[25px] text-xs leading-[25px] text-mauve11">
-              HSL Level
+              HSK Level
             </Select.Label>
             <SelectItem value="1">1</SelectItem>
             <SelectItem value="2">2</SelectItem>

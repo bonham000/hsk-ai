@@ -20,7 +20,7 @@ export default function Toast(props: ToastProps) {
   return (
     <RadixToast.Provider swipeDirection="right">
       <button
-        className="bg-slate-800 hover:bg-slate-700 text-slate-300 font-normal p-2 md:py-4 px-8 text-md md:text-lg rounded-full"
+        className="bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold p-2 md:py-4 px-8 text-md md:text-lg rounded-full"
         onClick={(e) => {
           e.preventDefault();
           e.stopPropagation();
