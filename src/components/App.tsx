@@ -429,7 +429,7 @@ export default function App() {
             word={word}
             wordIndex={index}
           />
-          <div className="flex md:relative absolute bottom-0 gap-2 md:gap-6 bg-slate-950 p-2 md:p-6 rounded-t-3xl">
+          <div className="flex md:relative fixed bottom-0 gap-2 md:gap-6 bg-slate-950 p-2 md:p-6 rounded-t-3xl">
             <button
               className="bg-slate-800 hover:bg-slate-700 md:w-64 text-slate-300 font-bold py-4 px-8 text-md md:text-3xl rounded-full"
               disabled={index === 0}
