@@ -129,7 +129,7 @@ function CharacterCard(props: CharacterCardProps) {
           return (
             <TypedContent
               character={sentence.character}
-              className={`text-2xl md:text-5xl font-normal ${
+              className={`text-4xl md:text-5xl font-normal ${
                 isCurrent ? "text-slate-200 font-light" : "text-slate-500"
               }`}
               content={sentence.chinese}
@@ -227,7 +227,8 @@ function getPreviousHskSentences(
 }
 
 const PROBABILITY_OF_ADDING_REVIEW_SENTENCES_PER_CARD = 100;
-const NUMBER_OF_REVIEW_SENTENCES_PER_CARD = 3;
+const NUMBER_OF_REVIEW_SENTENCES_PER_CARD = 1;
+const NUMBER_OF_STUDY_SENTENCES_PER_CARD = 3;
 
 function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
   const hsk = HSK_MAP[hskLevel];
@@ -239,13 +240,15 @@ function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
   const sentences = hskSentenceMap[word.traditional]!;
   const modelSentences = sentences[MODEL];
 
-  let studySentences: StudySentence[] = modelSentences.map((sentence) => {
-    return {
-      ...sentence,
-      character: word.traditional,
-      isReviewSentence: false,
-    };
-  });
+  let studySentences: StudySentence[] = shuffleArray(modelSentences)
+    .slice(0, NUMBER_OF_STUDY_SENTENCES_PER_CARD)
+    .map((sentence) => {
+      return {
+        ...sentence,
+        character: word.traditional,
+        isReviewSentence: false,
+      };
+    });
 
   const probability = randomInRange(0, 100);
   if (probability < PROBABILITY_OF_ADDING_REVIEW_SENTENCES_PER_CARD) {
