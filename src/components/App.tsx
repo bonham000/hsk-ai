@@ -227,7 +227,7 @@ function getPreviousHskSentences(
 }
 
 const PROBABILITY_OF_ADDING_REVIEW_SENTENCES_PER_CARD = 100;
-const NUMBER_OF_REVIEW_SENTENCES_PER_CARD = 1;
+const NUMBER_OF_REVIEW_SENTENCES_PER_CARD = 2;
 const NUMBER_OF_STUDY_SENTENCES_PER_CARD = 3;
 
 function getCurrentContent(hskLevel: HskLevel, currentIndex: number) {
